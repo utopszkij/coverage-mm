@@ -59,40 +59,43 @@ function cmm_adminMenu() {
 				<th>name</th><th>values</th><th>default</th>
 			</tr>		
 			<tr>
-				<td>customer</td><td>nickName|all</td><td>all</td>			
+				<td>customer_id</td><td>user_id | all</td><td>all</td>			
 			</tr>
 			<tr>
-				<td>product</td><td>productSlug|all</td><td>all</td>			
+				<td>product_id</td><td>product_id | all</td><td>all</td>			
 			</tr>
 			<tr>
-				<td>area</td><td>areaSlug|all</td><td>all</td>			
+				<td>area_id</td><td>area_id w all</td><td>all</td>			
 			</tr>
 			<tr>
-				<td>category</td><td>categorylug|all</td><td>all</td>			
+				<td>category_id</td><td>category_id | all</td><td>all</td>			
 			</tr>
 			<tr>
-				<td>distributor</td><td>distributorSlug|all</td><td>all</td>			
+				<td>distributor_id</td><td>distributor_id | all</td><td>all</td>			
 			</tr>
 			<tr>
-				<td>agent</td><td>agentlug|all</td><td>all</td>			
+				<td>agent_id</td><td>agent_id | all</td><td>all</td>			
 			</tr>
 			<tr>
 				<td>date</td><td>example: 2020-05-05|today</td><td>today</td>			
 			</tr>
 			<tr>
-				<td>planed</td><td>number|default</td><td>default (from area | product | category | customer | distributor | agent object)</td>			
+				<td>planed</td><td>number | default</td><td>default (from area | product | category | customer | distributor | agent object)</td>			
 			</tr>
 			<tr>
-				<td>saleStated</td><td>see sale states</td><td>ralised</td>			
+				<td>planed_unit</td><td>Woocommerce pénznem | wooComment product unit</td><td>pc</td>			
+			</tr>
+			<tr>
+				<td>sale_state</td><td>see sale states</td><td>completted</td>			
 			</tr>
 			<tr>
 				<td>amount_display_mode</td><td>absolute|relative|none</td><td>relative</td>			
 			</tr>
 			<tr>
-				<td>amount_unit</td><td>pénznemek a WP -beállításokból | product_unitok</td><td><strong>Kötelező megadni!</strong></td>			
+				<td>amount_unit</td><td>wooCommerce pénznem | woocommerce product unit</td><td><strong>pc</td>			
 			</tr>
 			<tr>
-				<td>amountt_picture</td><td>height x widt (pixel) | none</td><td>300x300</td>			
+				<td>amountt_picture</td><td>height x width (pixel) | none</td><td>example: 300x300</td>			
 			</tr>
 			
 		</table>	
@@ -105,12 +108,12 @@ function cmm_adminMenu() {
 				<td>absolute</td><td>none</td>
 				<td><textarea cols="60" rows="14" style="readonly:readonly">
 					<div class="coverage_result">
-						<div class="customer">all</div>
-						<div class="product">productSlug</div>
-						<div class="area">areaSlug</div>
-						<div class="category">all</div>
-						<div class="distributor">distributorSlug</div>
-						<div class="agent">all</div>
+						<div class="customer_id">all</div>
+						<div class="product_id">148</div>
+						<div class="area_id">67</div>
+						<div class="category_id">all</div>
+						<div class="distributor_id">18</div>
+						<div class="agent_id">all</div>
 						<div class="planed">1400</div>
 						<div class="real">750</div>
 						<div class="unit">EUR</div>
@@ -121,13 +124,13 @@ function cmm_adminMenu() {
 				<td>relative</td><td>none</td>
 				<td><textarea cols="60" rows="12" style="readonly:readonly">
 					<div class="coverage_result">
-						<div class="customer">all</div>
-						<div class="product">productSlug</div>
-						<div class="area">areaSlug</div>
-						<div class="category">all</div>
-						<div class="distributor">distributorSlug</div>
-						<div class="agent">all</div>
-						<div class="planed">1400</div>
+						<div class="customer_id">all</div>
+						<div class="product_id">134</div>
+						<div class="area_id">78</div>
+						<div class="category_id">all</div>
+						<div class="distributor_id">45</div>
+						<div class="agent_id">all</div>
+						<div class="planed_id">1400</div>
 						<div class="unit">EUR</div>
 						<div class="coverage">25%</div>
 					</div>
@@ -145,13 +148,13 @@ function cmm_adminMenu() {
 				<td>relative</td><td>300x300</td>
 				<td><textarea cols="60" rows="18" style="readonly:readonly">
 					<div class="coverage_result">
-						<div class="customer">all</div>
-						<div class="product">productSlug</div>
-						<div class="area">areaSlug</div>
-						<div class="category">all</div>
-						<div class="distributor">distributorSlug</div>
-						<div class="agent">all</div>
-						<div class="planed">1400</div>
+						<div class="customer_id">all</div>
+						<div class="product_id">45</div>
+						<div class="area_id">33</div>
+						<div class="category_id">all</div>
+						<div class="distributor_id">45</div>
+						<div class="agent_id">all</div>
+						<div class="planed_id">1400</div>
 						<div class="unit">EUR</div>
 						<div class="coverage">25%</div>
 						<div class="picture">...</div>
@@ -162,12 +165,12 @@ function cmm_adminMenu() {
 				<td>absolute</td><td>300x300</td>
 				<td><textarea cols="60" rows="18" style="readonly:readonly">
 					<div class="coverage_result">
-						<div class="customer">all</div>
-						<div class="product">productSlug</div>
-						<div class="area">areaSlug</div>
-						<div class="category">all</div>
-						<div class="distributor">distributorSlug</div>
-						<div class="agent">all</div>
+						<div class="customer_id">all</div>
+						<div class="product_id">all</div>
+						<div class="area_id">345</div>
+						<div class="category_id">all</div>
+						<div class="distributor_id">all</div>
+						<div class="agent_id">all</div>
 						<div class="planed">1400</div>
 						<div class="real">750</div>
 						<div class="unit">EUR</div>
@@ -203,16 +206,41 @@ function cmm_adminMenu() {
 	<p>params: associative array see:shortcode input</p>
 	<p>result: html code, see shortcode result</p>
 	
-	<h4>cmm_sale(
+	<h4>cmm_add_sale(
 	string $product_slug,
 	string $distributor_slug,
 	string $agent_slug,
 	string $customer_nick,
 	number $quantity,
 	string $unit,
+	string $state,
 	date   $date 
-	):bool</h4>
-	<p>Értékesítés adatainak bevitele</p>
+	):int</h4>
+
+	<p>Értékesítés státusz módosítása</p>
+	<h4>cmm_edit_sale(
+	int $sale_id,
+	string $state,
+	date   $date 
+	):int</h4>
+	<p>Új Értékesítés stárusz módosítása</p>
+	
+	
+	
+	
+	<h3>Egyéb infók</h3>
+	<p>A plugin init metodusa a következőket fogja tenni (ACF szabványos hivásokkal):</p>
+	<p>lásd: https://www.advancedcustomfields.com/resources/register-fields-via-php/</p>
+	<ul>
+		<li>Bőviti a product_cat -ot új mezőkkel (type, poligon, population, place, planed, planed_unit, state, enble_start, enable_end)</li>
+		<li>Bőviti a Product -ot új mezőkkel(planed, planed_unit, state, use_start, use_days, enble_start, enable_end)</li>
+		<li>Bőviti a User -t új mezőkkel (planed, planed_unit, distributor, agent)</li>
+		<li>Bőviti a woocoomerce order -t új mezőkkel (distributor_id, agent_id)</li>
+		<li>add_action -al beékelődik a product_cat tárolásba, törlésbe</li>
+		<li>add_action -al beékelődik a product tárolásba, törlésbe</li>
+		<li>add_action -al beékelődik a user tárolásba, törlésbe</li>
+		<li>add_action -al beékelődik a order tárolásba, törlésbe</li>
+	</ul>
 	<?php
 }
 function cmm_areaAdminMenu() {
@@ -234,11 +262,11 @@ function cmm_areaAdminMenu() {
 		<li>string $parent_id</li>
 		<li>int population</li>
 		<li>int place (km2)</li>	
-		<li>int|summed_up $planed</li>	
+		<li>int | string $planed (szám | summed | population | popupulation/szám)</li>	
 		<li>string $planed_unit</li>	
 		<li>string $state (draft | active | closed)</li>
-		<li>date $enableStart</li>
-		<li>date $enableEnd</li>
+		<li>date $enable_start</li>
+		<li>date $enable_end</li>
 	</ul>
 	<h3>special metods</h3>
 	<ul>		
@@ -270,12 +298,13 @@ function cmm_productsAdminMenu() {
 		<li>array of string $galery</li>	
 		<li>string $unit</li>	
 		<li>number $stock</li>
-		<li>Base_unit (elszámolási mértékegység)</li>	
-		<li>int|summed_up $planed</li>	
+		<li>int | string $planed (number | summed | area_population | area_population/szám)</li>	
 		<li>string $planed_unit</li>	
 		<li>string $state (draft | active | closed)</li>
-		<li>date $enableStart</li>
-		<li>date $enableEnd</li>
+        <li>string $use_start (datum | salesdate)</li>
+        <li>int $use_days (ennyi napig használható</li> 
+		<li>date $enable_start</li>
+		<li>date $enable_end</li>
 	</ul>
 	<h3>special metods</h3>
 	<ul>		
@@ -303,15 +332,14 @@ function cmm_categoriesAdminMenu() {
 		<li>int id</li>
 		<li>string $slug</li>
 		<li>string $name</li>	
-		<li>select $type (area | other)....</li>	
+		<li>select $type (area | other....)</li>	
 		<li>string $parent_id</li>
-		<li>int $area_id</li>
 		<li>int place (km2)</li>	
 		<li>int|summed_up $planed</li>	
 		<li>string $planed_unit</li>	
 		<li>string $state (draft | active | closed)</li>
-		<li>date $enableStart</li>
-		<li>date $enableEnd</li>
+		<li>date $enable_start</li>
+		<li>date $enable_end</li>
 	</ul>
 	<h3>special metods</h3>
 	<ul>		
@@ -340,12 +368,11 @@ function cmm_distributorsAdminMenu() {
 		<li>string $nick</li>
 		<li>string $name</li>	
 		<li>string $email</li>	
-		<li>int $user_id (WP user ID)</li>
 		<li>int|summed_up $planed</li>	
 		<li>string $planed_unit</li>	
 		<li>string $state (inactive | active | closed)</li>
-		<li>date $enableStart</li>
-		<li>date $enableEnd</li>
+		<li>date $enable_start</li>
+		<li>date $enable_end</li>
 	</ul>
 	<h3>special metods</h3>
 	<ul>		
@@ -374,7 +401,6 @@ function cmm_agentsAdminMenu() {
 		<li>string $nick</li>
 		<li>string $name</li>	
 		<li>string $email</li>	
-		<li>int $user_id (WP user ID)</li>
 		<li>int|summed_up $planed</li>	
 		<li>string $planed_unit</li>	
 		<li>string $state (inactive | active | closed)</li>
@@ -436,7 +462,7 @@ function cmm_salesAdminMenu() {
 		<li>number price</li>	
 		<li>string $currency</li>	
 		<li>date $date</li>
-		<li>string $state(ordered| confirmed | shipping | shipped | realised | canceled)</li>
+		<li>string $state(see woocommerce order state: processed | pending | on-hold | completted | cancelled | refunded)</li>
 		<li>int $distributor_id</li>
 		<li>int $agent_id</li>
 	</ul>
