@@ -1,12 +1,12 @@
 <?php
 /**
-* Plugin Name: Covergae monitoring & marketing
+* Plugin Name: Coverage monitoring & marketing
 * Plugin URI: http://www.github.com/utopszkij/coverage-mm
 * Description: Kiegészítés woocommerce -hez
 * Version: 1.00
 * Requires at least: 4.4 
 * Requires PHP:      7.2
-* Author: Fogler Tibpre
+* Author: Fogler Tibor
 * Author URI: http://www.github.com/utopszkij
 * Text Domain:       cmm
 * Domain Path:       /languages
@@ -41,213 +41,15 @@ function cmm_plugin_create_menu() {
 	            'cmm-settings','cmm_settingsAdminMenu', 9);
 }
 function cmm_adminMenu() {
-	?>
-	<h1>Coverage Monitoring & Marketing</h1>
-	<h2>shortCodes:</h2>
-	<h3>coverage</h3>
-	<p>A lekérdezés paramétereibenmeghatározott terület/kategória/termék/ügynök/terjesztő/vevő lefedettségének kimutatása a lekérdezésben
-	magadott pénznemben vagy mértékegységben.
-	Az elvárt értékesítési mérték (a 100%) lehet a lekérdezésben adott, vagy az érintett 
-	terület/kategória/termék/ügynök/terjesztő objektumban megadott, vagy az ahoz tartozó elemkből összegzett. 
-	A setup képernyőn megadható mértékegység átváltó táblázat alapján a program mértékegységekközötti átváltásokat végez 
-	(illetve a termék értékesitéseknél ha a kért result mértékegység pénznem akkor az egységárat használva számol).
-	</p>
-		
-	<h4>input params</h4>
-		<table border=1>
-			<tr>
-				<th>name</th><th>values</th><th>default</th>
-			</tr>		
-			<tr>
-				<td>customer_id</td><td>user_id | all</td><td>all</td>			
-			</tr>
-			<tr>
-				<td>product_id</td><td>product_id | all</td><td>all</td>			
-			</tr>
-			<tr>
-				<td>area_id</td><td>area_id w all</td><td>all</td>			
-			</tr>
-			<tr>
-				<td>category_id</td><td>category_id | all</td><td>all</td>			
-			</tr>
-			<tr>
-				<td>distributor_id</td><td>distributor_id | all</td><td>all</td>			
-			</tr>
-			<tr>
-				<td>agent_id</td><td>agent_id | all</td><td>all</td>			
-			</tr>
-			<tr>
-				<td>date</td><td>example: 2020-05-05|today</td><td>today</td>			
-			</tr>
-			<tr>
-				<td>planed</td><td>number | default</td><td>default (from area | product | category | customer | distributor | agent object)</td>			
-			</tr>
-			<tr>
-				<td>planed_unit</td><td>Woocommerce pénznem | wooComment product unit</td><td>pc</td>			
-			</tr>
-			<tr>
-				<td>sale_state</td><td>see sale states</td><td>completted</td>			
-			</tr>
-			<tr>
-				<td>amount_display_mode</td><td>absolute|relative|none</td><td>relative</td>			
-			</tr>
-			<tr>
-				<td>amount_unit</td><td>wooCommerce pénznem | woocommerce product unit</td><td><strong>pc</td>			
-			</tr>
-			<tr>
-				<td>amountt_picture</td><td>height x width (pixel) | none</td><td>example: 300x300</td>			
-			</tr>
-			
-		</table>	
-	<h4>result</h4>
-		<table border=1>
-			<tr>
-				<th>amount_display_mode</th><th>amount_picture</th><th>result example</th>
-			</tr>		
-			<tr>
-				<td>absolute</td><td>none</td>
-				<td><textarea cols="60" rows="14" style="readonly:readonly">
-					<div class="coverage_result">
-						<div class="customer_id">all</div>
-						<div class="product_id">148</div>
-						<div class="area_id">67</div>
-						<div class="category_id">all</div>
-						<div class="distributor_id">18</div>
-						<div class="agent_id">all</div>
-						<div class="planed">1400</div>
-						<div class="real">750</div>
-						<div class="unit">EUR</div>
-					</div>
-				</textarea></td>
-			</tr>		
-			<tr>
-				<td>relative</td><td>none</td>
-				<td><textarea cols="60" rows="12" style="readonly:readonly">
-					<div class="coverage_result">
-						<div class="customer_id">all</div>
-						<div class="product_id">134</div>
-						<div class="area_id">78</div>
-						<div class="category_id">all</div>
-						<div class="distributor_id">45</div>
-						<div class="agent_id">all</div>
-						<div class="planed_id">1400</div>
-						<div class="unit">EUR</div>
-						<div class="coverage">25%</div>
-					</div>
-				</textarea></td>
-			</tr>		
-			<tr>
-				<td>none</td><td>300x300</td>
-				<td><textarea cols="60" rows="6" style="readonly:readonly">
-					<div class="coverage_result">
-						<div class="picture">...</div>
-					</div>
-				</textarea></td>
-			</tr>		
-			<tr>
-				<td>relative</td><td>300x300</td>
-				<td><textarea cols="60" rows="18" style="readonly:readonly">
-					<div class="coverage_result">
-						<div class="customer_id">all</div>
-						<div class="product_id">45</div>
-						<div class="area_id">33</div>
-						<div class="category_id">all</div>
-						<div class="distributor_id">45</div>
-						<div class="agent_id">all</div>
-						<div class="planed_id">1400</div>
-						<div class="unit">EUR</div>
-						<div class="coverage">25%</div>
-						<div class="picture">...</div>
-					</div>
-				</textarea></td>
-			</tr>		
-			<tr>
-				<td>absolute</td><td>300x300</td>
-				<td><textarea cols="60" rows="18" style="readonly:readonly">
-					<div class="coverage_result">
-						<div class="customer_id">all</div>
-						<div class="product_id">all</div>
-						<div class="area_id">345</div>
-						<div class="category_id">all</div>
-						<div class="distributor_id">all</div>
-						<div class="agent_id">all</div>
-						<div class="planed">1400</div>
-						<div class="real">750</div>
-						<div class="unit">EUR</div>
-						<div class="picture">...</div>
-					</div>
-				</textarea></td>
-			</tr>	
-			<tr>
-				<td colspan="2">if error</td>
-				<td><textarea cols="60" rows="18" style="readonly:readonly">
-					<div class="coverage_error_result">
-						<div class="alert alert-danger">product not found</div>
-					</div>
-				</textarea>
-				</td>			
-			</tr>	
-		</table>
-		<p>Lehetséges hibák:</p>
-		<ul>
-			<li>Az input pareméterben megadott valamelyik szürő feltétel nem létezik (area, category, product, distributor, agent, customer)</li>
-			<li>A rekurziv felösszegzés során az egyik feldolgozandó termék vagy értékesités elem olyan mértékegységben van megadva amit nem
-			lehet átváltani a kért kimeneti mértékegységre.</li>		
-		</ul>
-
-	<p>az értékesitések és az elvárt teljesitmények adatait a resultba kért mértékegységre váltja át. Relative 
-	eredmény kérésnél is kell kért mértékegysé, ebben történik a számítás. 
-	</p>
-
-	<h3>callable API functions</h3>
-
-	<h4>cmm_coverage(array $params):string</h4>
-	<p>Lefedettség lekérdezés</p>
-	<p>params: associative array see:shortcode input</p>
-	<p>result: html code, see shortcode result</p>
-	
-	<h4>cmm_add_sale(
-	string $product_slug,
-	string $distributor_slug,
-	string $agent_slug,
-	string $customer_nick,
-	number $quantity,
-	string $unit,
-	string $state,
-	date   $date 
-	):int</h4>
-
-	<p>Értékesítés státusz módosítása</p>
-	<h4>cmm_edit_sale(
-	int $sale_id,
-	string $state,
-	date   $date 
-	):int</h4>
-	<p>Új Értékesítés stárusz módosítása</p>
-	
-	
-	
-	
-	<h3>Egyéb infók</h3>
-	<p>A plugin init metodusa a következőket fogja tenni (ACF szabványos hivásokkal):</p>
-	<p>lásd: https://www.advancedcustomfields.com/resources/register-fields-via-php/</p>
-	<ul>
-		<li>Bőviti a product_cat -ot új mezőkkel (type, poligon, population, place, planed, planed_unit, state, enble_start, enable_end)</li>
-		<li>Bőviti a Product -ot új mezőkkel(planed, planed_unit, state, use_start, use_days, enble_start, enable_end)</li>
-		<li>Bőviti a User -t új mezőkkel (planed, planed_unit, distributor, agent)</li>
-		<li>Bőviti a woocoomerce order -t új mezőkkel (distributor_id, agent_id)</li>
-		<li>add_action -al beékelődik a product_cat tárolásba, törlésbe</li>
-		<li>add_action -al beékelődik a product tárolásba, törlésbe</li>
-		<li>add_action -al beékelődik a user tárolásba, törlésbe</li>
-		<li>add_action -al beékelődik a order tárolásba, törlésbe</li>
-	</ul>
-	<?php
+    include_once __DIR__.'/controllers/class.admin.php';
+    $controller = new AdminController();
+    $controller->adminForm();
 }
 function cmm_areaAdminMenu() {
 	echo '<h1>Coverage Monitoring & Marketing</h1>';
 	echo '<h2>Areas</h2>
 	
-	<p>A képernyőn a területek listája jelenik meg, lapozható, rendezhető, filterezhető(név részlet,
+	<p>A képernyőn a területek listája jelenik meg, lapozható, rendezhető, filterezhető (név részlet,
 	 disztributor, agent, product) </p>
 	<p>A képernyőn megadható a területen történő elvárt értékesítés mértéke (EUR -ban vagy más mértékegységben)</p>
 	<p>editálható, törölhető, exportálható, importálható</p> 
@@ -262,8 +64,8 @@ function cmm_areaAdminMenu() {
 		<li>string $parent_id</li>
 		<li>int population</li>
 		<li>int place (km2)</li>	
-		<li>int | string $planed (szám | summed | population | popupulation/szám)</li>	
-		<li>string $planed_unit</li>	
+		<li>int | string $planned (szám | summed | population | population/szám)</li>	
+		<li>string $planned_unit</li>	
 		<li>string $state (draft | active | closed)</li>
 		<li>date $enable_start</li>
 		<li>date $enable_end</li>
@@ -275,14 +77,14 @@ function cmm_areaAdminMenu() {
 		<li>distributors():array of Distributor (a hozzá kapcsolt terjesztők)</li>	
 		<li>agents():array of Agent (a hozzá kapcsolt ügynökök)</li>
 	</ul>
-	<p>Ez az objektum a woocommerce category objektum kiterjesztéseként
-	 valósul meg. Adatainak egy része a woocommerce -ben is látható, kezelhető.</p>
+	<p>Ez az objektum a woocoommerce category objektum kiterjesztéseként
+	 valósul meg. Adatainak egy része a woocoommerce -ben is látható, kezelhető.</p>
 	';
 }
 function cmm_productsAdminMenu() {
 	echo '<h1>Coverage Monitoring & Marketing</h1>';
 	echo '<h2>Products</h2>
-	<p>A képernyőn a termékek listája jelenik meg, lapozható, rendezhető, filterezhető(név részlet,
+	<p>A képernyőn a termékek listája jelenik meg, lapozható, rendezhető, filterezhető (név részlet,
 	 disztributor, agent, product, category, area) </p>
 	<p>A képernyőn megadható a termék területenkénti és/vagy kategoriánkénti elvárt értékesítés mértéke
 	 (EUR -ban vagy más mértékegységben)</p>
@@ -293,13 +95,13 @@ function cmm_productsAdminMenu() {
 		<li>int id</li>
 		<li>string $slug</li>
 		<li>string $name</li>
-		<li>string $destcription</li>	
+		<li>string $description</li>	
 		<li>string $image</li>	
 		<li>array of string $galery</li>	
 		<li>string $unit</li>	
 		<li>number $stock</li>
-		<li>int | string $planed (number | summed | area_population | area_population/szám)</li>	
-		<li>string $planed_unit</li>	
+		<li>int | string $planned (number | summed | area_population | area_population/szám)</li>	
+		<li>string $planned_unit</li>	
 		<li>string $state (draft | active | closed)</li>
         <li>string $use_start (datum | salesdate)</li>
         <li>int $use_days (ennyi napig használható</li> 
@@ -313,8 +115,8 @@ function cmm_productsAdminMenu() {
 		<li>agents():array of Agent (a hozzá kapcsolt ügynökök)</li>
 		<li>sales():array of Sale (a hozzá kapcsolt értékesítések)</li>
 	</ul>
-	<p>Ez az objektum a woocommerce product objektum kiterjesztéseként
-	 valósul meg. Adatainak egy része a woocommerce -ben is látható, kezelhető.</p>
+	<p>Ez az objektum a woocoommerce product objektum kiterjesztéseként
+	 valósul meg. Adatainak egy része a woocoommerce -ben is látható, kezelhető.</p>
 	
 	';
 }
@@ -322,7 +124,7 @@ function cmm_categoriesAdminMenu() {
 	echo '<h1>Coverage Monitoring & Marketing</h1>';
 	echo '<h2>Categories</h2>
 	
-	<p>A képernyőn a kategóriák listája jelenik meg, lapozható, rendezhető, filterezhető(név részlet,
+	<p>A képernyőn a kategóriák listája jelenik meg, lapozható, rendezhető, filterezhető (név részlet,
 	 disztributor, agent, product) </p>
 	<p>editálható, törölhető, exportálható, importálható</p> 
 	<p>A képernyőn megadható a kategóriába történő elvárt értékesítés mértéke (EUR -ban vagy más mértékegységben)</p> 
@@ -335,8 +137,8 @@ function cmm_categoriesAdminMenu() {
 		<li>select $type (area | other....)</li>	
 		<li>string $parent_id</li>
 		<li>int place (km2)</li>	
-		<li>int|summed_up $planed</li>	
-		<li>string $planed_unit</li>	
+		<li>int|summed_up $planned</li>	
+		<li>string $planned_unit</li>	
 		<li>string $state (draft | active | closed)</li>
 		<li>date $enable_start</li>
 		<li>date $enable_end</li>
@@ -349,14 +151,14 @@ function cmm_categoriesAdminMenu() {
 		<li>distributors():array of Distributor</li>	
 		<li>agents():array of Agent</li>
 	</ul>
-	<p>Ez az objektum a woocommerce category objektum kiterjesztéseként
-	 valósul meg. Adatainak egy része a woocommerce -ben is látható, kezelhető.</p>
+	<p>Ez az objektum a woocoommerce category objektum kiterjesztéseként
+	 valósul meg. Adatainak egy része a woocoommerce -ben is látható, kezelhető.</p>
 	';
 }
 function cmm_distributorsAdminMenu() {
 	echo '<h1>Coverage Monitoring & Marketing</h1>';
 	echo '<h2>Distributors</h2>
-	<p>A képernyőn a terjesztők listája jelenik meg, lapozható, rendezhető, filterezhető(név részlet,
+	<p>A képernyőn a terjesztők listája jelenik meg, lapozható, rendezhető, filterezhető (név részlet,
 	 category, area, product) </p>
 	<p>editálható, törölhető, exportálható, importálható</p> 
 	<p>A képernyőn megadható a tőle elvárt értékesítés mértéke (EUR -ban vagy más mértékegységben), és az, hogy
@@ -368,8 +170,8 @@ function cmm_distributorsAdminMenu() {
 		<li>string $nick</li>
 		<li>string $name</li>	
 		<li>string $email</li>	
-		<li>int|summed_up $planed</li>	
-		<li>string $planed_unit</li>	
+		<li>int|summed_up $planned</li>	
+		<li>string $planned_unit</li>	
 		<li>string $state (inactive | active | closed)</li>
 		<li>date $enable_start</li>
 		<li>date $enable_end</li>
@@ -401,8 +203,8 @@ function cmm_agentsAdminMenu() {
 		<li>string $nick</li>
 		<li>string $name</li>	
 		<li>string $email</li>	
-		<li>int|summed_up $planed</li>	
-		<li>string $planed_unit</li>	
+		<li>int|summed_up $planned</li>	
+		<li>string $planned_unit</li>	
 		<li>string $state (inactive | active | closed)</li>
 		<li>date $enableStart</li>
 		<li>date $enableEnd</li>
@@ -422,7 +224,7 @@ function cmm_agentsAdminMenu() {
 function cmm_ranksAdminMenu() {
 	echo '<h1>Coverage Monitoring & Marketing</h1>';
 	echo '<h2>Ranks</h2>
-	<p>A terjesztők, ügynökök, vásárlók aktivitásuk, teljesitményük alapján "rangot" kapnak. Ennek részletei még tisztázandók</p>	
+	<p>A terjesztők, ügynökök, vásárlók aktivitásuk, teljesítményük alapján "rangot" kapnak. Ennek részletei még tisztázandók</p>	
 	';
 }
 function cmm_myaccountAdminMenu() {
@@ -450,8 +252,9 @@ function cmm_salesAdminMenu() {
 	echo '<h1>Coverage Monitoring & Marketing</h1>';
 	echo '<h2>Sales</h2>
 	
-	<p>A képernyőn a relizált vagy folyamatban lévő értékesítések listája jelenik meg.</p>
+	<p>A képernyőn a realizált vagy folyamatban lévő értékesítések listája jelenik meg.</p>
 	<p>Lapozható, rendezhető, korlátozottan editálható, filterezhető (dátum, státusz, termék, vevő, ügynök, terjesztő, kategória, terület)</p>
+    <h2>Sale object</h2>
 	<h3>Properties</h3>
 	<ul>
 		<li>int id</li>
@@ -462,11 +265,11 @@ function cmm_salesAdminMenu() {
 		<li>number price</li>	
 		<li>string $currency</li>	
 		<li>date $date</li>
-		<li>string $state(see woocommerce order state: processed | pending | on-hold | completted | cancelled | refunded)</li>
+		<li>string $state(see woocoommerce order state: processed | pending | on-hold | completted | cancelled | refunded)</li>
 		<li>int $distributor_id</li>
 		<li>int $agent_id</li>
 	</ul>
-	<p>Ez az objektum részben a woocommerce adatbázisában van tárolva, az adatok egy része ott is látható, kezelhető.</p>
+	<p>Ez az objektum részben a woocoommerce adatbázisában van tárolva, az adatok egy része ott is látható, kezelhető.</p>
 	';
 }
 

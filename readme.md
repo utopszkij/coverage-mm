@@ -8,6 +8,10 @@ Hierarchikus terület lefedettség figyelés és kezelés
 
 készül....
 
+- MVC structure
+- Multilanguage system
+- Wordpress ACF plugin compatibilte
+
 ## shortcode -ok
 
 készül .....
@@ -26,7 +30,7 @@ A plugin által megjelenített képernyő részletek alapértelmezetten a
 
 "plugindir/views/controllerName/" 
 
-könyvtárban vannak. Ha szükséges akkor az aktuális template könyvtárba is létre lehet hozni azonos nevü fájlokat a 
+könyvtárban vannak. Ha szükséges akkor az aktuális template könyvtárba is létre lehet hozni azonos nevű fájlokat a 
 
 "templatesdir/coverage-mm/views/controllerNamel" 
 
@@ -34,7 +38,7 @@ könyvtárba, ha ezek léteznek akkor a plugin ezeket használja.
 
 ## unittest
 
-linux konsolon:
+linux konzolon:
 ```
 	cd <plugin dir>
 	phpunit tests
@@ -44,8 +48,8 @@ linux konsolon:
 
 Szükséges: wordpress 4.4+ (admin jog), wooCommerce plugin, php, mysql 
 
- 1. Hozz létre egy **coverage-mm** nevü könyvtárat a wordpress "wp-content/plugins" könytárában.
- 2. Másold ebbe be ennek a könyvtárnak a teljes tartalmát
+ 1. Hozz létre egy **coverage-mm** nevű könyvtárat a wordpress "wp-content/plugins" könytárában.
+ 2. Másold ebbe ennek a könyvtárnak a teljes tartalmát
  4. A wordpress adminisztrátori oldalon kapcsold be a plugint.
   
 
@@ -54,6 +58,7 @@ Szükséges: wordpress 4.4+ (admin jog), wooCommerce plugin, php, mysql
 
 ## Beállítás
 
+készül....
 
 ## Licensz
 
@@ -69,6 +74,6 @@ Sas Tibor
 
 
 ## Forrás program
-https://github.com/utopszkij/areamanager
+https://github.com/utopszkij/coverage-mm
 
 
