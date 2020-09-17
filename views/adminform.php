@@ -1,6 +1,14 @@
+	<div id="cmmAdminForm">
 	<h1>Coverage Monitoring & Marketing</h1>
+
+	<?php if (isset($this->msg)) : ?>
+	<div class="<?php echo $this->msgClass; ?>"><?php echo $this->msg; ?></div>
+	<?php endif;?>
+	
 	<h2>shortCodes:</h2>
 	<h3>coverage</h3>
+	
+	
 	<p>A lekérdezés paramétereiben meghatározott terület/kategória/termék/ügynök/terjesztő/vevő lefedettségének kimutatása a lekérdezésben
 	magadott pénznemben vagy mértékegységben.
 	Az elvárt értékesítési mérték (a 100%) lehet a lekérdezésben adott, vagy az érintett 
@@ -197,3 +205,5 @@
 		<li>add_action -al beékelődik a user tárolásba, törlésbe</li>
 		<li>add_action -al beékelődik a order tárolásba, törlésbe</li>
 	</ul>
+	
+</div>

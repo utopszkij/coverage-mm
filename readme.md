@@ -28,11 +28,11 @@ készül....
 
 A plugin által megjelenített képernyő részletek alapértelmezetten a 
 
-"plugindir/views/controllerName/" 
+"plugindir/views/" 
 
 könyvtárban vannak. Ha szükséges akkor az aktuális template könyvtárba is létre lehet hozni azonos nevű fájlokat a 
 
-"templatesdir/coverage-mm/views/controllerNamel" 
+"templatesdir/coverage-mm/" 
 
 könyvtárba, ha ezek léteznek akkor a plugin ezeket használja.
 

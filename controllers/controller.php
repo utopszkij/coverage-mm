@@ -121,10 +121,10 @@
          */
 		protected function display(string $tmplName) {
 		    $tmplDir = get_template_directory();
-		    if (file_exists($tmplDir.'/coverage-mm/'.$this->controllerName.'/'.$tmplName.'.php')) {
-		        $path = $tmplDir.'/coverage-mm/'.$this->controllerName;
+		    if (file_exists($tmplDir.'/coverage_mm/'.$tmplName.'.php')) {
+		        $path = $tmplDir.'/coverage_mm';
 		    } else {
-		        $path = __DIR__.'/../views/'.$this->controllerName;
+		        $path = __DIR__.'/../views';
 		    }
 		    include ($path.'/'.$tmplName.'.php');
 		}
@@ -132,20 +132,36 @@
 		/**
 		 * create model object
 		 * @param string $modelName
-		 * @return unknown
+		 * @return Model | false
 		 */
 		protected function getModel(string $modelName) {
 		    $result = false;
 		    if (file_exists(__DIR__.'/../models/model.'.$modelName.'.php')) {
 		        include_once __DIR__.'/../models/model.'.$modelName.'.php';
 		        $modelClassName = ucFirst($modelName).'Model';
-		        $result = new $modelClassName ($controller);
+		        $result = new $modelClassName ($this);
 		    } else {
 		        $result = false;
 		    }
 		    return $result;
 		}
 		
+		/**
+		 * create controller object
+		 * @param string $controllerlName
+		 * @return Controller | false
+		 */
+		protected function getController(string $controllerName) {
+		    $result = false;
+		    if (file_exists(__DIR__.'/class.'.$controllerName.'.php')) {
+		        include_once __DIR__.'/class.'.$controllerName.'.php';
+		        $controllerClassName = ucFirst($controllerName).'Controller';
+		        $result = new $controllerClassName ();
+		    } else {
+		        $result = false;
+		    }
+		    return $result;
+		}
 	} // Controller class
 		
 ?>

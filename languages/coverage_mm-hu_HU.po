@@ -1,0 +1,306 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-09-17 17:47+0200\n"
+"PO-Revision-Date: 2020-09-17 17:52+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: views\n"
+"X-Poedit-SearchPath-1: controllers\n"
+"X-Poedit-SearchPath-2: models\n"
+"X-Poedit-SearchPath-3: coverage_mm.php\n"
+
+#: controllers/class.area.php:70
+msgid "csv_loaded"
+msgstr "csv fájl betöltve"
+
+#: controllers/class.area.php:71
+msgid "readed"
+msgstr "beolvasva"
+
+#: controllers/class.area.php:71
+msgid "writed"
+msgstr "kiíirva"
+
+#: views/area.adminform.php:3
+msgid "cmm product_cat extends"
+msgstr "kiegészítő adatok"
+
+#: views/area.adminform.php:4
+msgid "isarea"
+msgstr "terület"
+
+#: views/area.adminform.php:5
+msgid "area_category"
+msgstr "terület kategória"
+
+#: views/area.adminform.php:6
+msgid "phase"
+msgstr "fázis"
+
+#: views/area.adminform.php:7
+msgid "continent"
+msgstr "kontinens"
+
+#: views/area.adminform.php:8
+msgid "country"
+msgstr "ország"
+
+#: views/area.adminform.php:9
+msgid "pol_zone_1"
+msgstr "országgyűlési vk"
+
+#: views/area.adminform.php:10
+msgid "pol_zone_2"
+msgstr "önkormányzati vk"
+
+#: views/area.adminform.php:11
+msgid "micro_village"
+msgstr "törpe falu"
+
+#: views/area.adminform.php:12
+msgid "small_village"
+msgstr "kis falu"
+
+#: views/area.adminform.php:13
+msgid "village"
+msgstr "falu"
+
+#: views/area.adminform.php:14
+msgid "large_village"
+msgstr "nagy község"
+
+#: views/area.adminform.php:15
+msgid "small_city"
+msgstr "kisváros"
+
+#: views/area.adminform.php:16
+msgid "district"
+msgstr "kerület"
+
+#: views/area.adminform.php:17
+msgid "large_city"
+msgstr "nagyváros"
+
+#: views/area.adminform.php:18
+msgid "subregion"
+msgstr "járás"
+
+#: views/area.adminform.php:19
+msgid "region"
+msgstr "megye"
+
+#: views/area.adminform.php:20
+msgid "other"
+msgstr "egyéb"
+
+#: views/area.adminform.php:21
+msgid "data_entry"
+msgstr "adat bevitel"
+
+#: views/area.adminform.php:22
+msgid "data_generation"
+msgstr "adat létrehozás"
+
+#: views/area.adminform.php:23
+msgid "data_mainance"
+msgstr "adat kezelés"
+
+#: views/area.adminform.php:24
+msgid "data_archiving"
+msgstr "adat mentés"
+
+#: views/area.adminform.php:25
+msgid "not_phase"
+msgstr "nincs"
+
+#: views/area.adminform.php:26
+msgid "population"
+msgstr "lélekszám"
+
+#: views/area.adminform.php:27
+msgid "place"
+msgstr "terület nagysága"
+
+#: views/area.adminform.php:28
+msgid "poligon"
+msgstr "körvonal pontok"
+
+#: views/area.adminform.php:29
+msgid "enable_start"
+msgstr "érvényesség kezdete"
+
+#: views/area.adminform.php:30
+msgid "enable_end"
+msgstr "érvényesség vége"
+
+#: views/area.adminform.php:31
+msgid "center_lat"
+msgstr "térkép középpont földrajzi hosszúság"
+
+#: views/area.adminform.php:32
+msgid "center_lng"
+msgstr "térkép középpont földrajzi szélesség"
+
+#: views/area.adminform.php:33
+msgid "map_zoom"
+msgstr "térkép nagyítás"
+
+#: views/area.adminform.php:34
+msgid "draft"
+msgstr "terv"
+
+#: views/area.adminform.php:35
+msgid "active"
+msgstr "aktív"
+
+#: views/area.adminform.php:36
+msgid "closed"
+msgstr "lezárt"
+
+#: views/area.adminform.php:37
+msgid "locality"
+msgstr "település"
+
+#: views/area.adminform.php:38
+msgid "city"
+msgstr "város"
+
+#: views/area.adminform.php:39
+msgid "status"
+msgstr "státusz"
+
+#: views/area.adminform.php:57
+msgid "browse"
+msgstr "böngészés"
+
+#: views/area.adminform.php:64
+msgid "import"
+msgstr "importálás CSV -ből"
+
+#: views/area.adminform.php:73
+msgid "export"
+msgstr "exportálás CSV -be"
+
+#: views/area.import_csv1.php:12
+msgid "csv_import_help"
+msgstr ""
+"A beolvasott CSV fájl első sorában az oszlop tartalmát jelölő kódszónak kell "
+"szerepelnie:    <strong>\"parent\", \"name\", \"population\", \"area_category"
+"\", \"isarea\",  \"center_lat\", \"center_lng\", \"map_zoom\", \"status\", "
+"\"enable_start\", \"enable_end\", \"poligon\"</strong>.     Az oszlopok "
+"sorrendje tetszőleges. A \"parent\" és a \"name\" kötelező, a többi "
+"opcionális.    További (más nevű) oszlopok lehetnek. A fájlnak UTF-8 "
+"kódolásúnak kell lennie"
+
+#: views/area.import_csv1.php:20
+msgid "default_country"
+msgstr "alap értelmezett ország"
+
+#: views/area.import_csv1.php:24
+msgid "csv_field_separator"
+msgstr "CSV mező elválasztó"
+
+#: views/area.import_csv1.php:26
+msgid "comma"
+msgstr "vessző"
+
+#: views/area.import_csv1.php:27
+msgid "semicolon"
+msgstr "pontos vessző"
+
+#: views/area.import_csv1.php:28
+msgid "tabulator"
+msgstr "tabulátor"
+
+#: views/area.import_csv1.php:32
+msgid "csv_file"
+msgstr "CSV fájl"
+
+#: views/area.import_csv1.php:37
+msgid "send"
+msgstr "küldés"
+
+#: views/exportcsv.php:7
+msgid "export_to_csv"
+msgstr "exportálás CSV -be"
+
+#: views/exportcsv.php:10
+msgid "download"
+msgstr "letöltés"
+
+#: views/progressindicator.php:22
+msgid "processing_csv"
+msgstr "CSV feldolgozás"
+
+#: views/progressindicator.php:24
+msgid "working"
+msgstr "türelmet kérek"
+
+#~ msgid "type"
+#~ msgstr "Tipus"
+
+#~ msgid "region_2"
+#~ msgstr "járás"
+
+#~ msgid "sublocality"
+#~ msgstr "kerület"
+
+#~ msgid "map_image_url"
+#~ msgstr "térkép image URL"
+
+#~ msgid "category_type"
+#~ msgstr "Terület tipus"
+
+#~ msgid "postalcode"
+#~ msgstr "irányítószám"
+
+#~ msgid "country_pol_zone"
+#~ msgstr "oevk"
+
+#~ msgid "del_poligon"
+#~ msgstr "Körvonal törlése\t"
+
+#~ msgid "Extend area manager capacity into wooCoomerce category"
+#~ msgstr "woocommerce termék kategóriák bővítése terület adatokkal"
+
+#~ msgid "Author"
+#~ msgstr "Szerző"
+
+#~ msgid "Setup"
+#~ msgstr "beállítás"
+
+#~ msgid "google_api_key"
+#~ msgstr "google API kulcs"
+
+#~ msgid "save"
+#~ msgstr "tárolás"
+
+#~ msgid "cancel"
+#~ msgstr "mégsem"
+
+#~ msgid "create_areas"
+#~ msgstr "területek létrehozása"
+
+#~ msgid "delete_areas"
+#~ msgstr "területek törlése"
+
+#~ msgid "acces_violation"
+#~ msgstr "hozzáférés megtagadva"
+
+#~ msgid "teszt_plugin_title."
+#~ msgstr "EZ A PLUGIN CÍME."
+
+#~ msgid "delete"
+#~ msgstr "törlés"
+
+#~ msgid "valami"
+#~ msgstr "valami Fajta szöveg"
