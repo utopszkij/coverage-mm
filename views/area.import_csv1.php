@@ -12,7 +12,7 @@
     	<p><?php echo __('csv_import_help',CMM); ?></p>
     	<p>
     		<label><?php echo __('default_country',CMM); ?></label>
-    		<input type="text" name="country" value="" />
+    		<input type="text" name="country" value="Magyarország" />
     	</p>
     	<p>
     		<label><?php echo __('csv_field_separator',CMM); ?></label>

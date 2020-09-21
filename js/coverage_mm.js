@@ -7,6 +7,7 @@
  * defMap tartalma: {lat:num, lng:num, zoom:num}
  */
 jQuery(function() {
+	
 	// check: it is product_cat form?
 	if (jQuery('.acf-field-number[data-name="population"]').length > 0) {
 

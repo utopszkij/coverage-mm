@@ -4,6 +4,7 @@
 *
 */ 
 include_once __DIR__.'/model.php';
+include_once __DIR__.'/model.area.php';
 class MapModel extends Model {
     
     protected $lastError = '';
@@ -111,26 +112,30 @@ class MapModel extends Model {
      * @param int $term_id
      */
     public function createOrUpdateMap(int $term_id): bool {
+        /* ez igy nem jó rekurzivan önmagát hívja!
         global $wpdb;
+        if (($term_id == 0) | ($term_id == '')) {
+            return true;
+        }
+        $areaModel = new AreaModel(false);
         $this->lastError = '';
-        // get term record and ACF fields
-        $term = get_term_by('term_id', $term_id, 'product_cat');
-        if ($term) {
-            $title = $term->name;
-            $center_lat = get_field('center_lat', 'product_cat_'.$term_id);
-            $center_lng = get_field('center_lng', 'product_cat_'.$term_id);
-            $zoom = get_field('map_zoom', 'product_cat_'.$term_id);
-            $isarea = get_field('isarea', 'product_cat_'.$term_id);
-            $map_id = get_field('map_id', 'product_cat_'.$term_id);
-            if (isarea == 1) {
+        // get product_cat
+        $cat = $areaModel->getById($term_id);
+        if ($cat) {
+            $title = $cat->name;
+            $center_lat = $cat->center_lat;
+            $center_lng = $cat->center_lng;
+            $zoom = $cat->map_zoom;
+            $isarea = $cat->isarea;
+            $map_id = $cat->map_id;
+            if ($isarea == 1) {
                 if (($map_id == 0) | ($map_id == '')) {
                     // create new map record
                     $map_id = $this->addDefaultMap($title, $center_lat, $center_lng, $zoom);
                     $this->lastError = $wpdb->last_error;
-                    // update map_id into ACF field
-                    if (!update_field('map_id', $map_id, 'product_cat_'.$term_id)) {
-                        echo 'fatal error in update ACF field'; exit();
-                    }
+                    // update product_cat record
+                    $cat->map_id = $map_id;
+                    $areaModel->modify($cat);
                 } else {
                     // get exists map record
                     $mapRec = $this->getMapById($map_id);
@@ -148,6 +153,7 @@ class MapModel extends Model {
                 }
             } // isarea == 1
         } // $term megvan
+        */
         return ($this->lastError == '');
     }
     
@@ -157,19 +163,6 @@ class MapModel extends Model {
      */
     public function getErrorMsg(): string {
         return $this->lastError;
-    }
-    
-    /**
-     * wait dbunlock state, set dblock
-     * @return bool
-     */
-    public function dblock():bool {
-        $this->lastError = '';
-        global $wpdb;
-        $wpdb->query('LOCK TABLES '.$wpdb->prefix.'ums_markers WRITE,
-        '.$wpdb->prefix.'ums_maps WRITE');
-        $this->lastError = $wpdb->last_error;
-        return ($this->lastError == '');
     }
     
     /**
@@ -234,18 +227,6 @@ class MapModel extends Model {
         }
         return ($this->lastError == '');
     }
-    
-    /**
-     * set dbunlock
-     * @return bool
-     */
-    public function dbunlock():bool {
-        $this->lastError = '';
-        global $wpdb;
-        $wpdb->query('UNLOCK TABLES');
-        $this->lastError = $wpdb->last_error;
-        return ($this->lastError == '');
-    }
-    
+   
 }
 ?>

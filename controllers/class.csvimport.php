@@ -34,6 +34,7 @@
 		 * reqied POSTs: csvFieldSeparator, csvFile, optional POSTs: skip, total, targetFile
 		 */
 		public function import() {
+		    
 		    $errorMsg = '';
 		    $targetFile = __DIR__.'/../work/'.date(YmdHis).'.tmp'; // workfile path
 		    $csvFieldSeparator = filter_input(INPUT_POST, 'csvFieldSeparator'); // csv field separator
@@ -69,17 +70,17 @@
 		    $this->progressindicator->setup(true, $total, $skip);
 		    if ($errorMsg == '') {
                     $colNames = [];
-                    $mum = 0;
-		            while (($data = fgetcsv($handle, 10000, $csvFieldSeparator)) !== FALSE) {
-		                    if ($num == 0) {
-		                        $colNames = $data;
-		                    } else {
-		                        if ($num > $skip) {
-		                            $this->processData($data,$colNames);
-		                        }
+                    $num = 0;
+                    while (($data = fgetcsv($handle, 10000, $csvFieldSeparator)) !== FALSE) {
+                        if ($num == 0) {
+		                    $colNames = $data;
+		                } else {
+		                    if ($num > $skip) {
+		                        $this->processData($data,$colNames);
 		                    }
-		                    $num++;
-		                    if ($num > $skip + $this->step) {
+		                }
+		                $num++;
+		                if ($num > $skip + $this->step) {
 		                      $skip = $skip + $this->step;
 		                      fclose($handle);
 		                      ?>
@@ -94,12 +95,12 @@
                             	      <button type="submit">OK</button>
 								</form>
 								<script type="text/javascript">                      
-								window.setTimeout("jQuery('#formCsv').submit()",<?php echo $this->pause; ?>);
+									window.setTimeout("jQuery('#formCsv').submit()",<?php echo $this->pause; ?>);
 								</script>
 		                      </div>
 		                      <?php 
 		                      return;
-		                    } 
+		                } 
 		            } // beolvasó ciklus
 		            fclose($handle);
 		            unlink($targetFile);

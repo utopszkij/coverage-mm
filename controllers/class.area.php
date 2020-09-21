@@ -9,8 +9,9 @@
     
     class AreaCsvImport extends CsvimportController {
          
-          protected function beforeProcess() {
-            $this->step = 40;  // process line / step
+        protected function beforeProcess() {
+            global $cmm;
+            $this->step = 20;  // process line / step
             $this->pause = 2000; // step by step pause ms
             $this->task = 'import_csv2';
             $this->prIndUrl = get_site_url().'/wp-admin/admin.php?page=cmm-areas';
@@ -19,18 +20,27 @@
             if ($country != '') {
                 $res = $this->model->getByName($country);
                 if ($res) {
-                    $_SESSION['country_id'] = $res->id;
+                    $cmm->setToSession('country_id',$res->id);
+                    $this->country_id = $res->id;
                 } else {
-                    $_SESSION['country_id'] = 0;
+                    $cmm->setToSession('country_id',0);
+                    $this->country_id = 0;
                 }
-            }
-            $this->prevParent = '@@@';
-            if (!isset($_SESSION['counter'])) {
-                $_SESSION['counter'] = 0;
+                $cmm->setToSession('prevParent','@@@');
+                $cmm->setToSession('parent_id',0);
+                $this->prevParent = '@@@';
+                $this->counter = 0;
+                $this->parent_id = 0;
+            } else {
+                $this->prevParent = $cmm->getFromSession('prevParent','@@@');
+                $this->counter = $cmm->getFromSession('counter',0);
+                $this->parent_id = $cmm->getFromSession('parent_id',0);
+                $this->country_id = $cmm->getFromSession('country_id',0);
             }
         }
         
         protected function processData(array $data,array $colNames) {
+            global $cmm;
             $record = new stdClass();
             for ($i=0; $i < count($data); $i++) {
                 if ($i < count($colNames)) {
@@ -38,40 +48,56 @@
                     $record->$fieldName = $data[$i];
                 }
             }
+            if (!isset($record->isarea)) {
+                $record->isarea = 1;
+            }
+            $record->id = 0;
+            
             // "parent" field is parent'Name !    
             if ($record->parent != $this->prevParent) {
                 if ($record->parent == '') {
                     // root item, not parent
-                    $parent_id = 0;   
+                    $this->parent_id = 0;   
                 } else {
                     // insert parent if not exists
                     $parentRecord = new AreaRecord();
                     $this->model->copy($record, $parentRecord);
                     $parentRecord->id = 0;
                     $parentRecord->name = $record->parent;
+                    $parentRecord->slug = '';
                     $parentRecord->area_category = 'region';
-                    $parentRecord->parent = $_SESSION['country_id'];
-                    $parentRecord->isarea = true;
+                    $parentRecord->parent = $this->country_id;
+                    $parentRecord->isarea = $record->isarea;
                     $parentRecord->population = 0;
                     $parentRecord->place = 0;
-                    $parent_id = $this->model->getOrAddArea($parentRecord);
+                    $this->parent_id = $this->model->getOrAddArea($parentRecord);
                 }
             }
             $this->prevParent = $record->parent;
             // current area insert or update
             $record->id = 0;
-            $record->parent = $parent_id;
-            $this->model->getOrAddArea($reacord);
-            $this->counter++;
-            $_SESSION['counter'] = $_SESSION['counter'] + 1;
+            $record->parent = $this->parent_id;
+            $record->slug = '';
+            if ($record->isarea == '') {
+                $parentRecord->isarea = 1;
+            }
+            $areaRecord = $this->model->init();
+            $this->model->copy($record, $areaRecord);
+            $this->model->getOrAddArea($areaRecord);
+            $this->counter = $this->counter + 1;
         }
-        
+
         protected function afterProcess(int $num) {
             $this->msg = __('csv_loaded',CMM).' ('.
                 __('readed',CMM).':'.$num.' '.__('writed',CMM).':'.$_SESSION['counter'].')';
             $this->msgClass = 'info notice';
             $this->display('area.adminform');
             unset($_SESSION['counter']);
+            unset($_SESSION['country_id']);
+            unset($_SESSION['prevParent']);
+            unset($_SESSION['parent_id']);
+            
+            echo '<p>'.date('Y-m-s H:i:d:s').'</p>';
         }
         
         protected function errorMessage(string $msg) {
@@ -79,8 +105,11 @@
             $this->msgClass = 'error notice';
             $this->display('area.adminform');
             unset($_SESSION['counter']);
+            unset($_SESSION['country_id']);
+            unset($_SESSION['prevParent']);
+            unset($_SESSION['parent_id']);
         }
-    }
+    } // class
     
     class AreaController extends Controller  {
 	    protected $controllerName = 'area';
@@ -104,6 +133,8 @@
 		 * import from csv 1. form
 		 */
 		public function import_csv1() {
+		    $this->progressindicator = $this->getController('progressindicator');
+		    $this->progressindicator->setup(false, 0, 0);
 		    $this->display('area.import_csv1');
 		}
 		
