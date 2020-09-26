@@ -77,6 +77,7 @@
     			</td>
     		</tr>
     </table>
+    
 	<p>Az admin képernyőn a területek listája jelenik meg, lapozható, rendezhető, filterezhető (név részlet,
 	 disztributor, agent, product) </p>
 	<p>A képernyőn megadható a területen történő elvárt értékesítés mértéke (EUR -ban vagy más mértékegységben)</p>

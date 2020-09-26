@@ -16,9 +16,76 @@ databaseInit();
 //define ('INPUT_POST','');
 
 class Wpdb {
+    public $insert_id = 0;
+    public $last_error = '';
+    public $prefix = '';
+    
+    public $results = [];
+    
+    public function setResult($jsonStr) {
+        $this->results[] = JSON_decode($jsonStr);
+    }
+    public function initResults() {
+        $this->results = [];
+    }
     public function escape_by_ref($id) {
         return $id;
     }
+    public function get_results($sql): array {
+        if (count($this->results) > 0) {
+            $result = $this->results[0];
+            $this->results = array_splice($this->results[0],1);
+        } else {
+            $result = [];
+        }
+        return $result;
+    }
+    public function get_row($sql) {
+        if (count($this->results) > 0) {
+            $result = $this->results[0];
+            $this->results = array_splice($this->results[0],1);
+        } else {
+            $result = false;
+        }
+        return $result;
+    }
+    public function insert($tablename, $rec): bool {
+        if (count($this->results) > 0) {
+            $result = $this->results[0];
+            $this->results = array_splice($this->results[0],1);
+        } else {
+            $result = true;
+        }
+        return $result;
+    }
+    public function update($tablename, $rec, $filter) {
+        if (count($this->results) > 0) {
+            $result = $this->results[0];
+            $this->results = array_splice($this->results[0],1);
+        } else {
+            $result = true;
+        }
+        return $result;
+    }
+    public function delete($tablename, $filter) {
+        if (count($this->results) > 0) {
+            $result = $this->results[0];
+            $this->results = array_splice($this->results[0],1);
+        } else {
+            $result = true;
+        }
+        return $result;
+    }
+    public function query($sql):bool {
+        if (count($this->results) > 0) {
+            $result = $this->results[0];
+            $this->results = array_splice($this->results[0],1);
+        } else {
+            $result = true;
+        }
+        return $result;
+    }
+    
 }
 $wpdb = new Wpdb();
 
@@ -31,14 +98,15 @@ function get_posts($params) {return [];}
 function wp_insert_post($params) {};
 function update_option(string $name, string $value) {}
 function get_option(string $name, $param=null): string {return 'option_'.$name;}
-
-/**
- * @return string
- */
+function wp_get_user() {
+    $result = new stdClass();
+    return $result;
+}
 function get_site_url() {
     return 'http://localhost/wordpress';
 }
-
+function is_admin() {return true;}
+function sanitize_title($s) {return $s;}
 
 /**
  * @param string $fieldName
