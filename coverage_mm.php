@@ -44,147 +44,19 @@
  *     
  */
 
-global $cmm;
 define('CMM','coverage_mm'); // must eq the plugin dir name !!!!
+error_reporting(E_ERROR | E_PARSE);
+global $cmm;
+include_once __DIR__.'/controllers/class.error.php';
+include_once __DIR__.'/controllers/class.cmm.php';
 
 /*
- * cmm create, use cookie must before send html head
+ * cmm create, use cookie must before send html head, run only frontend!
  */
 add_action( 'send_headers', 'cmm_create' );
 function cmm_create() {
     global $cmm;
     $cmm = new Cmm();
-}
-
-/**
- * cmm rooter object, controller creation and session processing
- */
-class Cmm {
-    protected $cmm_cookie;
-    protected $sessionBuffer = false;
-    
-    function __construct() {
-        global $wpdb;
-
-        if (isset($_COOKIE['cmm_cookie'])) {
-            $this->cmm_cookie = $_COOKIE['cmm_cookie'];
-        } else {
-            $this->cmm_cookie = date('YmdHisu').rand(123456,999999);
-        }
-        $_COOKIE['cmm_cookie'] = $this->cmm_cookie;
-        
-        // create session table if not exists
-        if (!$wpdb->query('CREATE TABLE IF NOT EXISTS '.$wpdb->prefix.'cmm_sessions (
-            session_id varchar(32),
-            name varchar(32),
-            value text,
-            expire varchar(32),
-            key session_id_ind (session_id)
-            )
-        ')) {
-            $this->errorExit($wpdb->last_error);
-        };
-        
-        // delete old sessionvars from database
-        $wpdb->query('DELETE FROM '.$wpdb->prefix.'cmm_sessions  
-        WHERE expire < "'.strtotime('-1 day').'"');
-        if ($wpdb->last_error != '') {
-            $this->errorExit($wpdb->last_error);
-        }
-        
-        // get session vars from database into $this->sessionBuffer
-        $res = $wpdb->get_row('SELECT * 
-        FROM '.$wpdb->prefix.'cmm_sessions 
-        WHERE session_id = "'.$this->cmm_cookie.'"');
-        if ($res) {
-            $this->sessionBuffer = JSON_decode($res->value);
-        } else {
-            $this->sessionBuffer = new stdClass();
-        }
-    }
-
-    function __destruct() {
-        global $wpdb;
-        
-        // save $this->sessionBuffer into database
-        $rec = [];
-        $rec["session_id"] = $this->cmm_cookie;
-        $rec["name"] = "data";
-        $rec["value"] = JSON_encode($this->sessionBuffer);
-        $rec["expire"] = strtotime('+1 day');
-        $res = $wpdb->get_row('SELECT * FROM '.$wpdb->prefix.'cmm_sessions
-                WHERE session_id = "'.$this->cmm_cookie.'" AND name = "data"');
-        if ($wpdb->last_error != '') {
-            $this->errorExit(' 2 '.$wpdb->last_error);
-        }
-        if ($res) {
-            if (!$wpdb->update($wpdb->prefix.'cmm_sessions', $rec,
-                ["session_id" => $this->cmm_cookie, "name" => data])) {
-                    $this->errorExit($wpdb->last_error);
-            }
-        } else {
-            if (!$wpdb->insert($wpdb->prefix.'cmm_sessions', $rec)) {
-                    $this->errorExit($wpdb->last_error);
-            }
-        }
-    }
-    
-    /**
-     * echo error message and exit wp
-     * @param string $msg
-     */
-    public function errorExit(string $msg) {
-        echo '<p>cmm Fatal error '.$msg.'</p>'; exit();
-    }
-    
-    /**
-     * get value from session table
-     * @param string $name
-     * @param string $default
-     * @return mixed
-     */
-    public function getFromSession(string $name, $default='') {
-        if (isset($this->sessionBuffer->$name)) {
-            $result = $this->sessionBuffer->$name;
-        } else {
-            $result = $default;
-        }
-        return $result;
-    }
-    
-    /**
-     * set value into session table
-     * @param string $name
-     * @param unknown $value
-     * @return unknown
-     */
-    public function setToSession(string $name, $value) {
-        $this->sessionBuffer->$name = $value;
-        return;
-    }
-    
-    /**
-     * delete value from session table
-     * @param string $name
-     */
-    public function deleteFromSession(string $name) {
-        unset($this->sessinBuffer->$name);
-    }
-    
-    /**
-     * include and create controller
-     * @param string $name
-     * @return unknown|boolean
-     */
-    public function getController(string $name) {
-        if (file_exists(__DIR__.'/controllers/class.'.$name.'.php')) {
-            include_once __DIR__.'/controllers/class.'.$name.'.php';
-            $className = ucFirst($name).'Controler';
-            return new $className ();
-        } else {
-            return false;
-        }
-    }
 }
 
 function isPluginActive( $plugin ) {
@@ -202,12 +74,15 @@ function isPluginActiveNetwork( $plugin ) {
     return false;
 }
 
-error_reporting(E_ERROR | E_PARSE);
-
+/**
+ * admin side plugin ini
+ */
 add_action('admin_init','cmm_plugin_admin_init');
-// add_action('init','cmm_plugin_init');
 function cmm_plugin_admin_init() {
    
+    global $cmm;
+    $cmm = new Cmm();
+    
     // check required plugins
     if ((isPluginActive('woocommerce/woocommerce.php')) &
         (isPluginActive('advanced-custom-fields/acf.php')) &
@@ -226,11 +101,9 @@ function cmm_plugin_admin_init() {
     // load plugin javascript
     wp_enqueue_script( 'custom_js', plugins_url( '/js/coverage_mm.js', __FILE__ ));
     
-    // extend product_cat taxonomy
-    
     include_once  __DIR__.'/models/model.area.php';
     include_once  __DIR__.'/models/model.map.php';
-    $areaModel = new AreaModel(false);
+    $areaModel = new AreaModel();
     $areaModel->checkDatabase();
 
     // create default map if not exists ======== nem biztos, hogy kell ==========
@@ -242,6 +115,7 @@ function cmm_plugin_admin_init() {
     
     // product_cat add and edit admin form extend for leaflet API for openstreetmap server
     // ===== azt hiszem ez nem fog kelleni, viszont az area adminhoz kell majd =====================
+    /*
     add_action('product_cat_add_form_fields', 'cmm_extend_category_form', 10, 0);
     add_action('product_cat_edit_form_fields', 'cmm_extend_category_form', 10, 1);
     function cmm_extend_category_form() {
@@ -257,11 +131,10 @@ function cmm_plugin_admin_init() {
         	var cmmMapKey = "<?php echo get_option('cmmMapKey', null);?>";
         </script>    
         <?php
-        
     }
+    */
     
-    
-    // product_cat save to database and delete from datavbase
+    /* product_cat save to database and delete from database
     // extend for openstreetmap
     add_action('edited_product_cat', 'cmm_extend_category_save');
     add_action('create_product_cat', 'cmm_extend_category_save');
@@ -269,22 +142,21 @@ function cmm_plugin_admin_init() {
     function cmm_extend_category_save($term_id = 0, $tt_id = 0) {
         // create new map record  if not exists,
         //  - and update map_id in database' areaRecord 
-        /* ez igy nem jó rekurzivan önmagát hívja vissza
+        // ez igy nem jó rekurzivan önmagát hívja vissza
         $mapModel = new MapModel(false);
         if (!$mapModel->createOrUpdateMap($term_id)) {
             echo 'fatal error in create or update map '.$mapModel->getErrorMsg(); exit();
         }
-        */
     }
+    */
     
 } // admin_init
 
-
+/**
+ * front end plugin ini
+ */
 add_action('init','cmm_plugin_init');
 function cmm_plugin_init() {
-    
-    // global $cmm;
-    // $cmm = new Cmm();
     
     // cmm_map shortcode
     add_shortcode('cmm_map', 'cmm_map_shortcode');
@@ -298,8 +170,10 @@ function cmm_plugin_init() {
     // ===== ez csak egy test végül nem kell ====================
     add_shortcode('cmm_test', 'cmm_test_shortcode');
     function cmm_test_shortcode():string {
-        WC()->cart->add_to_cart( 140, 13 ); //  EZ IS MÜKÖDIK !
-        return 'cmm_tes end';
+        if (!is_admin()) {
+            WC ()->cart->add_to_cart( 140, 13 ); //  EZ IS MÜKÖDIK ! most meg nem müködik :( 2020.09.22)
+        }
+        return 'user='.JSON_encode(wp_get_current_user()).' cmm_test end';
     }
     
     add_action('woocommerce_cart_is_empty','cmm_cart_is_empty');
@@ -332,10 +206,9 @@ function cmm_plugin_init() {
 
 
 /**
- * WPML integration into ACF ========= azt hiszem nem fogom használni az ACF -et
+ * WPML integration into ACF 
  *
 */
-
 add_action('acf/prepare_field', 'my_acf_prepare_field');
 function my_acf_prepare_field($field ) {
     $field['label'] = __($field['label'],CMM);

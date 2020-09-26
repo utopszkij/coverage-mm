@@ -1,0 +1,3179 @@
+"Megye kód","KSH kód",parent,name,"area_category","population man","population woman","population"
+0,00000,Lakcím nélkül,LAKCÍM NÉLKÜLI,0,286,247,533
+1,09566,Budapest,Budapest                 01,district,11945,14066,26011
+1,03179,Budapest,Budapest                 02,district,40056,47219,87275
+1,18069,Budapest,Budapest                 03,district,57572,67582,125154
+1,05467,Budapest,Budapest                 04,district,44177,51794,95971
+1,13392,Budapest,Budapest                 05,district,12422,13426,25848
+1,16586,Budapest,Budapest                 06,district,17611,19263,36874
+1,29744,Budapest,Budapest                 07,district,24272,26458,50730
+1,25405,Budapest,Budapest                 08,district,35272,35537,70809
+1,29586,Budapest,Budapest                 09,district,26021,28295,54316
+1,10700,Budapest,Budapest                 10,district,33768,38314,72082
+1,14216,Budapest,Budapest                 11,district,60827,71788,132615
+1,24697,Budapest,Budapest                 12,district,26372,31412,57784
+1,24299,Budapest,Budapest                 13,district,54057,61468,115525
+1,16337,Budapest,Budapest                 14,district,51204,62214,113418
+1,11314,Budapest,Budapest                 15,district,36251,41573,77824
+1,08208,Budapest,Budapest                 16,district,34246,38799,73045
+1,02112,Budapest,Budapest                 17,district,41510,46115,87625
+1,29285,Budapest,Budapest                 18,district,47308,53055,100363
+1,04011,Budapest,Budapest                 19,district,26862,30937,57799
+1,06026,Budapest,Budapest                 20,district,29923,33194,63117
+1,13189,Budapest,Budapest                 21,district,34315,38833,73148
+1,10214,Budapest,Budapest                 22,district,26659,28930,55589
+1,34139,Budapest,Budapest                 23,district,11071,11377,22448
+3,26684,Bács - Kiskun megye,Kecskemét,large_city,52310,57806,110116
+3,10719,Bács - Kiskun megye,Bácsalmás,city,3186,3407,6593
+3,03522,Bács - Kiskun megye,Baja,city,16789,18914,35703
+3,07612,Bács - Kiskun megye,Dunavecse,city,1941,2086,4027
+3,18759,Bács - Kiskun megye,Hajós,city,1396,1569,2965
+3,21999,Bács - Kiskun megye,Izsák,city,2877,3078,5955
+3,09469,Bács - Kiskun megye,Jánoshalma,city,4198,4428,8626
+3,06442,Bács - Kiskun megye,Kalocsa,city,7494,8423,15917
+3,19789,Bács - Kiskun megye,Kecel,city,4148,4427,8575
+3,22530,Bács - Kiskun megye,Kerekegyháza,city,3376,3423,6799
+3,09344,Bács - Kiskun megye,Kiskőrös,city,6692,7414,14106
+3,20297,Bács - Kiskun megye,Kiskunfélegyháza,city,14343,15696,30039
+3,32434,Bács - Kiskun megye,Kiskunhalas,city,13470,14636,28106
+3,24396,Bács - Kiskun megye,Kiskunmajsa,city,5539,6010,11549
+3,28130,Bács - Kiskun megye,Kunszentmiklós,city,4108,4309,8417
+3,17677,Bács - Kiskun megye,Lajosmizse,city,6110,6010,12120
+3,16018,Bács - Kiskun megye,Mélykút,city,2481,2585,5066
+3,29115,Bács - Kiskun megye,Solt,city,3111,3323,6434
+3,19983,Bács - Kiskun megye,Soltvadkert,city,3600,3800,7400
+3,25061,Bács - Kiskun megye,Szabadszállás,city,3034,3278,6312
+3,30623,Bács - Kiskun megye,Tiszakécske,city,5633,5903,11536
+3,28486,Bács - Kiskun megye,Tompa,city,2326,2350,4676
+3,10180,Bács - Kiskun megye,Bácsbokod,large_village,1288,1314,2602
+3,32823,Bács - Kiskun megye,Bugac,large_village,1328,1352,2680
+3,07861,Bács - Kiskun megye,Dunapataj,large_village,1542,1613,3155
+3,18458,Bács - Kiskun megye,Harta,large_village,1664,1776,3440
+3,06202,Bács - Kiskun megye,Lakitelek,large_village,2418,2503,4921
+3,21245,Bács - Kiskun megye,Sükösd,large_village,1820,1842,3662
+3,24545,Bács - Kiskun megye,Tiszaalpár,large_village,2454,2562,5016
+3,17686,Bács - Kiskun megye,Ágasegyháza,village,993,993,1986
+3,21944,Bács - Kiskun megye,Akasztó,village,1616,1709,3325
+3,21148,Bács - Kiskun megye,Apostag,village,1075,1014,2089
+3,27234,Bács - Kiskun megye,Bácsborsód,village,552,569,1121
+3,08697,Bács - Kiskun megye,Bácsszentgyörgy,village,87,71,158
+3,30155,Bács - Kiskun megye,Bácsszőlős,village,180,158,338
+3,13408,Bács - Kiskun megye,Ballószög,village,1904,1912,3816
+3,25937,Bács - Kiskun megye,Balotaszállás,village,736,802,1538
+3,03656,Bács - Kiskun megye,Bátmonostor,village,768,773,1541
+3,11961,Bács - Kiskun megye,Bátya,village,1023,1029,2052
+3,08305,Bács - Kiskun megye,Bócsa,village,968,953,1921
+3,19327,Bács - Kiskun megye,Borota,village,618,637,1255
+3,33631,Bács - Kiskun megye,Bugacpusztaháza,village,135,134,269
+3,10472,Bács - Kiskun megye,Császártöltés,village,1084,1196,2280
+3,26471,Bács - Kiskun megye,Csátalja,village,740,749,1489
+3,16373,Bács - Kiskun megye,Csávoly,village,870,896,1766
+3,12344,Bács - Kiskun megye,Csengőd,village,1011,1102,2113
+3,15699,Bács - Kiskun megye,Csikéria,village,372,406,778
+3,12025,Bács - Kiskun megye,Csólyospálos,village,811,811,1622
+3,10533,Bács - Kiskun megye,Dávod,village,997,1049,2046
+3,07524,Bács - Kiskun megye,Drágszél,village,167,169,336
+3,21069,Bács - Kiskun megye,Dunaegyháza,village,745,717,1462
+3,12566,Bács - Kiskun megye,Dunafalva,village,462,444,906
+3,11606,Bács - Kiskun megye,Dunaszentbenedek,village,403,406,809
+3,14766,Bács - Kiskun megye,Dunatetétlen,village,268,282,550
+3,04109,Bács - Kiskun megye,Dusnok,village,1471,1540,3011
+3,11864,Bács - Kiskun megye,Érsekcsanád,village,1473,1498,2971
+3,33589,Bács - Kiskun megye,Érsekhalma,village,311,295,606
+3,03230,Bács - Kiskun megye,Fajsz,village,826,838,1664
+3,33598,Bács - Kiskun megye,Felsőlajos,village,496,456,952
+3,02954,Bács - Kiskun megye,Felsőszentiván,village,888,966,1854
+3,02149,Bács - Kiskun megye,Foktő,village,764,808,1572
+3,31468,Bács - Kiskun megye,Fülöpháza,village,458,442,900
+3,33622,Bács - Kiskun megye,Fülöpjakab,village,604,552,1156
+3,14058,Bács - Kiskun megye,Fülöpszállás,village,1140,1197,2337
+3,31848,Bács - Kiskun megye,Gara,village,1067,1161,2228
+3,26383,Bács - Kiskun megye,Gátér,village,458,461,919
+3,03577,Bács - Kiskun megye,Géderlak,village,456,523,979
+3,08350,Bács - Kiskun megye,Harkakötöny,village,409,430,839
+3,04093,Bács - Kiskun megye,Helvécia,village,2461,2428,4889
+3,12937,Bács - Kiskun megye,Hercegszántó,village,963,972,1935
+3,27845,Bács - Kiskun megye,Homokmégy,village,636,666,1302
+3,08095,Bács - Kiskun megye,Imrehegy,village,346,322,668
+3,17923,Bács - Kiskun megye,Jakabszállás,village,1328,1387,2715
+3,08378,Bács - Kiskun megye,Jászszentlászló,village,1233,1283,2516
+3,30605,Bács - Kiskun megye,Kaskantyú,village,513,465,978
+3,11280,Bács - Kiskun megye,Katymár,village,881,923,1804
+3,27571,Bács - Kiskun megye,Kelebia,village,1256,1295,2551
+3,18166,Bács - Kiskun megye,Kéleshalom,village,226,214,440
+3,28158,Bács - Kiskun megye,Kisszállás,village,1192,1233,2425
+3,13806,Bács - Kiskun megye,Kömpöc,village,333,367,700
+3,05856,Bács - Kiskun megye,Kunadacs,village,751,728,1479
+3,06044,Bács - Kiskun megye,Kunbaja,village,735,783,1518
+3,07728,Bács - Kiskun megye,Kunbaracs,village,308,346,654
+3,29027,Bács - Kiskun megye,Kunfehértó,village,1093,1147,2240
+3,31918,Bács - Kiskun megye,Kunpeszér,village,360,362,722
+3,31893,Bács - Kiskun megye,Kunszállás,village,835,909,1744
+3,05786,Bács - Kiskun megye,Ladánybene,village,883,829,1712
+3,23357,Bács - Kiskun megye,Madaras,village,1355,1446,2801
+3,27809,Bács - Kiskun megye,Mátételke,village,257,266,523
+3,30632,Bács - Kiskun megye,Miske,village,870,890,1760
+3,34096,Bács - Kiskun megye,Móricgát,village,234,242,476
+3,25955,Bács - Kiskun megye,Nagybaracska,village,1116,1150,2266
+3,32540,Bács - Kiskun megye,Nemesnádudvar,village,891,913,1804
+3,23056,Bács - Kiskun megye,Nyárlőrinc,village,1162,1178,2340
+3,16276,Bács - Kiskun megye,Ordas,village,214,241,455
+3,16939,Bács - Kiskun megye,Orgovány,village,1671,1785,3456
+3,08679,Bács - Kiskun megye,Öregcsertő,village,386,384,770
+3,18670,Bács - Kiskun megye,Páhi,village,589,585,1174
+3,02705,Bács - Kiskun megye,Pálmonostora,village,939,904,1843
+3,15431,Bács - Kiskun megye,Petőfiszállás,village,786,791,1577
+3,15398,Bács - Kiskun megye,Pirtó,village,498,455,953
+3,26310,Bács - Kiskun megye,Rém,village,640,650,1290
+3,18218,Bács - Kiskun megye,Soltszentimre,village,659,671,1330
+3,19530,Bács - Kiskun megye,Szakmár,village,634,607,1241
+3,19947,Bács - Kiskun megye,Szalkszentmárton,village,1442,1407,2849
+3,11794,Bács - Kiskun megye,Szank,village,1186,1205,2391
+3,21120,Bács - Kiskun megye,Szentkirály,village,973,943,1916
+3,28820,Bács - Kiskun megye,Szeremle,village,698,698,1396
+3,25432,Bács - Kiskun megye,Tabdi,village,537,544,1081
+3,20525,Bács - Kiskun megye,Tass,village,1496,1502,2998
+3,14544,Bács - Kiskun megye,Tataháza,village,535,606,1141
+3,24998,Bács - Kiskun megye,Tázlár,village,876,854,1730
+3,14094,Bács - Kiskun megye,Tiszaug,village,461,482,943
+3,08785,Bács - Kiskun megye,Újsolt,village,102,89,191
+3,33604,Bács - Kiskun megye,Újtelek,village,195,197,392
+3,16294,Bács - Kiskun megye,Uszód,village,443,493,936
+3,10667,Bács - Kiskun megye,Városföld,village,1122,1202,2324
+3,28343,Bács - Kiskun megye,Vaskút,village,1674,1795,3469
+3,15158,Bács - Kiskun megye,Zsana,village,392,371,763
+2,19415,Baranya megye,Pécs,large_city,68202,78519,146721
+2,33154,Baranya megye,Bóly,city,1817,1922,3739
+2,21528,Baranya megye,Harkány,city,2410,2612,5022
+2,26408,Baranya megye,Komló,city,11780,12828,24608
+2,06336,Baranya megye,Kozármisleny,city,3240,3336,6576
+2,06813,Baranya megye,Mágocs,city,1147,1143,2290
+2,23959,Baranya megye,Mohács,city,8838,9810,18648
+2,10825,Baranya megye,Pécsvárad,city,1928,2070,3998
+2,32160,Baranya megye,Sásd,city,1495,1587,3082
+2,28741,Baranya megye,Sellye,city,1321,1363,2684
+2,05519,Baranya megye,Siklós,city,4497,5134,9631
+2,15866,Baranya megye,Szentlőrinc,city,3097,3376,6473
+2,26578,Baranya megye,Szigetvár,city,4886,5455,10341
+2,28024,Baranya megye,Villány,city,1087,1173,2260
+2,31927,Baranya megye,Beremend,large_village,1175,1239,2414
+2,33765,Baranya megye,Szászvár,large_village,1140,1188,2328
+2,28538,Baranya megye,Vajszló,large_village,841,925,1766
+2,12548,Baranya megye,Abaliget,village,351,334,685
+2,06868,Baranya megye,Adorjás,village,97,94,191
+2,25812,Baranya megye,Ág,village,99,88,187
+2,13329,Baranya megye,Almamellék,village,215,237,452
+2,20376,Baranya megye,Almáskeresztúr,village,42,41,83
+2,17385,Baranya megye,Alsómocsolád,village,158,166,324
+2,33279,Baranya megye,Alsószentmárton,village,662,576,1238
+2,27298,Baranya megye,Apátvarasd,village,65,68,133
+2,06886,Baranya megye,Aranyosgadány,village,198,179,377
+2,28583,Baranya megye,Áta,village,95,104,199
+2,05403,Baranya megye,Babarc,village,362,389,751
+2,09663,Baranya megye,Babarcszőlős,village,71,53,124
+2,22275,Baranya megye,Bakóca,village,147,153,300
+2,08299,Baranya megye,Bakonya,village,194,201,395
+2,03975,Baranya megye,Baksa,village,391,401,792
+2,07603,Baranya megye,Bánfa,village,99,105,204
+2,24378,Baranya megye,Bár,village,275,280,555
+2,20464,Baranya megye,Baranyahídvég,village,111,87,198
+2,24749,Baranya megye,Baranyajenő,village,233,249,482
+2,05485,Baranya megye,Baranyaszentgyörgy,village,71,61,132
+2,15495,Baranya megye,Basal,village,105,101,206
+2,19008,Baranya megye,Belvárdgyula,village,207,201,408
+2,16461,Baranya megye,Berkesd,village,446,430,876
+2,30049,Baranya megye,Besence,village,70,48,118
+2,14119,Baranya megye,Bezedek,village,116,125,241
+2,13310,Baranya megye,Bicsérd,village,528,530,1058
+2,04899,Baranya megye,Bikal,village,358,360,718
+2,05139,Baranya megye,Birján,village,261,269,530
+2,24925,Baranya megye,Bisse,village,119,116,235
+2,20899,Baranya megye,Boda,village,219,213,432
+2,33002,Baranya megye,Bodolyabér,village,120,120,240
+2,32151,Baranya megye,Bogád,village,573,575,1148
+2,21892,Baranya megye,Bogádmindszent,village,238,220,458
+2,10694,Baranya megye,Bogdása,village,126,133,259
+2,13116,Baranya megye,Boldogasszonyfa,village,230,204,434
+2,06725,Baranya megye,Borjád,village,230,201,431
+2,14368,Baranya megye,Bosta,village,73,74,147
+2,13365,Baranya megye,Botykapeterd,village,180,168,348
+2,23162,Baranya megye,Bükkösd,village,572,550,1122
+2,07533,Baranya megye,Bürüs,village,46,49,95
+2,19901,Baranya megye,Csányoszró,village,318,309,627
+2,30614,Baranya megye,Csarnóta,village,69,75,144
+2,21591,Baranya megye,Csebény,village,64,51,115
+2,26082,Baranya megye,Cserdi,village,194,189,383
+2,03896,Baranya megye,Cserkút,village,321,313,634
+2,13851,Baranya megye,Csertő,village,201,214,415
+2,22576,Baranya megye,Csonkamindszent,village,88,92,180
+2,11086,Baranya megye,Cún,village,116,105,221
+2,07773,Baranya megye,Dencsháza,village,307,285,592
+2,11952,Baranya megye,Dinnyeberki,village,48,41,89
+2,32373,Baranya megye,Diósviszló,village,343,353,696
+2,28617,Baranya megye,Drávacsehi,village,93,95,188
+2,28121,Baranya megye,Drávacsepely,village,116,97,213
+2,17419,Baranya megye,Drávafok,village,262,268,530
+2,32391,Baranya megye,Drávaiványi,village,96,97,193
+2,09159,Baranya megye,Drávakeresztúr,village,70,62,132
+2,22734,Baranya megye,Drávapalkonya,village,143,121,264
+2,12380,Baranya megye,Drávapiski,village,55,44,99
+2,28608,Baranya megye,Drávaszabolcs,village,361,330,691
+2,30030,Baranya megye,Drávaszerdahely,village,94,87,181
+2,21698,Baranya megye,Drávasztára,village,211,199,410
+2,09186,Baranya megye,Dunaszekcső,village,940,939,1879
+2,28918,Baranya megye,Egerág,village,507,506,1013
+2,16498,Baranya megye,Egyházasharaszti,village,164,184,348
+2,27401,Baranya megye,Egyházaskozár,village,353,395,748
+2,06099,Baranya megye,Ellend,village,112,117,229
+2,28273,Baranya megye,Endrőc,village,189,167,356
+2,25821,Baranya megye,Erdősmárok,village,54,38,92
+2,18704,Baranya megye,Erdősmecske,village,175,182,357
+2,13499,Baranya megye,Erzsébet,village,156,146,302
+2,17835,Baranya megye,Fazekasboda,village,103,100,203
+2,04543,Baranya megye,Feked,village,111,100,211
+2,13286,Baranya megye,Felsőegerszeg,village,57,65,122
+2,08819,Baranya megye,Felsőszentmárton,village,404,450,854
+2,07560,Baranya megye,Garé,village,159,145,304
+2,12751,Baranya megye,Gerde,village,269,283,552
+2,13347,Baranya megye,Gerényes,village,129,124,253
+2,02857,Baranya megye,Geresdlak,village,376,401,777
+2,18333,Baranya megye,Gilvánfa,village,206,190,396
+2,33084,Baranya megye,Gordisa,village,158,153,311
+2,33233,Baranya megye,Gödre,village,415,409,824
+2,30438,Baranya megye,Görcsöny,village,745,832,1577
+2,09636,Baranya megye,Görcsönydoboka,village,185,187,372
+2,18315,Baranya megye,Gyód,village,368,372,740
+2,28404,Baranya megye,Gyöngyfa,village,84,74,158
+2,22664,Baranya megye,Gyöngyösmellék,village,164,153,317
+2,27881,Baranya megye,Hásságy,village,146,160,306
+2,30951,Baranya megye,Hegyhátmaróc,village,76,78,154
+2,21023,Baranya megye,Hegyszentmárton,village,196,201,397
+2,17190,Baranya megye,Helesfa,village,242,230,472
+2,07126,Baranya megye,Hetvehely,village,230,240,470
+2,06798,Baranya megye,Hidas,village,1031,1077,2108
+2,27933,Baranya megye,Himesháza,village,483,550,1033
+2,03285,Baranya megye,Hirics,village,141,129,270
+2,33932,Baranya megye,Hobol,village,466,503,969
+2,29966,Baranya megye,Homorúd,village,288,287,575
+2,23074,Baranya megye,Horváthertelend,village,32,28,60
+2,30836,Baranya megye,Hosszúhetény,village,1729,1722,3451
+2,31431,Baranya megye,Husztót,village,33,31,64
+2,33066,Baranya megye,Ibafa,village,113,103,216
+2,31936,Baranya megye,Illocska,village,139,133,272
+2,29948,Baranya megye,Ipacsfa,village,101,106,207
+2,03337,Baranya megye,Ivánbattyán,village,54,63,117
+2,03346,Baranya megye,Ivándárda,village,117,121,238
+2,04297,Baranya megye,Kacsóta,village,135,151,286
+2,06415,Baranya megye,Kákics,village,105,104,209
+2,05999,Baranya megye,Kárász,village,156,177,333
+2,17464,Baranya megye,Kásád,village,146,152,298
+2,06965,Baranya megye,Katádfa,village,79,78,157
+2,19132,Baranya megye,Kátoly,village,144,150,294
+2,16805,Baranya megye,Kékesd,village,96,89,185
+2,10542,Baranya megye,Kémes,village,244,235,479
+2,06789,Baranya megye,Kemse,village,36,27,63
+2,03832,Baranya megye,Keszü,village,719,714,1433
+2,08572,Baranya megye,Kétújfalu,village,350,361,711
+2,20552,Baranya megye,Királyegyháza,village,486,460,946
+2,18908,Baranya megye,Kisasszonyfa,village,105,108,213
+2,05722,Baranya megye,Kisbeszterce,village,47,36,83
+2,22868,Baranya megye,Kisbudmér,village,61,51,112
+2,11183,Baranya megye,Kisdér,village,61,62,123
+2,33905,Baranya megye,Kisdobsza,village,133,127,260
+2,06831,Baranya megye,Kishajmás,village,107,97,204
+2,27021,Baranya megye,Kisharsány,village,244,250,494
+2,16975,Baranya megye,Kisherend,village,112,102,214
+2,12849,Baranya megye,Kisjakabfalva,village,75,52,127
+2,19910,Baranya megye,Kiskassa,village,125,127,252
+2,21616,Baranya megye,Kislippó,village,155,146,301
+2,33215,Baranya megye,Kisnyárád,village,106,87,193
+2,08651,Baranya megye,Kisszentmárton,village,133,130,263
+2,12353,Baranya megye,Kistamási,village,62,81,143
+2,03151,Baranya megye,Kistapolca,village,97,98,195
+2,10746,Baranya megye,Kistótfalu,village,158,149,307
+2,09548,Baranya megye,Kisvaszar,village,184,162,346
+2,08110,Baranya megye,Kórós,village,112,106,218
+2,24226,Baranya megye,Kovácshida,village,128,136,264
+2,14517,Baranya megye,Kovácsszénája,village,51,36,87
+2,25247,Baranya megye,Köblény,village,106,113,219
+2,03540,Baranya megye,Kökény,village,346,342,688
+2,17899,Baranya megye,Kölked,village,508,518,1026
+2,15538,Baranya megye,Kővágószőlős,village,647,691,1338
+2,06992,Baranya megye,Kővágótöttös,village,166,184,350
+2,33330,Baranya megye,Lánycsók,village,1249,1251,2500
+2,06479,Baranya megye,Lapáncsa,village,93,82,175
+2,17604,Baranya megye,Liget,village,217,197,414
+2,22974,Baranya megye,Lippó,village,258,251,509
+2,10038,Baranya megye,Liptód,village,104,113,217
+2,31389,Baranya megye,Lothárd,village,130,132,262
+2,24624,Baranya megye,Lovászhetény,village,161,146,307
+2,18865,Baranya megye,Lúzsok,village,125,113,238
+2,25177,Baranya megye,Magyarbóly,village,439,483,922
+2,29753,Baranya megye,Magyaregregy,village,349,402,751
+2,05430,Baranya megye,Magyarhertelend,village,321,316,637
+2,23542,Baranya megye,Magyarlukafa,village,47,47,94
+2,05412,Baranya megye,Magyarmecske,village,159,178,337
+2,27067,Baranya megye,Magyarsarlós,village,147,147,294
+2,22600,Baranya megye,Magyarszék,village,511,526,1037
+2,04385,Baranya megye,Magyartelek,village,102,106,208
+2,27863,Baranya megye,Majs,village,464,492,956
+2,33923,Baranya megye,Mánfa,village,415,378,793
+2,29920,Baranya megye,Maráza,village,87,106,193
+2,09450,Baranya megye,Márfa,village,109,106,215
+2,14483,Baranya megye,Máriakéménd,village,258,249,507
+2,16443,Baranya megye,Markóc,village,33,32,65
+2,15219,Baranya megye,Marócsa,village,38,41,79
+2,20659,Baranya megye,Márok,village,197,235,432
+2,02228,Baranya megye,Martonfa,village,112,121,233
+2,15051,Baranya megye,Matty,village,159,173,332
+2,33756,Baranya megye,Máza,village,587,650,1237
+2,13444,Baranya megye,Mecseknádasd,village,750,832,1582
+2,11402,Baranya megye,Mecsekpölöske,village,216,213,429
+2,30492,Baranya megye,Mekényes,village,141,141,282
+2,07737,Baranya megye,Merenye,village,140,133,273
+2,03470,Baranya megye,Meződ,village,66,50,116
+2,16285,Baranya megye,Mindszentgodisa,village,423,431,854
+2,29522,Baranya megye,Molvány,village,88,83,171
+2,16027,Baranya megye,Monyoród,village,91,89,180
+2,29540,Baranya megye,Mozsgó,village,478,461,939
+2,03984,Baranya megye,Nagybudmér,village,71,85,156
+2,18111,Baranya megye,Nagycsány,village,69,66,135
+2,33899,Baranya megye,Nagydobsza,village,307,305,612
+2,12858,Baranya megye,Nagyhajmás,village,179,149,328
+2,02653,Baranya megye,Nagyharsány,village,719,755,1474
+2,10940,Baranya megye,Nagykozár,village,1020,1060,2080
+2,14650,Baranya megye,Nagynyárád,village,337,360,697
+2,19877,Baranya megye,Nagypall,village,185,202,387
+2,27164,Baranya megye,Nagypeterd,village,327,352,679
+2,28927,Baranya megye,Nagytótfalu,village,172,171,343
+2,14191,Baranya megye,Nagyváty,village,167,159,326
+2,18236,Baranya megye,Nemeske,village,108,115,223
+2,26329,Baranya megye,Nyugotszenterzsébet,village,124,121,245
+2,12645,Baranya megye,Óbánya,village,71,75,146
+2,03780,Baranya megye,Ócsárd,village,212,205,417
+2,19646,Baranya megye,Ófalu,village,169,181,350
+2,20686,Baranya megye,Okorág,village,85,80,165
+2,08341,Baranya megye,Okorvölgy,village,47,42,89
+2,18555,Baranya megye,Olasz,village,303,327,630
+2,21704,Baranya megye,Old,village,182,159,341
+2,11730,Baranya megye,Orfű,village,556,555,1111
+2,04482,Baranya megye,Oroszló,village,145,142,287
+2,18661,Baranya megye,Ózdfalu,village,86,66,152
+2,23764,Baranya megye,Palé,village,55,48,103
+2,07153,Baranya megye,Palkonya,village,142,136,278
+2,10135,Baranya megye,Palotabozsok,village,409,432,841
+2,07010,Baranya megye,Páprád,village,75,85,160
+2,17792,Baranya megye,Patapoklosi,village,185,178,363
+2,21519,Baranya megye,Pécsbagota,village,57,45,102
+2,15389,Baranya megye,Pécsdevecser,village,48,67,115
+2,21096,Baranya megye,Pécsudvard,village,417,394,811
+2,16115,Baranya megye,Pellérd,village,1189,1185,2374
+2,12867,Baranya megye,Pereked,village,86,77,163
+2,32425,Baranya megye,Peterd,village,118,102,220
+2,29762,Baranya megye,Pettend,village,105,93,198
+2,23506,Baranya megye,Piskó,village,144,124,268
+2,22266,Baranya megye,Pócsa,village,92,84,176
+2,17242,Baranya megye,Pogány,village,645,693,1338
+2,11518,Baranya megye,Rádfalva,village,96,107,203
+2,25292,Baranya megye,Regenye,village,88,80,168
+2,24855,Baranya megye,Romonya,village,273,269,542
+2,04516,Baranya megye,Rózsafa,village,171,183,354
+2,18050,Baranya megye,Sámod,village,90,107,197
+2,20862,Baranya megye,Sárok,village,64,55,119
+2,33482,Baranya megye,Sátorhely,village,312,336,648
+2,23205,Baranya megye,Siklósbodony,village,81,80,161
+2,08800,Baranya megye,Siklósnagyfalu,village,220,240,460
+2,23472,Baranya megye,Somberek,village,689,772,1461
+2,23807,Baranya megye,Somogyapáti,village,248,246,494
+2,29142,Baranya megye,Somogyhárságy,village,219,220,439
+2,25070,Baranya megye,Somogyhatvan,village,192,174,366
+2,21281,Baranya megye,Somogyviszló,village,123,129,252
+2,31714,Baranya megye,Sósvertike,village,92,86,178
+2,02547,Baranya megye,Sumony,village,233,236,469
+2,15079,Baranya megye,Szabadszentkirály,village,411,424,835
+2,27508,Baranya megye,Szágy,village,69,62,131
+2,08475,Baranya megye,Szajk,village,398,416,814
+2,22257,Baranya megye,Szalánta,village,563,615,1178
+2,09007,Baranya megye,Szalatnak,village,154,166,320
+2,34032,Baranya megye,Szaporca,village,117,115,232
+2,07366,Baranya megye,Szárász,village,27,20,47
+2,31060,Baranya megye,Szava,village,167,163,330
+2,03018,Baranya megye,Szebény,village,179,176,355
+2,05607,Baranya megye,Szederkény,village,816,918,1734
+2,16771,Baranya megye,Székelyszabar,village,287,295,582
+2,16984,Baranya megye,Szellő,village,73,79,152
+2,09308,Baranya megye,Szemely,village,231,245,476
+2,32009,Baranya megye,Szentdénes,village,167,157,324
+2,33613,Baranya megye,Szentegát,village,182,194,376
+2,09803,Baranya megye,Szentkatalin,village,58,55,113
+2,16355,Baranya megye,Szentlászló,village,392,431,823
+2,19831,Baranya megye,Szilágy,village,148,142,290
+2,24712,Baranya megye,Szilvás,village,74,79,153
+2,22211,Baranya megye,Szőke,village,70,69,139
+2,07694,Baranya megye,Szőkéd,village,184,195,379
+2,05528,Baranya megye,Szörény,village,41,36,77
+2,15404,Baranya megye,Szulimán,village,129,120,249
+2,11217,Baranya megye,Szűr,village,128,141,269
+2,15635,Baranya megye,Tarrós,village,50,58,108
+2,27702,Baranya megye,Tékes,village,132,121,253
+2,32072,Baranya megye,Teklafalu,village,154,179,333
+2,13675,Baranya megye,Tengeri,village,24,23,47
+2,32744,Baranya megye,Tésenfa,village,96,105,201
+2,20978,Baranya megye,Téseny,village,175,154,329
+2,04048,Baranya megye,Tófű,village,65,62,127
+2,22424,Baranya megye,Tormás,village,157,123,280
+2,26994,Baranya megye,Tótszentgyörgy,village,82,73,155
+2,04136,Baranya megye,Töttös,village,278,277,555
+2,18582,Baranya megye,Túrony,village,143,136,279
+2,04437,Baranya megye,Udvar,village,63,72,135
+2,06062,Baranya megye,Újpetre,village,523,523,1046
+2,08138,Baranya megye,Várad,village,72,63,135
+2,28529,Baranya megye,Varga,village,40,41,81
+2,24952,Baranya megye,Vásárosbéc,village,119,102,221
+2,02264,Baranya megye,Vásárosdombó,village,533,575,1108
+2,07074,Baranya megye,Vázsnok,village,73,61,134
+2,18519,Baranya megye,Vejti,village,82,76,158
+2,24402,Baranya megye,Vékény,village,77,63,140
+2,22071,Baranya megye,Velény,village,73,65,138
+2,20279,Baranya megye,Véménd,village,708,707,1415
+2,19725,Baranya megye,Versend,village,465,504,969
+2,05209,Baranya megye,Villánykövesd,village,130,135,265
+2,05892,Baranya megye,Vokány,village,433,441,874
+2,17747,Baranya megye,Zádor,village,163,176,339
+2,25122,Baranya megye,Zaláta,village,123,124,247
+2,15848,Baranya megye,Zengővárkony,village,214,221,435
+2,12201,Baranya megye,Zók,village,136,152,288
+4,15200,Békés megye,Békéscsaba,large_city,27725,31332,59057
+4,18102,Békés megye,Battonya,city,2919,3007,5926
+4,09760,Békés megye,Békés,city,9390,9894,19284
+4,26709,Békés megye,Csorvás,city,2313,2517,4830
+4,24819,Békés megye,Dévaványa,city,3725,3752,7477
+4,32957,Békés megye,Elek,city,2326,2459,4785
+4,12256,Békés megye,Füzesgyarmat,city,2756,2827,5583
+4,33455,Békés megye,Gyomaendrőd,city,6446,6984,13430
+4,05032,Békés megye,Gyula,city,14345,15844,30189
+4,10287,Békés megye,Kondoros,city,2348,2519,4867
+4,11615,Békés megye,Körösladány,city,2208,2318,4526
+4,30128,Békés megye,Medgyesegyháza,city,1707,1794,3501
+4,19628,Békés megye,Mezőberény,city,4917,5337,10254
+4,11873,Békés megye,Mezőhegyes,city,2466,2585,5051
+4,30322,Békés megye,Mezőkovácsháza,city,2737,3039,5776
+4,23065,Békés megye,Orosháza,city,13601,14743,28344
+4,28565,Békés megye,Sarkad,city,4896,5216,10112
+4,23870,Békés megye,Szarvas,city,7552,8131,15683
+4,21883,Békés megye,Szeghalom,city,4423,4476,8899
+4,16434,Békés megye,Tótkomlós,city,2795,3032,5827
+4,02352,Békés megye,Újkígyós,city,2508,2594,5102
+4,29531,Békés megye,Vésztő,city,3487,3447,6934
+4,02680,Békés megye,Békésszentandrás,large_village,1820,1833,3653
+4,31334,Békés megye,Csabacsűd,large_village,859,877,1736
+4,33190,Békés megye,Doboz,large_village,2059,2190,4249
+4,24031,Békés megye,Dombegyház,large_village,1001,1032,2033
+4,09511,Békés megye,Gádoros,large_village,1819,1843,3662
+4,03461,Békés megye,Kétegyháza,large_village,1743,1905,3648
+4,31574,Békés megye,Kevermes,large_village,921,935,1856
+4,08244,Békés megye,Nagyszénás,large_village,2362,2474,4836
+4,29595,Békés megye,Almáskamarás,village,448,422,870
+4,26189,Békés megye,Békéssámson,village,1205,1179,2384
+4,19390,Békés megye,Bélmegyer,village,482,453,935
+4,29610,Békés megye,Biharugra,village,455,458,913
+4,13471,Békés megye,Bucsa,village,1150,1136,2286
+4,34078,Békés megye,Csabaszabadi,village,160,131,291
+4,20455,Békés megye,Csanádapáca,village,1246,1296,2542
+4,25502,Békés megye,Csárdaszállás,village,214,209,423
+4,22132,Békés megye,Dombiratos,village,264,288,552
+4,09432,Békés megye,Ecsegfalva,village,612,588,1200
+4,07393,Békés megye,Gerendás,village,589,628,1217
+4,17394,Békés megye,Geszt,village,373,389,762
+4,33297,Békés megye,Hunya,village,295,327,622
+4,04279,Békés megye,Kamut,village,506,539,1045
+4,24794,Békés megye,Kardos,village,290,267,557
+4,12177,Békés megye,Kardoskút,village,399,416,815
+4,22752,Békés megye,Kaszaper,village,891,932,1823
+4,12618,Békés megye,Kertészsziget,village,197,174,371
+4,03106,Békés megye,Kétsoprony,village,701,660,1361
+4,18838,Békés megye,Kisdombegyház,village,246,241,487
+4,10764,Békés megye,Körösnagyharsány,village,276,290,566
+4,12900,Békés megye,Köröstarcsa,village,1218,1254,2472
+4,30164,Békés megye,Körösújfalu,village,251,251,502
+4,06804,Békés megye,Kötegyán,village,707,710,1417
+4,16045,Békés megye,Kunágota,village,1355,1344,2699
+4,21209,Békés megye,Lőkösháza,village,879,916,1795
+4,27906,Békés megye,Magyarbánhegyes,village,1090,1106,2196
+4,11536,Békés megye,Magyardombegyház,village,120,109,229
+4,20765,Békés megye,Medgyesbodzás,village,514,471,985
+4,23931,Békés megye,Méhkerék,village,1051,1042,2093
+4,04206,Békés megye,Mezőgyán,village,517,525,1042
+4,11989,Békés megye,Murony,village,613,612,1225
+4,26028,Békés megye,Nagybánhegyes,village,604,636,1240
+4,04242,Békés megye,Nagykamarás,village,623,676,1299
+4,19257,Békés megye,Okány,village,1202,1239,2441
+4,27438,Békés megye,Örménykút,village,169,164,333
+4,05397,Békés megye,Pusztaföldvár,village,802,820,1622
+4,19594,Békés megye,Pusztaottlaka,village,185,170,355
+4,25168,Békés megye,Sarkadkeresztúr,village,733,767,1500
+4,31325,Békés megye,Szabadkígyós,village,1284,1343,2627
+4,33075,Békés megye,Tarhos,village,380,420,800
+4,12681,Békés megye,Telekgerendás,village,753,754,1507
+4,24350,Békés megye,Újszalonta,village,57,45,102
+4,31228,Békés megye,Végegyháza,village,645,654,1299
+4,06257,Békés megye,Zsadány,village,863,792,1655
+5,30456,Borsod - Abaúj - Zemplén megye,Miskolc,large_city,73789,83755,157544
+5,03595,Borsod - Abaúj - Zemplén megye,Abaújszántó,city,1471,1464,2935
+5,21032,Borsod - Abaúj - Zemplén megye,Alsózsolca,city,2865,2905,5770
+5,05315,Borsod - Abaúj - Zemplén megye,Borsodnádasd,city,1546,1589,3135
+5,03939,Borsod - Abaúj - Zemplén megye,Cigánd,city,1609,1583,3192
+5,10728,Borsod - Abaúj - Zemplén megye,Edelény,city,4805,5087,9892
+5,04677,Borsod - Abaúj - Zemplén megye,Emőd,city,2480,2513,4993
+5,33048,Borsod - Abaúj - Zemplén megye,Encs,city,3014,3338,6352
+5,02848,Borsod - Abaúj - Zemplén megye,Felsőzsolca,city,3286,3452,6738
+5,15936,Borsod - Abaúj - Zemplén megye,Gönc,city,982,989,1971
+5,06691,Borsod - Abaúj - Zemplén megye,Kazincbarcika,city,12927,14300,27227
+5,13833,Borsod - Abaúj - Zemplén megye,Mezőcsát,city,2950,2982,5932
+5,11323,Borsod - Abaúj - Zemplén megye,Mezőkeresztes,city,1808,1877,3685
+5,19433,Borsod - Abaúj - Zemplén megye,Mezőkövesd,city,7873,8537,16410
+5,12885,Borsod - Abaúj - Zemplén megye,Nyékládháza,city,2491,2674,5165
+5,22558,Borsod - Abaúj - Zemplén megye,Onga,city,2442,2513,4955
+5,14492,Borsod - Abaúj - Zemplén megye,Ózd,city,16628,18058,34686
+5,12362,Borsod - Abaúj - Zemplén megye,Pálháza,city,512,561,1073
+5,27410,Borsod - Abaúj - Zemplén megye,Putnok,city,3367,3542,6909
+5,23029,Borsod - Abaúj - Zemplén megye,Rudabánya,city,1255,1302,2557
+5,03504,Borsod - Abaúj - Zemplén megye,Sajóbábony,city,1309,1365,2674
+5,16054,Borsod - Abaúj - Zemplén megye,Sajószentpéter,city,5955,6297,12252
+5,27474,Borsod - Abaúj - Zemplén megye,Sárospatak,city,5881,6283,12164
+5,05120,Borsod - Abaúj - Zemplén megye,Sátoraljaújhely,city,7061,7742,14803
+5,08077,Borsod - Abaúj - Zemplén megye,Szendrő,city,1998,2138,4136
+5,30739,Borsod - Abaúj - Zemplén megye,Szerencs,city,4297,4812,9109
+5,21351,Borsod - Abaúj - Zemplén megye,Szikszó,city,2671,2919,5590
+5,28352,Borsod - Abaúj - Zemplén megye,Tiszaújcity,city,7558,8655,16213
+5,18306,Borsod - Abaúj - Zemplén megye,Tokaj,city,1785,2039,3824
+5,14331,Borsod - Abaúj - Zemplén megye,Arló,large_village,1905,1938,3843
+5,05591,Borsod - Abaúj - Zemplén megye,Izsófalva,large_village,891,850,1741
+5,21546,Borsod - Abaúj - Zemplén megye,Múcsony,large_village,1470,1508,2978
+5,19220,Borsod - Abaúj - Zemplén megye,Ricse,large_village,889,953,1842
+5,22169,Borsod - Abaúj - Zemplén megye,Szentistván,large_village,1174,1226,2400
+5,09496,Borsod - Abaúj - Zemplén megye,Szirmabesenyő,large_village,2131,2181,4312
+5,18245,Borsod - Abaúj - Zemplén megye,Taktaharkány,large_village,1762,1859,3621
+5,28398,Borsod - Abaúj - Zemplén megye,Tiszalúc,large_village,2528,2551,5079
+5,15662,Borsod - Abaúj - Zemplén megye,Abaújalpár,village,37,32,69
+5,26718,Borsod - Abaúj - Zemplén megye,Abaújkér,village,290,314,604
+5,02820,Borsod - Abaúj - Zemplén megye,Abaújlak,village,45,44,89
+5,26338,Borsod - Abaúj - Zemplén megye,Abaújszolnok,village,102,99,201
+5,02273,Borsod - Abaúj - Zemplén megye,Abaújvár,village,117,117,234
+5,10357,Borsod - Abaúj - Zemplén megye,Abod,village,81,99,180
+5,09362,Borsod - Abaúj - Zemplén megye,Aggtelek,village,264,273,537
+5,33093,Borsod - Abaúj - Zemplén megye,Alacska,village,355,394,749
+5,20482,Borsod - Abaúj - Zemplén megye,Alsóberecki,village,375,363,738
+5,19664,Borsod - Abaúj - Zemplén megye,Alsódobsza,village,156,152,308
+5,14429,Borsod - Abaúj - Zemplén megye,Alsógagy,village,38,55,93
+5,23223,Borsod - Abaúj - Zemplén megye,Alsóregmec,village,95,101,196
+5,28839,Borsod - Abaúj - Zemplén megye,Alsószuha,village,225,217,442
+5,08217,Borsod - Abaúj - Zemplén megye,Alsótelekes,village,70,79,149
+5,29814,Borsod - Abaúj - Zemplén megye,Alsóvadász,village,773,796,1569
+5,26198,Borsod - Abaúj - Zemplén megye,Arka,village,41,42,83
+5,03771,Borsod - Abaúj - Zemplén megye,Arnót,village,1216,1238,2454
+5,03823,Borsod - Abaúj - Zemplén megye,Ároktő,village,573,575,1148
+5,04233,Borsod - Abaúj - Zemplén megye,Aszaló,village,898,945,1843
+5,18184,Borsod - Abaúj - Zemplén megye,Baktakék,village,385,417,802
+5,22521,Borsod - Abaúj - Zemplén megye,Balajt,village,244,258,502
+5,25159,Borsod - Abaúj - Zemplén megye,Bánhorváti,village,675,711,1386
+5,21953,Borsod - Abaúj - Zemplén megye,Bánréve,village,589,645,1234
+5,08846,Borsod - Abaúj - Zemplén megye,Baskó,village,92,105,197
+5,27049,Borsod - Abaúj - Zemplén megye,Becskeháza,village,17,19,36
+5,06929,Borsod - Abaúj - Zemplén megye,Bekecs,village,1194,1235,2429
+5,34290,Borsod - Abaúj - Zemplén megye,Berente,village,544,601,1145
+5,29674,Borsod - Abaúj - Zemplén megye,Beret,village,157,139,296
+5,26356,Borsod - Abaúj - Zemplén megye,Berzék,village,496,527,1023
+5,23737,Borsod - Abaúj - Zemplén megye,Bodroghalom,village,662,677,1339
+5,30784,Borsod - Abaúj - Zemplén megye,Bodrogkeresztúr,village,480,550,1030
+5,33808,Borsod - Abaúj - Zemplén megye,Bodrogkisfalud,village,435,465,900
+5,14401,Borsod - Abaúj - Zemplén megye,Bodrogolaszi,village,444,454,898
+5,27429,Borsod - Abaúj - Zemplén megye,Bódvalenke,village,146,144,290
+5,33303,Borsod - Abaúj - Zemplén megye,Bódvarákó,village,64,52,116
+5,05926,Borsod - Abaúj - Zemplén megye,Bódvaszilas,village,492,534,1026
+5,25195,Borsod - Abaúj - Zemplén megye,Bogács,village,982,1098,2080
+5,18944,Borsod - Abaúj - Zemplén megye,Boldogkőújfalu,village,310,317,627
+5,14474,Borsod - Abaúj - Zemplén megye,Boldogkőváralja,village,489,500,989
+5,08396,Borsod - Abaúj - Zemplén megye,Boldva,village,1226,1197,2423
+5,30669,Borsod - Abaúj - Zemplén megye,Borsodbóta,village,417,436,853
+5,16124,Borsod - Abaúj - Zemplén megye,Borsodgeszt,village,141,154,295
+5,06707,Borsod - Abaúj - Zemplén megye,Borsodivánka,village,312,359,671
+5,30207,Borsod - Abaúj - Zemplén megye,Borsodszentgyörgy,village,578,615,1193
+5,16799,Borsod - Abaúj - Zemplén megye,Borsodszirák,village,603,614,1217
+5,31006,Borsod - Abaúj - Zemplén megye,Bózsva,village,105,91,196
+5,05306,Borsod - Abaúj - Zemplén megye,Bőcs,village,1369,1409,2778
+5,13596,Borsod - Abaúj - Zemplén megye,Bükkábrány,village,772,869,1641
+5,27890,Borsod - Abaúj - Zemplén megye,Bükkaranyos,village,747,791,1538
+5,19406,Borsod - Abaúj - Zemplén megye,Bükkmogyorósd,village,62,69,131
+5,08022,Borsod - Abaúj - Zemplén megye,Bükkszentkereszt,village,592,575,1167
+5,32887,Borsod - Abaúj - Zemplén megye,Bükkzsérc,village,456,515,971
+5,23977,Borsod - Abaúj - Zemplén megye,Büttös,village,88,86,174
+5,08493,Borsod - Abaúj - Zemplén megye,Csenyéte,village,270,264,534
+5,06974,Borsod - Abaúj - Zemplén megye,Cserépfalu,village,447,500,947
+5,25575,Borsod - Abaúj - Zemplén megye,Cserépváralja,village,189,214,403
+5,28459,Borsod - Abaúj - Zemplén megye,Csernely,village,402,353,755
+5,34111,Borsod - Abaúj - Zemplén megye,Csincse,village,279,281,560
+5,05333,Borsod - Abaúj - Zemplén megye,Csobád,village,348,347,695
+5,20774,Borsod - Abaúj - Zemplén megye,Csobaj,village,341,341,682
+5,14289,Borsod - Abaúj - Zemplén megye,Csokvaomány,village,405,404,809
+5,11350,Borsod - Abaúj - Zemplén megye,Damak,village,130,131,261
+5,07719,Borsod - Abaúj - Zemplén megye,Dámóc,village,199,186,385
+5,31954,Borsod - Abaúj - Zemplén megye,Debréte,village,12,6,18
+5,04686,Borsod - Abaúj - Zemplén megye,Dédestapolcsány,village,685,755,1440
+5,10524,Borsod - Abaúj - Zemplén megye,Detek,village,129,133,262
+5,25690,Borsod - Abaúj - Zemplén megye,Domaháza,village,430,424,854
+5,06123,Borsod - Abaúj - Zemplén megye,Dövény,village,123,146,269
+5,27669,Borsod - Abaúj - Zemplén megye,Dubicsány,village,136,139,275
+5,05865,Borsod - Abaúj - Zemplén megye,Egerlövő,village,273,275,548
+5,13356,Borsod - Abaúj - Zemplén megye,Égerszög,village,25,31,56
+5,25326,Borsod - Abaúj - Zemplén megye,Erdőbénye,village,549,560,1109
+5,22503,Borsod - Abaúj - Zemplén megye,Erdőhorváti,village,293,290,583
+5,02741,Borsod - Abaúj - Zemplén megye,Fáj,village,245,237,482
+5,12557,Borsod - Abaúj - Zemplén megye,Fancsal,village,164,181,345
+5,34272,Borsod - Abaúj - Zemplén megye,Farkaslyuk,village,984,964,1948
+5,08174,Borsod - Abaúj - Zemplén megye,Felsőberecki,village,143,138,281
+5,09742,Borsod - Abaúj - Zemplén megye,Felsődobsza,village,434,496,930
+5,29708,Borsod - Abaúj - Zemplén megye,Felsőgagy,village,115,112,227
+5,31723,Borsod - Abaúj - Zemplén megye,Felsőkelecsény,village,191,172,363
+5,32762,Borsod - Abaúj - Zemplén megye,Felsőnyárád,village,470,514,984
+5,07588,Borsod - Abaúj - Zemplén megye,Felsőregmec,village,178,186,364
+5,31671,Borsod - Abaúj - Zemplén megye,Felsőtelekes,village,357,365,722
+5,23533,Borsod - Abaúj - Zemplén megye,Felsővadász,village,304,263,567
+5,25238,Borsod - Abaúj - Zemplén megye,Filkeháza,village,50,54,104
+5,17932,Borsod - Abaúj - Zemplén megye,Fony,village,160,154,314
+5,30483,Borsod - Abaúj - Zemplén megye,Forró,village,1331,1369,2700
+5,22123,Borsod - Abaúj - Zemplén megye,Fulókércs,village,219,215,434
+5,17109,Borsod - Abaúj - Zemplén megye,Füzér,village,181,214,395
+5,06460,Borsod - Abaúj - Zemplén megye,Füzérkajata,village,60,58,118
+5,11378,Borsod - Abaúj - Zemplén megye,Füzérkomlós,village,166,149,315
+5,10366,Borsod - Abaúj - Zemplén megye,Füzérradvány,village,168,156,324
+5,05494,Borsod - Abaúj - Zemplén megye,Gadna,village,189,163,352
+5,28732,Borsod - Abaúj - Zemplén megye,Gagyapáti,village,26,30,56
+5,28307,Borsod - Abaúj - Zemplén megye,Gagybátor,village,111,113,224
+5,03744,Borsod - Abaúj - Zemplén megye,Gagyvendégi,village,110,100,210
+5,19293,Borsod - Abaúj - Zemplén megye,Galvács,village,48,44,92
+5,10904,Borsod - Abaúj - Zemplén megye,Garadna,village,182,171,353
+5,23719,Borsod - Abaúj - Zemplén megye,Gelej,village,295,287,582
+5,15608,Borsod - Abaúj - Zemplén megye,Gesztely,village,1350,1372,2722
+5,20969,Borsod - Abaúj - Zemplén megye,Gibárt,village,165,187,352
+5,21564,Borsod - Abaúj - Zemplén megye,Girincs,village,436,457,893
+5,13134,Borsod - Abaúj - Zemplén megye,Golop,village,277,292,569
+5,09706,Borsod - Abaúj - Zemplén megye,Gömörszőlős,village,41,40,81
+5,18643,Borsod - Abaúj - Zemplén megye,Göncruszka,village,324,328,652
+5,05069,Borsod - Abaúj - Zemplén megye,Györgytarló,village,287,286,573
+5,27942,Borsod - Abaúj - Zemplén megye,Halmaj,village,791,877,1668
+5,11226,Borsod - Abaúj - Zemplén megye,Hangács,village,287,289,576
+5,25104,Borsod - Abaúj - Zemplén megye,Hangony,village,758,775,1533
+5,12706,Borsod - Abaúj - Zemplén megye,Háromhuta,village,58,76,134
+5,05847,Borsod - Abaúj - Zemplén megye,Harsány,village,1023,1013,2036
+5,02468,Borsod - Abaúj - Zemplén megye,Hegymeg,village,56,61,117
+5,22187,Borsod - Abaúj - Zemplén megye,Hejce,village,136,113,249
+5,06655,Borsod - Abaúj - Zemplén megye,Hejőbába,village,966,951,1917
+5,04604,Borsod - Abaúj - Zemplén megye,Hejőkeresztúr,village,526,516,1042
+5,02282,Borsod - Abaúj - Zemplén megye,Hejőkürt,village,137,140,277
+5,16780,Borsod - Abaúj - Zemplén megye,Hejőpapi,village,591,550,1141
+5,12159,Borsod - Abaúj - Zemplén megye,Hejőszalonta,village,424,404,828
+5,30137,Borsod - Abaúj - Zemplén megye,Hercegkút,village,311,356,667
+5,15839,Borsod - Abaúj - Zemplén megye,Hernádbűd,village,68,71,139
+5,09399,Borsod - Abaúj - Zemplén megye,Hernádcéce,village,117,131,248
+5,24165,Borsod - Abaúj - Zemplén megye,Hernádkak,village,845,820,1665
+5,21829,Borsod - Abaúj - Zemplén megye,Hernádkércs,village,150,161,311
+5,31200,Borsod - Abaúj - Zemplén megye,Hernádnémeti,village,1803,1804,3607
+5,24882,Borsod - Abaúj - Zemplén megye,Hernádpetri,village,131,138,269
+5,17136,Borsod - Abaúj - Zemplén megye,Hernádszentandrás,village,196,223,419
+5,24970,Borsod - Abaúj - Zemplén megye,Hernádszurdok,village,92,88,180
+5,19840,Borsod - Abaúj - Zemplén megye,Hernádvécse,village,559,543,1102
+5,08004,Borsod - Abaúj - Zemplén megye,Hét,village,236,233,469
+5,11697,Borsod - Abaúj - Zemplén megye,Hidasnémeti,village,560,545,1105
+5,25672,Borsod - Abaúj - Zemplén megye,Hidvégardó,village,273,294,567
+5,31167,Borsod - Abaúj - Zemplén megye,Hollóháza,village,387,442,829
+5,21236,Borsod - Abaúj - Zemplén megye,Homrogd,village,467,446,913
+5,25399,Borsod - Abaúj - Zemplén megye,Igrici,village,594,602,1196
+5,16577,Borsod - Abaúj - Zemplén megye,Imola,village,51,51,102
+5,08086,Borsod - Abaúj - Zemplén megye,Ináncs,village,578,595,1173
+5,05005,Borsod - Abaúj - Zemplén megye,Irota,village,39,45,84
+5,20233,Borsod - Abaúj - Zemplén megye,Jákfalva,village,271,241,512
+5,26657,Borsod - Abaúj - Zemplén megye,Járdánháza,village,854,939,1793
+5,15680,Borsod - Abaúj - Zemplén megye,Jósvafő,village,119,138,257
+5,32993,Borsod - Abaúj - Zemplén megye,Kács,village,236,257,493
+5,07764,Borsod - Abaúj - Zemplén megye,Kánó,village,72,81,153
+5,25742,Borsod - Abaúj - Zemplén megye,Kány,village,30,27,57
+5,21218,Borsod - Abaúj - Zemplén megye,Karcsa,village,928,919,1847
+5,30508,Borsod - Abaúj - Zemplén megye,Karos,village,253,261,514
+5,13374,Borsod - Abaúj - Zemplén megye,Kázsmárk,village,531,514,1045
+5,15264,Borsod - Abaúj - Zemplén megye,Kéked,village,98,91,189
+5,12034,Borsod - Abaúj - Zemplén megye,Kelemér,village,250,242,492
+5,05458,Borsod - Abaúj - Zemplén megye,Kenézlő,village,620,595,1215
+5,17066,Borsod - Abaúj - Zemplén megye,Keresztéte,village,24,12,36
+5,29249,Borsod - Abaúj - Zemplén megye,Kesznyéten,village,913,901,1814
+5,32090,Borsod - Abaúj - Zemplén megye,Királd,village,379,387,766
+5,17349,Borsod - Abaúj - Zemplén megye,Kiscsécs,village,103,93,196
+5,22840,Borsod - Abaúj - Zemplén megye,Kisgyőr,village,795,872,1667
+5,28875,Borsod - Abaúj - Zemplén megye,Kishuta,village,150,144,294
+5,03762,Borsod - Abaúj - Zemplén megye,Kiskinizs,village,172,167,339
+5,11448,Borsod - Abaúj - Zemplén megye,Kisrozvágy,village,123,137,260
+5,14702,Borsod - Abaúj - Zemplén megye,Kissikátor,village,138,167,305
+5,12399,Borsod - Abaúj - Zemplén megye,Kistokaj,village,1124,1158,2282
+5,10612,Borsod - Abaúj - Zemplén megye,Komjáti,village,97,101,198
+5,16559,Borsod - Abaúj - Zemplén megye,Komlóska,village,143,133,276
+5,32498,Borsod - Abaúj - Zemplén megye,Kondó,village,304,293,597
+5,22956,Borsod - Abaúj - Zemplén megye,Korlát,village,150,164,314
+5,28547,Borsod - Abaúj - Zemplén megye,Kovácsvágás,village,325,320,645
+5,26602,Borsod - Abaúj - Zemplén megye,Köröm,village,793,765,1558
+5,19576,Borsod - Abaúj - Zemplén megye,Krasznokvajda,village,261,243,504
+5,18722,Borsod - Abaúj - Zemplén megye,Kupa,village,85,87,172
+5,11819,Borsod - Abaúj - Zemplén megye,Kurityán,village,767,783,1550
+5,20844,Borsod - Abaúj - Zemplén megye,Lácacséke,village,172,158,330
+5,26231,Borsod - Abaúj - Zemplén megye,Ládbesenyő,village,134,137,271
+5,15857,Borsod - Abaúj - Zemplén megye,Lak,village,338,350,688
+5,11660,Borsod - Abaúj - Zemplén megye,Legyesbénye,village,760,749,1509
+5,03531,Borsod - Abaúj - Zemplén megye,Léh,village,232,217,449
+5,07038,Borsod - Abaúj - Zemplén megye,Lénárddaróc,village,119,140,259
+5,28219,Borsod - Abaúj - Zemplén megye,Litka,village,24,24,48
+5,03902,Borsod - Abaúj - Zemplén megye,Mád,village,989,1123,2112
+5,19600,Borsod - Abaúj - Zemplén megye,Makkoshotyka,village,421,426,847
+5,27395,Borsod - Abaúj - Zemplén megye,Mályi,village,2130,2124,4254
+5,14915,Borsod - Abaúj - Zemplén megye,Mályinka,village,237,232,469
+5,02024,Borsod - Abaúj - Zemplén megye,Martonyi,village,186,223,409
+5,21768,Borsod - Abaúj - Zemplén megye,Megyaszó,village,1366,1355,2721
+5,25618,Borsod - Abaúj - Zemplén megye,Méra,village,842,834,1676
+5,11758,Borsod - Abaúj - Zemplén megye,Meszes,village,85,84,169
+5,18379,Borsod - Abaúj - Zemplén megye,Mezőnagymihály,village,485,527,1012
+5,11749,Borsod - Abaúj - Zemplén megye,Mezőnyárád,village,777,842,1619
+5,03443,Borsod - Abaúj - Zemplén megye,Mezőzombor,village,1186,1233,2419
+5,24253,Borsod - Abaúj - Zemplén megye,Mikóháza,village,261,278,539
+5,10968,Borsod - Abaúj - Zemplén megye,Mogyoróska,village,40,41,81
+5,09016,Borsod - Abaúj - Zemplén megye,Monaj,village,133,128,261
+5,07825,Borsod - Abaúj - Zemplén megye,Monok,village,747,761,1508
+5,02158,Borsod - Abaúj - Zemplén megye,Muhi,village,246,247,493
+5,29188,Borsod - Abaúj - Zemplén megye,Nagybarca,village,441,451,892
+5,05582,Borsod - Abaúj - Zemplén megye,Nagycsécs,village,415,414,829
+5,15468,Borsod - Abaúj - Zemplén megye,Nagyhuta,village,34,26,60
+5,26505,Borsod - Abaúj - Zemplén megye,Nagykinizs,village,174,161,335
+5,33181,Borsod - Abaúj - Zemplén megye,Nagyrozvágy,village,330,347,677
+5,24156,Borsod - Abaúj - Zemplén megye,Négyes,village,143,140,283
+5,28033,Borsod - Abaúj - Zemplén megye,Nekézseny,village,329,322,651
+5,05245,Borsod - Abaúj - Zemplén megye,Nemesbikk,village,446,480,926
+5,27191,Borsod - Abaúj - Zemplén megye,Novajidrány,village,668,672,1340
+5,04419,Borsod - Abaúj - Zemplén megye,Nyésta,village,46,29,75
+5,26435,Borsod - Abaúj - Zemplén megye,Nyíri,village,199,204,403
+5,04215,Borsod - Abaúj - Zemplén megye,Nyomár,village,154,160,314
+5,31778,Borsod - Abaúj - Zemplén megye,Olaszliszka,village,777,876,1653
+5,22628,Borsod - Abaúj - Zemplén megye,Ónod,village,1223,1191,2414
+5,34069,Borsod - Abaúj - Zemplén megye,Ormosbánya,village,783,816,1599
+5,02866,Borsod - Abaúj - Zemplén megye,Oszlár,village,181,179,360
+5,15893,Borsod - Abaúj - Zemplén megye,Pácin,village,773,737,1510
+5,12371,Borsod - Abaúj - Zemplén megye,Pamlény,village,27,25,52
+5,24730,Borsod - Abaúj - Zemplén megye,Pányok,village,32,33,65
+5,26745,Borsod - Abaúj - Zemplén megye,Parasznya,village,571,606,1177
+5,24420,Borsod - Abaúj - Zemplén megye,Pere,village,160,160,320
+5,32683,Borsod - Abaúj - Zemplén megye,Perecse,village,12,11,23
+5,33419,Borsod - Abaúj - Zemplén megye,Perkupa,village,413,405,818
+5,21272,Borsod - Abaúj - Zemplén megye,Prügy,village,1268,1281,2549
+5,17048,Borsod - Abaúj - Zemplén megye,Pusztafalu,village,109,102,211
+5,15413,Borsod - Abaúj - Zemplén megye,Pusztaradvány,village,116,109,225
+5,21193,Borsod - Abaúj - Zemplén megye,Radostyán,village,274,303,577
+5,06053,Borsod - Abaúj - Zemplén megye,Ragály,village,300,325,625
+5,29717,Borsod - Abaúj - Zemplén megye,Rakaca,village,485,464,949
+5,16133,Borsod - Abaúj - Zemplén megye,Rakacaszend,village,167,179,346
+5,31909,Borsod - Abaúj - Zemplén megye,Rásonysápberencs,village,271,273,544
+5,12469,Borsod - Abaúj - Zemplén megye,Rátka,village,434,494,928
+5,08402,Borsod - Abaúj - Zemplén megye,Regéc,village,42,45,87
+5,31884,Borsod - Abaúj - Zemplén megye,Répáshuta,village,192,239,431
+5,09317,Borsod - Abaúj - Zemplén megye,Révleányvár,village,239,231,470
+5,34120,Borsod - Abaúj - Zemplén megye,Rudolftelep,village,356,368,724
+5,27331,Borsod - Abaúj - Zemplén megye,Sajóecseg,village,510,529,1039
+5,10171,Borsod - Abaúj - Zemplén megye,Sajógalgóc,village,181,163,344
+5,03081,Borsod - Abaúj - Zemplén megye,Sajóhídvég,village,556,615,1171
+5,03212,Borsod - Abaúj - Zemplén megye,Sajóivánka,village,328,326,654
+5,21670,Borsod - Abaúj - Zemplén megye,Sajókápolna,village,199,198,397
+5,14313,Borsod - Abaúj - Zemplén megye,Sajókaza,village,1577,1535,3112
+5,26949,Borsod - Abaúj - Zemplén megye,Sajókeresztúr,village,747,773,1520
+5,27173,Borsod - Abaúj - Zemplén megye,Sajólád,village,1483,1545,3028
+5,22479,Borsod - Abaúj - Zemplén megye,Sajólászlófalva,village,215,226,441
+5,15945,Borsod - Abaúj - Zemplén megye,Sajómercse,village,110,126,236
+5,11332,Borsod - Abaúj - Zemplén megye,Sajónémeti,village,239,262,501
+5,08129,Borsod - Abaúj - Zemplén megye,Sajóörös,village,729,762,1491
+5,18537,Borsod - Abaúj - Zemplén megye,Sajópálfala,village,350,370,720
+5,16638,Borsod - Abaúj - Zemplén megye,Sajópetri,village,742,823,1565
+5,23782,Borsod - Abaúj - Zemplén megye,Sajópüspöki,village,260,281,541
+5,08970,Borsod - Abaúj - Zemplén megye,Sajósenye,village,211,188,399
+5,30340,Borsod - Abaúj - Zemplén megye,Sajószöged,village,1191,1146,2337
+5,20738,Borsod - Abaúj - Zemplén megye,Sajóvámos,village,1003,1129,2132
+5,27757,Borsod - Abaúj - Zemplén megye,Sajóvelezd,village,370,412,782
+5,04729,Borsod - Abaúj - Zemplén megye,Sály,village,836,908,1744
+5,20516,Borsod - Abaúj - Zemplén megye,Sárazsadány,village,124,117,241
+5,02875,Borsod - Abaúj - Zemplén megye,Sáta,village,522,628,1150
+5,25380,Borsod - Abaúj - Zemplén megye,Selyeb,village,237,264,501
+5,23755,Borsod - Abaúj - Zemplén megye,Semjén,village,301,250,551
+5,32531,Borsod - Abaúj - Zemplén megye,Serényfalva,village,507,509,1016
+5,23418,Borsod - Abaúj - Zemplén megye,Sima,village,29,20,49
+5,13268,Borsod - Abaúj - Zemplén megye,Sóstófalva,village,131,122,253
+5,32258,Borsod - Abaúj - Zemplén megye,Szakácsi,village,104,83,187
+5,03805,Borsod - Abaúj - Zemplén megye,Szakáld,village,235,237,472
+5,31015,Borsod - Abaúj - Zemplén megye,Szalaszend,village,540,514,1054
+5,16753,Borsod - Abaúj - Zemplén megye,Szalonna,village,500,496,996
+5,08147,Borsod - Abaúj - Zemplén megye,Szászfa,village,55,58,113
+5,33817,Borsod - Abaúj - Zemplén megye,Szegi,village,162,162,324
+5,31510,Borsod - Abaúj - Zemplén megye,Szegilong,village,110,138,248
+5,09830,Borsod - Abaúj - Zemplén megye,Szemere,village,216,214,430
+5,27456,Borsod - Abaúj - Zemplén megye,Szendrőlád,village,1081,1118,2199
+5,08484,Borsod - Abaúj - Zemplén megye,Szentistvánbaksa,village,140,137,277
+5,20871,Borsod - Abaúj - Zemplén megye,Szin,village,449,399,848
+5,11493,Borsod - Abaúj - Zemplén megye,Szinpetri,village,109,108,217
+5,18892,Borsod - Abaúj - Zemplén megye,Szomolya,village,751,818,1569
+5,16179,Borsod - Abaúj - Zemplén megye,Szögliget,village,295,298,593
+5,07889,Borsod - Abaúj - Zemplén megye,Szőlősardó,village,48,61,109
+5,03160,Borsod - Abaúj - Zemplén megye,Szuhafő,village,66,72,138
+5,11110,Borsod - Abaúj - Zemplén megye,Szuhakálló,village,467,521,988
+5,24606,Borsod - Abaúj - Zemplén megye,Szuhogy,village,548,553,1101
+5,03708,Borsod - Abaúj - Zemplén megye,Taktabáj,village,289,288,577
+5,28787,Borsod - Abaúj - Zemplén megye,Taktakenéz,village,596,607,1203
+5,03133,Borsod - Abaúj - Zemplén megye,Taktaszada,village,965,979,1944
+5,12210,Borsod - Abaúj - Zemplén megye,Tállya,village,867,925,1792
+5,21740,Borsod - Abaúj - Zemplén megye,Tarcal,village,1289,1521,2810
+5,08165,Borsod - Abaúj - Zemplén megye,Tard,village,541,608,1149
+5,14784,Borsod - Abaúj - Zemplén megye,Tardona,village,511,515,1026
+5,13763,Borsod - Abaúj - Zemplén megye,Telkibánya,village,297,303,600
+5,28635,Borsod - Abaúj - Zemplén megye,Teresztenye,village,10,14,24
+5,30447,Borsod - Abaúj - Zemplén megye,Tibolddaróc,village,678,672,1350
+5,02291,Borsod - Abaúj - Zemplén megye,Tiszabábolna,village,175,168,343
+5,29133,Borsod - Abaúj - Zemplén megye,Tiszacsermely,village,290,257,547
+5,03717,Borsod - Abaúj - Zemplén megye,Tiszadorogma,village,201,189,390
+5,13976,Borsod - Abaúj - Zemplén megye,Tiszakarád,village,1235,1227,2462
+5,13888,Borsod - Abaúj - Zemplén megye,Tiszakeszi,village,1298,1329,2627
+5,19381,Borsod - Abaúj - Zemplén megye,Tiszaladány,village,287,321,608
+5,08633,Borsod - Abaúj - Zemplén megye,Tiszapalkonya,village,742,715,1457
+5,30298,Borsod - Abaúj - Zemplén megye,Tiszatardos,village,138,113,251
+5,30377,Borsod - Abaúj - Zemplén megye,Tiszatarján,village,710,690,1400
+5,10977,Borsod - Abaúj - Zemplén megye,Tiszavalk,village,148,149,297
+5,28051,Borsod - Abaúj - Zemplén megye,Tolcsva,village,858,868,1726
+5,14890,Borsod - Abaúj - Zemplén megye,Tomor,village,123,116,239
+5,16902,Borsod - Abaúj - Zemplén megye,Tornabarakony,village,13,10,23
+5,10375,Borsod - Abaúj - Zemplén megye,Tornakápolna,village,11,14,25
+5,18801,Borsod - Abaúj - Zemplén megye,Tornanádaska,village,420,374,794
+5,27836,Borsod - Abaúj - Zemplén megye,Tornaszentandrás,village,88,96,184
+5,30517,Borsod - Abaúj - Zemplén megye,Tornaszentjakab,village,97,111,208
+5,29054,Borsod - Abaúj - Zemplén megye,Tornyosnémeti,village,293,242,535
+5,04914,Borsod - Abaúj - Zemplén megye,Trizs,village,94,111,205
+5,12487,Borsod - Abaúj - Zemplén megye,Újcsanálos,village,453,421,874
+5,18351,Borsod - Abaúj - Zemplén megye,Uppony,village,124,158,282
+5,07223,Borsod - Abaúj - Zemplén megye,Vadna,village,316,321,637
+5,29151,Borsod - Abaúj - Zemplén megye,Vágáshuta,village,59,56,115
+5,30003,Borsod - Abaúj - Zemplén megye,Vajdácska,village,631,644,1275
+5,15149,Borsod - Abaúj - Zemplén megye,Vámosújfalu,village,359,362,721
+5,21810,Borsod - Abaúj - Zemplén megye,Varbó,village,516,566,1082
+5,10144,Borsod - Abaúj - Zemplén megye,Varbóc,village,42,25,67
+5,30076,Borsod - Abaúj - Zemplén megye,Vatta,village,450,415,865
+5,11581,Borsod - Abaúj - Zemplén megye,Vilmány,village,737,733,1470
+5,12982,Borsod - Abaúj - Zemplén megye,Vilyvitány,village,127,130,257
+5,05096,Borsod - Abaúj - Zemplén megye,Viss,village,309,319,628
+5,03957,Borsod - Abaúj - Zemplén megye,Viszló,village,36,33,69
+5,21087,Borsod - Abaúj - Zemplén megye,Vizsoly,village,454,439,893
+5,03063,Borsod - Abaúj - Zemplén megye,Zádorfalva,village,223,267,490
+5,15617,Borsod - Abaúj - Zemplén megye,Zalkod,village,101,114,215
+5,31608,Borsod - Abaúj - Zemplén megye,Zemplénagárd,village,378,364,742
+5,19275,Borsod - Abaúj - Zemplén megye,Ziliz,village,196,201,397
+5,11022,Borsod - Abaúj - Zemplén megye,Zsujta,village,88,90,178
+5,19105,Borsod - Abaúj - Zemplén megye,Zubogy,village,269,266,535
+6,33367,Csongrád - Csanád megye,Szeged,large_city,75725,86030,161755
+6,08314,Csongrád - Csanád megye,Hódmezővásárhely,large_city,21494,22966,44460
+6,05379,Csongrád - Csanád megye,Csanádpalota,city,1379,1401,2780
+6,05111,Csongrád - Csanád megye,Csongrád,city,7863,8648,16511
+6,31024,Csongrád - Csanád megye,Kistelek,city,3472,3881,7353
+6,07357,Csongrád - Csanád megye,Makó,city,11111,12180,23291
+6,21555,Csongrád - Csanád megye,Mindszent,city,3320,3420,6740
+6,04349,Csongrád - Csanád megye,Mórahalom,city,3133,3310,6443
+6,31705,Csongrád - Csanád megye,Sándorfalva,city,4159,4263,8422
+6,14456,Csongrád - Csanád megye,Szentes,city,12978,14183,27161
+6,34245,Csongrád - Csanád megye,Algyő,large_village,2703,2818,5521
+6,17233,Csongrád - Csanád megye,Nagymágocs,large_village,1473,1473,2946
+6,32489,Csongrád - Csanád megye,Szegvár,large_village,2167,2228,4395
+6,16197,Csongrád - Csanád megye,Ambrózfalva,village,240,247,487
+6,14252,Csongrád - Csanád megye,Apátfalva,village,1477,1529,3006
+6,19062,Csongrád - Csanád megye,Árpádhalom,village,248,234,482
+6,10339,Csongrád - Csanád megye,Ásotthalom,village,1971,2016,3987
+6,29106,Csongrád - Csanád megye,Baks,village,969,1019,1988
+6,23676,Csongrád - Csanád megye,Balástya,village,1738,1726,3464
+6,08192,Csongrád - Csanád megye,Bordány,village,1650,1639,3289
+6,02121,Csongrád - Csanád megye,Csanádalberti,village,222,241,463
+6,22293,Csongrád - Csanád megye,Csanytelek,village,1250,1355,2605
+6,32285,Csongrád - Csanád megye,Csengele,village,961,958,1919
+6,07834,Csongrád - Csanád megye,Derekegyház,village,762,807,1569
+6,24077,Csongrád - Csanád megye,Deszk,village,1966,1996,3962
+6,30535,Csongrád - Csanád megye,Dóc,village,361,368,729
+6,13383,Csongrád - Csanád megye,Domaszék,village,2636,2532,5168
+6,22992,Csongrád - Csanád megye,Eperjes,village,228,239,467
+6,19974,Csongrád - Csanád megye,Fábiánsebestyén,village,970,971,1941
+6,22646,Csongrád - Csanád megye,Felgyő,village,586,594,1180
+6,18999,Csongrád - Csanád megye,Ferencszállás,village,323,313,636
+6,33020,Csongrád - Csanád megye,Forráskút,village,1027,1052,2079
+6,09210,Csongrád - Csanád megye,Földeák,village,1508,1554,3062
+6,13666,Csongrád - Csanád megye,Királyhegyes,village,300,317,617
+6,26666,Csongrád - Csanád megye,Kiszombor,village,1924,1945,3869
+6,08253,Csongrád - Csanád megye,Klárafalva,village,270,241,511
+6,09955,Csongrád - Csanád megye,Kövegy,village,198,199,397
+6,14410,Csongrád - Csanád megye,Kübekháza,village,772,797,1569
+6,05962,Csongrád - Csanád megye,Magyarcsanád,village,737,741,1478
+6,10515,Csongrád - Csanád megye,Maroslele,village,1002,1036,2038
+6,25733,Csongrád - Csanád megye,Mártély,village,651,642,1293
+6,20914,Csongrád - Csanád megye,Nagyér,village,266,269,535
+6,12779,Csongrád - Csanád megye,Nagylak,village,229,230,459
+6,29179,Csongrád - Csanád megye,Nagytőke,village,217,182,399
+6,07755,Csongrád - Csanád megye,Óföldeák,village,222,260,482
+6,12797,Csongrád - Csanád megye,Ópusztaszer,village,1074,1065,2139
+6,31079,Csongrád - Csanád megye,Öttömös,village,355,346,701
+6,06284,Csongrád - Csanád megye,Pitvaros,village,667,689,1356
+6,06354,Csongrád - Csanád megye,Pusztamérges,village,523,578,1101
+6,28592,Csongrád - Csanád megye,Pusztaszer,village,721,700,1421
+6,13161,Csongrád - Csanád megye,Röszke,village,1883,1766,3649
+6,03966,Csongrád - Csanád megye,Ruzsa,village,1260,1249,2509
+6,12007,Csongrád - Csanád megye,Szatymaz,village,2510,2498,5008
+6,12265,Csongrád - Csanád megye,Székkutas,village,1051,1006,2057
+6,16966,Csongrád - Csanád megye,Tiszasziget,village,926,898,1824
+6,25900,Csongrád - Csanád megye,Tömörkény,village,815,880,1695
+6,14924,Csongrád - Csanád megye,Újszentiván,village,1063,1019,2082
+6,21412,Csongrád - Csanád megye,Üllés,village,1528,1583,3111
+6,05546,Csongrád - Csanád megye,Zákányszék,village,1452,1444,2896
+6,17765,Csongrád - Csanád megye,Zsombó,village,1772,1760,3532
+7,14827,Fejér megye,Székesfehérvár,large_city,44902,50812,95714
+7,03115,Fejér megye,Dunaújcity,large_city,20962,23627,44589
+7,17376,Fejér megye,Aba,city,2286,2359,4645
+7,08925,Fejér megye,Adony,city,1981,2052,4033
+7,10481,Fejér megye,Bicske,city,6288,6260,12548
+7,18254,Fejér megye,Bodajk,city,1989,2055,4044
+7,20002,Fejér megye,Csákvár,city,2587,2737,5324
+7,02802,Fejér megye,Enying,city,3342,3437,6779
+7,23603,Fejér megye,Ercsi,city,4257,4179,8436
+7,10296,Fejér megye,Gárdony,city,5860,6146,12006
+7,04659,Fejér megye,Martonvásár,city,2798,2954,5752
+7,18485,Fejér megye,Mór,city,6747,7184,13931
+7,17525,Fejér megye,Polgárdi,city,3387,3542,6929
+7,29018,Fejér megye,Pusztaszabolcs,city,3016,3034,6050
+7,09900,Fejér megye,Rácalmás,city,2461,2380,4841
+7,23694,Fejér megye,Sárbogárd,city,5863,6237,12100
+7,25016,Fejér megye,Velence,city,3267,3453,6720
+7,13152,Fejér megye,Cece,large_village,1278,1299,2577
+7,20358,Fejér megye,Előszállás,large_village,1182,1172,2354
+7,07506,Fejér megye,Lajoskomárom,large_village,1093,1091,2184
+7,07269,Fejér megye,Lepsény,large_village,1523,1606,3129
+7,17552,Fejér megye,Mezőfalva,large_village,2420,2340,4760
+7,19354,Fejér megye,Perkáta,large_village,1971,2048,4019
+7,25140,Fejér megye,Sárosd,large_village,1635,1663,3298
+7,20206,Fejér megye,Seregélyes,large_village,2208,2283,4491
+7,33321,Fejér megye,Soponya,large_village,921,917,1838
+7,28705,Fejér megye,Szabadbattyán,large_village,2409,2337,4746
+7,26824,Fejér megye,Alap,village,971,978,1949
+7,15176,Fejér megye,Alcsútdoboz,village,748,734,1482
+7,25283,Fejér megye,Alsószentiván,village,294,277,571
+7,08730,Fejér megye,Bakonycsernye,village,1560,1615,3175
+7,23153,Fejér megye,Bakonykúti,village,79,83,162
+7,31103,Fejér megye,Balinka,village,476,472,948
+7,07047,Fejér megye,Baracs,village,1839,1756,3595
+7,08581,Fejér megye,Baracska,village,1426,1407,2833
+7,08466,Fejér megye,Beloiannisz,village,577,571,1148
+7,16346,Fejér megye,Besnyő,village,869,882,1751
+7,11624,Fejér megye,Bodmér,village,120,115,235
+7,30544,Fejér megye,Csabdi,village,623,671,1294
+7,05360,Fejér megye,Csákberény,village,588,594,1182
+7,21908,Fejér megye,Csókakő,village,714,784,1498
+7,09779,Fejér megye,Csór,village,983,964,1947
+7,06734,Fejér megye,Csősz,village,525,520,1045
+7,34342,Fejér megye,Daruszentmiklós,village,664,627,1291
+7,32753,Fejér megye,Dég,village,1045,1129,2174
+7,02316,Fejér megye,Etyek,village,2179,2248,4427
+7,32203,Fejér megye,Fehérvárcsurgó,village,997,1060,2057
+7,29939,Fejér megye,Felcsút,village,948,975,1923
+7,06114,Fejér megye,Füle,village,438,447,885
+7,15750,Fejér megye,Gánt,village,436,365,801
+7,15918,Fejér megye,Gyúró,village,648,646,1294
+7,23427,Fejér megye,Hantos,village,467,489,956
+7,17738,Fejér megye,Igar,village,463,446,909
+7,32018,Fejér megye,Iszkaszentgyörgy,village,1101,1107,2208
+7,02200,Fejér megye,Isztimér,village,468,436,904
+7,13462,Fejér megye,Iváncsa,village,1403,1438,2841
+7,15972,Fejér megye,Jenő,village,591,677,1268
+7,21342,Fejér megye,Kajászó,village,584,579,1163
+7,16683,Fejér megye,Káloz,village,1160,1232,2392
+7,21926,Fejér megye,Kápolnásnyék,village,1958,2026,3984
+7,02343,Fejér megye,Kincsesbánya,village,729,797,1526
+7,12636,Fejér megye,Kisapostag,village,742,720,1462
+7,28990,Fejér megye,Kisláng,village,1284,1261,2545
+7,30650,Fejér megye,Kőszárhegy,village,798,812,1610
+7,34209,Fejér megye,Kulcs,village,1755,1713,3468
+7,19114,Fejér megye,Lovasberény,village,1349,1378,2727
+7,27678,Fejér megye,Magyaralmás,village,811,837,1648
+7,23490,Fejér megye,Mány,village,1273,1222,2495
+7,16948,Fejér megye,Mátyásdomb,village,393,359,752
+7,05689,Fejér megye,Mezőkomárom,village,487,478,965
+7,06576,Fejér megye,Mezőszentgyörgy,village,700,664,1364
+7,29036,Fejér megye,Mezőszilas,village,994,1111,2105
+7,25715,Fejér megye,Moha,village,289,280,569
+7,27599,Fejér megye,Nadap,village,321,335,656
+7,13903,Fejér megye,Nádasdladány,village,919,885,1804
+7,07001,Fejér megye,Nagykarácsony,village,711,667,1378
+7,32364,Fejér megye,Nagylók,village,517,547,1064
+7,23588,Fejér megye,Nagyveleg,village,322,325,647
+7,26134,Fejér megye,Nagyvenyim,village,2137,2114,4251
+7,34306,Fejér megye,Óbarok,village,434,388,822
+7,25751,Fejér megye,Pákozd,village,1752,1702,3454
+7,28848,Fejér megye,Pátka,village,890,882,1772
+7,21786,Fejér megye,Pázmánd,village,1134,1085,2219
+7,17774,Fejér megye,Pusztavám,village,1245,1308,2553
+7,02015,Fejér megye,Ráckeresztúr,village,1782,1755,3537
+7,02723,Fejér megye,Sáregres,village,364,342,706
+7,31802,Fejér megye,Sárkeresztes,village,751,779,1530
+7,25344,Fejér megye,Sárkeresztúr,village,1303,1331,2634
+7,02699,Fejér megye,Sárkeszi,village,302,285,587
+7,31538,Fejér megye,Sárszentágota,village,679,685,1364
+7,11776,Fejér megye,Sárszentmihály,village,1591,1548,3139
+7,02893,Fejér megye,Söréd,village,279,276,555
+7,14951,Fejér megye,Sukoró,village,913,864,1777
+7,13259,Fejér megye,Szabadegyháza,village,1061,1076,2137
+7,18740,Fejér megye,Szabadhídvég,village,428,421,849
+7,19549,Fejér megye,Szár,village,854,870,1724
+7,14465,Fejér megye,Tabajd,village,493,525,1018
+7,29267,Fejér megye,Tác,village,869,894,1763
+7,21005,Fejér megye,Tordas,village,1075,1038,2113
+7,17482,Fejér megye,Újbarok,village,223,217,440
+7,17622,Fejér megye,Úrhida,village,1307,1303,2610
+7,02459,Fejér megye,Vajta,village,420,465,885
+7,05829,Fejér megye,Vál,village,1283,1333,2616
+7,03498,Fejér megye,Vereb,village,389,405,794
+7,02750,Fejér megye,Vértesacsa,village,937,971,1908
+7,13897,Fejér megye,Vértesboglár,village,449,450,899
+7,30243,Fejér megye,Zámoly,village,1200,1192,2392
+7,34263,Fejér megye,Zichyújfalu,village,484,451,935
+8,25584,Győr - Moson - Sopron megye,Győr,large_city,58977,65310,124287
+8,08518,Győr - Moson - Sopron megye,Sopron,large_city,27488,30565,58053
+8,10588,Győr - Moson - Sopron megye,Beled,city,1277,1277,2554
+8,04039,Győr - Moson - Sopron megye,Csorna,city,4860,5072,9932
+8,09885,Győr - Moson - Sopron megye,Fertőd,city,1602,1708,3310
+8,15343,Győr - Moson - Sopron megye,Fertőszentmiklós,city,1832,2000,3832
+8,29221,Győr - Moson - Sopron megye,Jánossomorja,city,3034,3031,6065
+8,28334,Győr - Moson - Sopron megye,Kapuvár,city,4832,5182,10014
+8,33668,Győr - Moson - Sopron megye,Lébény,city,1634,1677,3311
+8,04783,Győr - Moson - Sopron megye,Mosonmagyaróvár,city,15561,16695,32256
+8,24305,Győr - Moson - Sopron megye,Pannonhalma,city,1731,1775,3506
+8,19035,Győr - Moson - Sopron megye,Tét,city,2061,2048,4109
+8,15501,Győr - Moson - Sopron megye,Bősárkány,large_village,1062,1055,2117
+8,17905,Győr - Moson - Sopron megye,Hegyeshalom,large_village,1830,1874,3704
+8,02495,Győr - Moson - Sopron megye,Nagycenk,large_village,1100,1172,2272
+8,08536,Győr - Moson - Sopron megye,Szany,large_village,1096,1093,2189
+8,11882,Győr - Moson - Sopron megye,Abda,village,1651,1661,3312
+8,33385,Győr - Moson - Sopron megye,Acsalag,village,240,244,484
+8,04880,Győr - Moson - Sopron megye,Ágfalva,village,1225,1177,2402
+8,29407,Győr - Moson - Sopron megye,Agyagosszergény,village,478,458,936
+8,32249,Győr - Moson - Sopron megye,Árpás,village,133,137,270
+8,26921,Győr - Moson - Sopron megye,Ásványráró,village,1040,1022,2062
+8,15042,Győr - Moson - Sopron megye,Babót,village,562,545,1107
+8,28769,Győr - Moson - Sopron megye,Bágyogszovát,village,674,685,1359
+8,28936,Győr - Moson - Sopron megye,Bakonygyirót,village,80,78,158
+8,22062,Győr - Moson - Sopron megye,Bakonypéterd,village,163,140,303
+8,05944,Győr - Moson - Sopron megye,Bakonyszentlászló,village,877,889,1766
+8,06196,Győr - Moson - Sopron megye,Barbacs,village,390,378,768
+8,29805,Győr - Moson - Sopron megye,Bezenye,village,668,767,1435
+8,10560,Győr - Moson - Sopron megye,Bezi,village,274,261,535
+8,06220,Győr - Moson - Sopron megye,Bodonhely,village,164,156,320
+8,04367,Győr - Moson - Sopron megye,Bogyoszló,village,314,308,622
+8,33950,Győr - Moson - Sopron megye,Bőny,village,1107,1135,2242
+8,06619,Győr - Moson - Sopron megye,Börcs,village,671,681,1352
+8,27085,Győr - Moson - Sopron megye,Cakóháza,village,27,27,54
+8,15954,Győr - Moson - Sopron megye,Cirák,village,263,281,544
+8,10047,Győr - Moson - Sopron megye,Csáfordjánosfa,village,113,117,230
+8,08563,Győr - Moson - Sopron megye,Csapod,village,305,277,582
+8,30191,Győr - Moson - Sopron megye,Csér,village,18,18,36
+8,13505,Győr - Moson - Sopron megye,Csikvánd,village,242,258,500
+8,21865,Győr - Moson - Sopron megye,Darnózseli,village,781,825,1606
+8,32595,Győr - Moson - Sopron megye,Dénesfa,village,210,198,408
+8,21917,Győr - Moson - Sopron megye,Dör,village,298,310,608
+8,27739,Győr - Moson - Sopron megye,Dunakiliti,village,1000,1015,2015
+8,02079,Győr - Moson - Sopron megye,Dunaremete,village,122,126,248
+8,21078,Győr - Moson - Sopron megye,Dunaszeg,village,1151,1103,2254
+8,15875,Győr - Moson - Sopron megye,Dunaszentpál,village,392,353,745
+8,10454,Győr - Moson - Sopron megye,Dunasziget,village,865,856,1721
+8,26347,Győr - Moson - Sopron megye,Ebergőc,village,81,83,164
+8,16708,Győr - Moson - Sopron megye,Écs,village,1027,1039,2066
+8,22442,Győr - Moson - Sopron megye,Edve,village,60,57,117
+8,20288,Győr - Moson - Sopron megye,Egyed,village,269,267,536
+8,15237,Győr - Moson - Sopron megye,Egyházasfalu,village,449,424,873
+8,15033,Győr - Moson - Sopron megye,Enese,village,870,916,1786
+8,33996,Győr - Moson - Sopron megye,Farád,village,970,969,1939
+8,06956,Győr - Moson - Sopron megye,Fehértó,village,242,248,490
+8,32717,Győr - Moson - Sopron megye,Feketeerdő,village,330,302,632
+8,33251,Győr - Moson - Sopron megye,Felpéc,village,488,489,977
+8,30678,Győr - Moson - Sopron megye,Fenyőfő,village,66,51,117
+8,11253,Győr - Moson - Sopron megye,Fertőboz,village,148,156,304
+8,09487,Győr - Moson - Sopron megye,Fertőendréd,village,304,324,628
+8,10658,Győr - Moson - Sopron megye,Fertőhomok,village,422,442,864
+8,12414,Győr - Moson - Sopron megye,Fertőrákos,village,1112,1177,2289
+8,31440,Győr - Moson - Sopron megye,Fertőszéplak,village,641,659,1300
+8,02060,Győr - Moson - Sopron megye,Gönyű,village,1673,1635,3308
+8,17969,Győr - Moson - Sopron megye,Gyalóka,village,40,35,75
+8,26860,Győr - Moson - Sopron megye,Gyarmat,village,675,693,1368
+8,23843,Győr - Moson - Sopron megye,Gyóró,village,174,206,380
+8,20400,Győr - Moson - Sopron megye,Gyömöre,village,629,620,1249
+8,08721,Győr - Moson - Sopron megye,Győrasszonyfa,village,267,264,531
+8,13198,Győr - Moson - Sopron megye,Győrladamér,village,887,950,1837
+8,31316,Győr - Moson - Sopron megye,Győrság,village,772,773,1545
+8,19309,Győr - Moson - Sopron megye,Győrsövényház,village,421,393,814
+8,15653,Győr - Moson - Sopron megye,Győrszemere,village,1669,1690,3359
+8,07481,Győr - Moson - Sopron megye,Győrújbarát,village,3656,3748,7404
+8,31787,Győr - Moson - Sopron megye,Győrújfalu,village,1104,1136,2240
+8,15228,Győr - Moson - Sopron megye,Győrzámoly,village,1668,1690,3358
+8,26790,Győr - Moson - Sopron megye,Halászi,village,1591,1622,3213
+8,07649,Győr - Moson - Sopron megye,Harka,village,1378,1316,2694
+8,12308,Győr - Moson - Sopron megye,Hédervár,village,662,623,1285
+8,18403,Győr - Moson - Sopron megye,Hegykő,village,802,789,1591
+8,23375,Győr - Moson - Sopron megye,Hidegség,village,238,214,452
+8,04020,Győr - Moson - Sopron megye,Himod,village,336,333,669
+8,10029,Győr - Moson - Sopron megye,Hövej,village,174,163,337
+8,20604,Győr - Moson - Sopron megye,Ikrény,village,962,978,1940
+8,31635,Győr - Moson - Sopron megye,Iván,village,659,605,1264
+8,06646,Győr - Moson - Sopron megye,Jobaháza,village,265,287,552
+8,12113,Győr - Moson - Sopron megye,Kajárpéc,village,676,604,1280
+8,34351,Győr - Moson - Sopron megye,Károlyháza,village,304,264,568
+8,14748,Győr - Moson - Sopron megye,Kimle,village,1158,1154,2312
+8,02413,Győr - Moson - Sopron megye,Kisbabot,village,128,122,250
+8,22886,Győr - Moson - Sopron megye,Kisbajcs,village,452,456,908
+8,07816,Győr - Moson - Sopron megye,Kisbodak,village,182,187,369
+8,33695,Győr - Moson - Sopron megye,Kisfalud,village,366,357,723
+8,11262,Győr - Moson - Sopron megye,Kóny,village,1367,1381,2748
+8,06895,Győr - Moson - Sopron megye,Kópháza,village,999,1112,2111
+8,24633,Győr - Moson - Sopron megye,Koroncó,village,1232,1240,2472
+8,31626,Győr - Moson - Sopron megye,Kunsziget,village,640,663,1303
+8,04376,Győr - Moson - Sopron megye,Lázi,village,297,248,545
+8,19239,Győr - Moson - Sopron megye,Levél,village,1037,1033,2070
+8,16221,Győr - Moson - Sopron megye,Lipót,village,398,384,782
+8,31194,Győr - Moson - Sopron megye,Lövő,village,712,705,1417
+8,26444,Győr - Moson - Sopron megye,Maglóca,village,60,51,111
+8,13912,Győr - Moson - Sopron megye,Magyarkeresztúr,village,217,242,459
+8,12283,Győr - Moson - Sopron megye,Máriakálnok,village,1033,1016,2049
+8,06770,Győr - Moson - Sopron megye,Markotabödöge,village,230,253,483
+8,27359,Győr - Moson - Sopron megye,Mecsér,village,318,322,640
+8,20385,Győr - Moson - Sopron megye,Mérges,village,60,51,111
+8,12812,Győr - Moson - Sopron megye,Mezőörs,village,452,493,945
+8,21980,Győr - Moson - Sopron megye,Mihályi,village,563,526,1089
+8,02556,Győr - Moson - Sopron megye,Mórichida,village,402,428,830
+8,33677,Győr - Moson - Sopron megye,Mosonszentmiklós,village,1268,1273,2541
+8,28149,Győr - Moson - Sopron megye,Mosonszolnok,village,913,912,1825
+8,34412,Győr - Moson - Sopron megye,Mosonudvar,village,237,206,443
+8,02361,Győr - Moson - Sopron megye,Nagybajcs,village,501,527,1028
+8,32939,Győr - Moson - Sopron megye,Nagylózs,village,487,556,1043
+8,33543,Győr - Moson - Sopron megye,Nagyszentjános,village,952,896,1848
+8,29328,Győr - Moson - Sopron megye,Nemeskér,village,97,97,194
+8,19752,Győr - Moson - Sopron megye,Nyalka,village,230,248,478
+8,12955,Győr - Moson - Sopron megye,Nyúl,village,2258,2247,4505
+8,15121,Győr - Moson - Sopron megye,Osli,village,441,455,896
+8,02635,Győr - Moson - Sopron megye,Öttevény,village,1520,1575,3095
+8,19637,Győr - Moson - Sopron megye,Páli,village,272,195,467
+8,23481,Győr - Moson - Sopron megye,Pásztori,village,213,190,403
+8,12715,Győr - Moson - Sopron megye,Pázmándfalu,village,558,534,1092
+8,15529,Győr - Moson - Sopron megye,Pér,village,1260,1305,2565
+8,23773,Győr - Moson - Sopron megye,Pereszteg,village,735,740,1475
+8,22831,Győr - Moson - Sopron megye,Petőháza,village,521,558,1079
+8,14687,Győr - Moson - Sopron megye,Pinnye,village,189,170,359
+8,27304,Győr - Moson - Sopron megye,Potyond,village,51,53,104
+8,31370,Győr - Moson - Sopron megye,Pusztacsalád,village,149,134,283
+8,12964,Győr - Moson - Sopron megye,Püski,village,335,307,642
+8,04792,Győr - Moson - Sopron megye,Rábacsanak,village,256,255,511
+8,33701,Győr - Moson - Sopron megye,Rábacsécsény,village,307,302,609
+8,14793,Győr - Moson - Sopron megye,Rábakecöl,village,340,363,703
+8,25335,Győr - Moson - Sopron megye,Rábapatona,village,1286,1313,2599
+8,24721,Győr - Moson - Sopron megye,Rábapordány,village,493,492,985
+8,20136,Győr - Moson - Sopron megye,Rábasebes,village,52,43,95
+8,15273,Győr - Moson - Sopron megye,Rábaszentandrás,village,228,228,456
+8,33710,Győr - Moson - Sopron megye,Rábaszentmihály,village,254,241,495
+8,17297,Győr - Moson - Sopron megye,Rábaszentmiklós,village,68,75,143
+8,15422,Győr - Moson - Sopron megye,Rábatamási,village,536,484,1020
+8,03753,Győr - Moson - Sopron megye,Rábcakapi,village,82,88,170
+8,26587,Győr - Moson - Sopron megye,Rajka,village,1890,1978,3868
+8,21801,Győr - Moson - Sopron megye,Ravazd,village,608,668,1276
+8,14438,Győr - Moson - Sopron megye,Répceszemere,village,152,122,274
+8,07746,Győr - Moson - Sopron megye,Répcevis,village,167,170,337
+8,33969,Győr - Moson - Sopron megye,Rétalap,village,311,296,607
+8,17507,Győr - Moson - Sopron megye,Románd,village,158,164,322
+8,11068,Győr - Moson - Sopron megye,Röjtökmuzsaj,village,206,219,425
+8,30021,Győr - Moson - Sopron megye,Sarród,village,474,473,947
+8,08606,Győr - Moson - Sopron megye,Sikátor,village,162,173,335
+8,24208,Győr - Moson - Sopron megye,Sobor,village,135,147,282
+8,12627,Győr - Moson - Sopron megye,Sokorópátka,village,580,547,1127
+8,29090,Győr - Moson - Sopron megye,Sopronhorpács,village,417,423,840
+8,25724,Győr - Moson - Sopron megye,Sopronkövesd,village,616,671,1287
+8,02617,Győr - Moson - Sopron megye,Sopronnémeti,village,150,152,302
+8,11369,Győr - Moson - Sopron megye,Szakony,village,226,225,451
+8,15714,Győr - Moson - Sopron megye,Szárföld,village,504,546,1050
+8,03887,Győr - Moson - Sopron megye,Szerecseny,village,406,401,807
+8,19266,Győr - Moson - Sopron megye,Szil,village,723,669,1392
+8,03364,Győr - Moson - Sopron megye,Szilsárkány,village,381,358,739
+8,14261,Győr - Moson - Sopron megye,Táp,village,361,381,742
+8,21971,Győr - Moson - Sopron megye,Tápszentmiklós,village,483,462,945
+8,33914,Győr - Moson - Sopron megye,Tarjánpuszta,village,206,214,420
+8,04172,Győr - Moson - Sopron megye,Tárnokréti,village,98,104,202
+8,11457,Győr - Moson - Sopron megye,Tényő,village,852,867,1719
+8,16674,Győr - Moson - Sopron megye,Töltéstava,village,1288,1238,2526
+8,19673,Győr - Moson - Sopron megye,Újkér,village,492,517,1009
+8,31839,Győr - Moson - Sopron megye,Újrónafő,village,419,443,862
+8,20792,Győr - Moson - Sopron megye,Und,village,160,182,342
+8,06239,Győr - Moson - Sopron megye,Vadosfa,village,45,49,94
+8,02237,Győr - Moson - Sopron megye,Vág,village,268,258,526
+8,12405,Győr - Moson - Sopron megye,Vámosszabadi,village,1768,1722,3490
+8,18412,Győr - Moson - Sopron megye,Várbalog,village,194,202,396
+8,17880,Győr - Moson - Sopron megye,Vásárosfalu,village,89,76,165
+8,05014,Győr - Moson - Sopron megye,Vének,village,96,87,183
+8,04589,Győr - Moson - Sopron megye,Veszkény,village,474,487,961
+8,22691,Győr - Moson - Sopron megye,Veszprémvarsány,village,530,523,1053
+8,25797,Győr - Moson - Sopron megye,Vitnyéd,village,694,723,1417
+8,16319,Győr - Moson - Sopron megye,Völcsej,village,207,196,403
+8,16869,Győr - Moson - Sopron megye,Zsebeháza,village,74,81,155
+8,04622,Győr - Moson - Sopron megye,Zsira,village,440,424,864
+9,15130,Hajdú - Bihar megye,Debrecen,large_city,94945,106136,201081
+9,02918,Hajdú - Bihar megye,Balmazújcity,city,8622,8961,17583
+9,12788,Hajdú - Bihar megye,Berettyóújfalu,city,7206,7640,14846
+9,19956,Hajdú - Bihar megye,Biharkeresztes,city,2192,2239,4431
+9,05573,Hajdú - Bihar megye,Derecske,city,4253,4429,8682
+9,03045,Hajdú - Bihar megye,Hajdúböszörmény,city,15034,15670,30704
+9,12803,Hajdú - Bihar megye,Hajdúdorog,city,4435,4511,8946
+9,10393,Hajdú - Bihar megye,Hajdúhadház,city,6702,6760,13462
+9,22406,Hajdú - Bihar megye,Hajdúnánás,city,8337,8624,16961
+9,31097,Hajdú - Bihar megye,Hajdúsámson,city,7329,7114,14443
+9,05175,Hajdú - Bihar megye,Hajdúszoboszló,city,11689,12640,24329
+9,02307,Hajdú - Bihar megye,Kaba,city,2964,2903,5867
+9,02167,Hajdú - Bihar megye,Komádi,city,2724,2771,5495
+9,05768,Hajdú - Bihar megye,Létavértes,city,3735,3825,7560
+9,28103,Hajdú - Bihar megye,Nádudvar,city,4319,4438,8757
+9,06187,Hajdú - Bihar megye,Nyíradony,city,3926,3939,7865
+9,23117,Hajdú - Bihar megye,Polgár,city,4050,4079,8129
+9,10162,Hajdú - Bihar megye,Püspökladány,city,7003,7384,14387
+9,23214,Hajdú - Bihar megye,Téglás,city,3135,3292,6427
+9,15644,Hajdú - Bihar megye,Tiszacsege,city,2353,2300,4653
+9,08989,Hajdú - Bihar megye,Vámospércs,city,2787,2782,5569
+9,20011,Hajdú - Bihar megye,Bagamér,large_village,1272,1292,2564
+9,12450,Hajdú - Bihar megye,Csökmő,large_village,998,964,1962
+9,15741,Hajdú - Bihar megye,Egyek,large_village,2623,2655,5278
+9,03258,Hajdú - Bihar megye,Földes,large_village,1945,2041,3986
+9,06266,Hajdú - Bihar megye,Hosszúpályi,large_village,2921,2986,5907
+9,06309,Hajdú - Bihar megye,Nagyrábé,large_village,1035,1063,2098
+9,32294,Hajdú - Bihar megye,Nyírábrány,large_village,1921,1953,3874
+9,11837,Hajdú - Bihar megye,Pocsaj,large_village,1401,1367,2768
+9,23940,Hajdú - Bihar megye,Sárrétudvari,large_village,1471,1468,2939
+9,04817,Hajdú - Bihar megye,Zsáka,large_village,776,802,1578
+9,27641,Hajdú - Bihar megye,Álmosd,village,891,952,1843
+9,03319,Hajdú - Bihar megye,Ártánd,village,351,292,643
+9,15167,Hajdú - Bihar megye,Bakonszeg,village,580,610,1190
+9,26693,Hajdú - Bihar megye,Báránd,village,1305,1262,2567
+9,33446,Hajdú - Bihar megye,Bedő,village,186,185,371
+9,18467,Hajdú - Bihar megye,Berekböszörmény,village,1020,979,1999
+9,25256,Hajdú - Bihar megye,Bihardancsháza,village,96,83,179
+9,24828,Hajdú - Bihar megye,Biharnagybajom,village,1416,1334,2750
+9,29887,Hajdú - Bihar megye,Bihartorda,village,467,499,966
+9,34102,Hajdú - Bihar megye,Bocskaikert,village,1827,1866,3693
+9,14137,Hajdú - Bihar megye,Bojt,village,300,291,591
+9,14678,Hajdú - Bihar megye,Darvas,village,295,271,566
+9,14614,Hajdú - Bihar megye,Ebes,village,2331,2431,4762
+9,25469,Hajdú - Bihar megye,Esztár,village,704,745,1449
+9,34014,Hajdú - Bihar megye,Folyás,village,162,143,305
+9,16993,Hajdú - Bihar megye,Furta,village,560,588,1148
+9,22150,Hajdú - Bihar megye,Fülöp,village,880,868,1748
+9,18175,Hajdú - Bihar megye,Gáborján,village,455,434,889
+9,16568,Hajdú - Bihar megye,Görbeháza,village,1162,1207,2369
+9,26170,Hajdú - Bihar megye,Hajdúbagos,village,1004,1070,2074
+9,17473,Hajdú - Bihar megye,Hajdúszovát,village,1583,1580,3163
+9,29391,Hajdú - Bihar megye,Hencida,village,630,573,1203
+9,04118,Hajdú - Bihar megye,Hortobágy,village,699,717,1416
+9,15477,Hajdú - Bihar megye,Kismarja,village,645,667,1312
+9,17455,Hajdú - Bihar megye,Kokad,village,341,335,676
+9,25964,Hajdú - Bihar megye,Konyár,village,1131,1106,2237
+9,31130,Hajdú - Bihar megye,Körösszakál,village,419,396,815
+9,08943,Hajdú - Bihar megye,Körösszegapáti,village,517,543,1060
+9,03683,Hajdú - Bihar megye,Magyarhomorog,village,438,441,879
+9,31033,Hajdú - Bihar megye,Mezőpeterd,village,342,303,645
+9,18847,Hajdú - Bihar megye,Mezősas,village,343,331,674
+9,24217,Hajdú - Bihar megye,Mikepércs,village,2458,2519,4977
+9,25894,Hajdú - Bihar megye,Monostorpályi,village,1039,1127,2166
+9,09478,Hajdú - Bihar megye,Nagyhegyes,village,1413,1459,2872
+9,08907,Hajdú - Bihar megye,Nagykereki,village,722,663,1385
+9,14003,Hajdú - Bihar megye,Nyíracsád,village,1871,1932,3803
+9,32382,Hajdú - Bihar megye,Nyírmártonfalva,village,1001,997,1998
+9,26116,Hajdú - Bihar megye,Sáp,village,472,483,955
+9,25007,Hajdú - Bihar megye,Sáránd,village,1127,1238,2365
+9,19099,Hajdú - Bihar megye,Szentpéterszeg,village,551,558,1109
+9,33437,Hajdú - Bihar megye,Szerep,village,789,767,1556
+9,31042,Hajdú - Bihar megye,Tépe,village,521,536,1057
+9,19691,Hajdú - Bihar megye,Tetétlen,village,697,656,1353
+9,30845,Hajdú - Bihar megye,Tiszagyulaháza,village,368,345,713
+9,25876,Hajdú - Bihar megye,Told,village,205,193,398
+9,23393,Hajdú - Bihar megye,Újiráz,village,239,282,521
+9,20419,Hajdú - Bihar megye,Újléta,village,578,548,1126
+9,32568,Hajdú - Bihar megye,Újszentmargita,village,720,744,1464
+9,11925,Hajdú - Bihar megye,Újtikos,village,429,445,874
+9,16762,Hajdú - Bihar megye,Váncsod,village,583,579,1162
+9,11138,Hajdú - Bihar megye,Vekerd,village,61,57,118
+10,20491,Heves megye,Eger,large_city,23924,28056,51980
+10,33260,Heves megye,Bélapátfalva,city,1315,1516,2831
+10,03276,Heves megye,Füzesabony,city,3775,3918,7693
+10,05236,Heves megye,Gyöngyös,city,13346,15241,28587
+10,08323,Heves megye,Gyöngyöspata,city,1199,1301,2500
+10,22309,Heves megye,Hatvan,city,9785,10753,20538
+10,14526,Heves megye,Heves,city,5024,5457,10481
+10,18281,Heves megye,Kisköre,city,1387,1413,2800
+10,30401,Heves megye,Lőrinci,city,2746,2868,5614
+10,12070,Heves megye,Pétervására,city,1066,1108,2174
+10,24147,Heves megye,Verpelét,city,1867,2023,3890
+10,32179,Heves megye,Kál,large_village,1694,1801,3495
+10,07436,Heves megye,Parád,large_village,892,1081,1973
+10,09609,Heves megye,Recsk,large_village,1285,1450,2735
+10,24554,Heves megye,Abasár,village,1168,1297,2465
+10,23241,Heves megye,Adács,village,1306,1347,2653
+10,06345,Heves megye,Aldebrő,village,343,357,700
+10,17987,Heves megye,Andornaktálya,village,1351,1404,2755
+10,07241,Heves megye,Apc,village,1191,1269,2460
+10,06503,Heves megye,Átány,village,786,775,1561
+10,16090,Heves megye,Atkár,village,871,946,1817
+10,11527,Heves megye,Balaton,village,503,541,1044
+10,24022,Heves megye,Bátor,village,165,195,360
+10,04400,Heves megye,Bekölce,village,329,338,667
+10,27517,Heves megye,Besenyőtelek,village,1302,1347,2649
+10,22354,Heves megye,Boconád,village,628,663,1291
+10,14933,Heves megye,Bodony,village,351,379,730
+10,03452,Heves megye,Boldog,village,1446,1547,2993
+10,02963,Heves megye,Bükkszék,village,327,337,664
+10,10621,Heves megye,Bükkszenterzsébet,village,486,532,1018
+10,22099,Heves megye,Bükkszentmárton,village,161,166,327
+10,16841,Heves megye,Csány,village,1032,1129,2161
+10,08660,Heves megye,Demjén,village,309,304,613
+10,09201,Heves megye,Detk,village,526,616,1142
+10,07515,Heves megye,Domoszló,village,912,1036,1948
+10,30261,Heves megye,Dormánd,village,483,517,1000
+10,17181,Heves megye,Ecséd,village,1561,1628,3189
+10,12821,Heves megye,Egerbakta,village,700,771,1471
+10,26019,Heves megye,Egerbocs,village,273,278,551
+10,16610,Heves megye,Egercsehi,village,640,689,1329
+10,02981,Heves megye,Egerfarmos,village,337,352,689
+10,24758,Heves megye,Egerszalók,village,1003,965,1968
+10,13648,Heves megye,Egerszólát,village,549,568,1117
+10,28556,Heves megye,Erdőkövesd,village,305,337,642
+10,24235,Heves megye,Erdőtelek,village,1632,1727,3359
+10,20118,Heves megye,Erk,village,447,468,915
+10,12432,Heves megye,Fedémes,village,147,152,299
+10,20747,Heves megye,Feldebrő,village,475,519,994
+10,16328,Heves megye,Felsőtárkány,village,1716,1839,3555
+10,17534,Heves megye,Gyöngyöshalász,village,1299,1356,2655
+10,13338,Heves megye,Gyöngyösoroszi,village,740,785,1525
+10,19123,Heves megye,Gyöngyössolymos,village,1433,1495,2928
+10,28088,Heves megye,Gyöngyöstarján,village,1096,1172,2268
+10,11411,Heves megye,Halmajugra,village,681,708,1389
+10,20242,Heves megye,Heréd,village,932,959,1891
+10,10241,Heves megye,Hevesaranyos,village,295,294,589
+10,04084,Heves megye,Hevesvezekény,village,331,359,690
+10,04145,Heves megye,Hort,village,1739,1891,3630
+10,10074,Heves megye,Istenmezeje,village,669,739,1408
+10,13879,Heves megye,Ivád,village,189,196,385
+10,15307,Heves megye,Kápolna,village,752,800,1552
+10,05935,Heves megye,Karácsond,village,1440,1548,2988
+10,28079,Heves megye,Kerecsend,village,1231,1147,2378
+10,34379,Heves megye,Kerekharaszt,village,486,498,984
+10,22460,Heves megye,Kisfüzes,village,67,64,131
+10,12502,Heves megye,Kisnána,village,478,516,994
+10,23995,Heves megye,Kompolt,village,963,1049,2012
+10,14535,Heves megye,Kömlő,village,1025,1010,2035
+10,15796,Heves megye,Ludas,village,356,396,752
+10,27696,Heves megye,Maklár,village,1189,1272,2461
+10,16540,Heves megye,Markaz,village,839,878,1717
+10,19965,Heves megye,Mátraballa,village,353,404,757
+10,14872,Heves megye,Mátraderecske,village,882,956,1838
+10,29045,Heves megye,Mátraszentimre,village,243,227,470
+10,25089,Heves megye,Mezőszemere,village,561,578,1139
+10,31662,Heves megye,Mezőtárkány,village,780,838,1618
+10,31282,Heves megye,Mikófalva,village,336,361,697
+10,31565,Heves megye,Mónosbél,village,200,191,391
+10,26879,Heves megye,Nagyfüged,village,869,902,1771
+10,24943,Heves megye,Nagykökényes,village,288,287,575
+10,31486,Heves megye,Nagyréde,village,1584,1710,3294
+10,27605,Heves megye,Nagytálya,village,450,446,896
+10,10418,Heves megye,Nagyút,village,333,358,691
+10,28282,Heves megye,Nagyvisnyó,village,472,484,956
+10,18810,Heves megye,Noszvaj,village,889,1018,1907
+10,29276,Heves megye,Novaj,village,658,707,1365
+10,27216,Heves megye,Ostoros,village,1358,1432,2790
+10,34324,Heves megye,Pálosvörösmart,village,306,336,642
+10,20215,Heves megye,Parádsasvár,village,208,210,418
+10,19567,Heves megye,Pély,village,738,721,1459
+10,33686,Heves megye,Petőfibánya,village,1268,1350,2618
+10,22196,Heves megye,Poroszló,village,1403,1413,2816
+10,27650,Heves megye,Rózsaszentmárton,village,914,1060,1974
+10,07180,Heves megye,Sarud,village,559,588,1147
+10,08527,Heves megye,Sirok,village,826,917,1743
+10,16063,Heves megye,Szajla,village,289,316,605
+10,03382,Heves megye,Szarvaskő,village,193,199,392
+10,13231,Heves megye,Szentdomonkos,village,245,274,519
+10,11013,Heves megye,Szihalom,village,975,1048,2023
+10,05643,Heves megye,Szilvásvárad,village,767,780,1547
+10,13523,Heves megye,Szúcs,village,211,187,398
+10,09982,Heves megye,Szűcsi,village,713,811,1524
+10,32966,Heves megye,Tarnabod,village,385,367,752
+10,13240,Heves megye,Tarnalelesz,village,798,874,1672
+10,23348,Heves megye,Tarnaméra,village,778,825,1603
+10,14128,Heves megye,Tarnaörs,village,900,903,1803
+10,09052,Heves megye,Tarnaszentmária,village,111,129,240
+10,16160,Heves megye,Tarnaszentmiklós,village,421,400,821
+10,17163,Heves megye,Tarnazsadány,village,656,660,1316
+10,14076,Heves megye,Tenk,village,612,602,1214
+10,12229,Heves megye,Terpes,village,99,93,192
+10,07083,Heves megye,Tiszanána,village,1245,1231,2476
+10,09964,Heves megye,Tófalu,village,300,299,599
+10,27623,Heves megye,Újlőrincfalva,village,111,100,211
+10,14580,Heves megye,Vámosgyörk,village,963,1066,2029
+10,27012,Heves megye,Váraszó,village,225,255,480
+10,05759,Heves megye,Vécs,village,324,334,658
+10,31246,Heves megye,Visonta,village,606,674,1280
+10,03513,Heves megye,Visznek,village,555,541,1096
+10,21722,Heves megye,Zagyvaszántó,village,919,975,1894
+10,23445,Heves megye,Zaránk,village,204,252,456
+11,18157,Komárom - Esztergom megye,Tatabánya,large_city,32405,35735,68140
+11,04428,Komárom - Esztergom megye,Ács,city,3545,3662,7207
+11,19363,Komárom - Esztergom megye,Bábolna,city,1710,1784,3494
+11,10490,Komárom - Esztergom megye,Dorog,city,5670,6218,11888
+11,25131,Komárom - Esztergom megye,Esztergom,city,14253,15140,29393
+11,17330,Komárom - Esztergom megye,Kisbér,city,2676,2888,5564
+11,05449,Komárom - Esztergom megye,Komárom,city,9173,9998,19171
+11,15255,Komárom - Esztergom megye,Lábatlan,city,2469,2585,5054
+11,15352,Komárom - Esztergom megye,Nyergesújfalu,city,3643,3872,7515
+11,30766,Komárom - Esztergom megye,Oroszlány,city,9132,9543,18675
+11,08758,Komárom - Esztergom megye,Tát,city,2647,2846,5493
+11,20127,Komárom - Esztergom megye,Tata,city,11005,12077,23082
+11,22372,Komárom - Esztergom megye,Nagyigmánd,large_village,1446,1446,2892
+11,14155,Komárom - Esztergom megye,Tokod,large_village,2102,2144,4246
+11,18139,Komárom - Esztergom megye,Ácsteszér,village,338,342,680
+11,06682,Komárom - Esztergom megye,Aka,village,139,120,259
+11,32346,Komárom - Esztergom megye,Almásfüzitő,village,1008,1089,2097
+11,34227,Komárom - Esztergom megye,Annavölgy,village,458,497,955
+11,23852,Komárom - Esztergom megye,Ászár,village,857,864,1721
+11,29212,Komárom - Esztergom megye,Baj,village,1445,1463,2908
+11,16744,Komárom - Esztergom megye,Bajna,village,972,973,1945
+11,29355,Komárom - Esztergom megye,Bajót,village,812,839,1651
+11,24244,Komárom - Esztergom megye,Bakonybánk,village,223,216,439
+11,25229,Komárom - Esztergom megye,Bakonysárkány,village,477,513,990
+11,22381,Komárom - Esztergom megye,Bakonyszombathely,village,696,704,1400
+11,31422,Komárom - Esztergom megye,Bana,village,785,841,1626
+11,08624,Komárom - Esztergom megye,Bársonyos,village,340,421,761
+11,07311,Komárom - Esztergom megye,Bokod,village,1076,1137,2213
+11,16416,Komárom - Esztergom megye,Császár,village,962,982,1944
+11,33109,Komárom - Esztergom megye,Csatka,village,117,106,223
+11,33640,Komárom - Esztergom megye,Csém,village,192,228,420
+11,18272,Komárom - Esztergom megye,Csép,village,175,179,354
+11,18926,Komárom - Esztergom megye,Csolnok,village,1594,1659,3253
+11,33163,Komárom - Esztergom megye,Dad,village,518,520,1038
+11,22910,Komárom - Esztergom megye,Dág,village,455,474,929
+11,06594,Komárom - Esztergom megye,Dömös,village,629,595,1224
+11,33835,Komárom - Esztergom megye,Dunaalmás,village,869,802,1671
+11,24101,Komárom - Esztergom megye,Dunaszentmiklós,village,228,270,498
+11,29638,Komárom - Esztergom megye,Epöl,village,333,308,641
+11,06664,Komárom - Esztergom megye,Ete,village,310,296,606
+11,06521,Komárom - Esztergom megye,Gyermely,village,776,761,1537
+11,11891,Komárom - Esztergom megye,Héreg,village,540,529,1069
+11,04525,Komárom - Esztergom megye,Kecskéd,village,1042,1062,2104
+11,10995,Komárom - Esztergom megye,Kerékteleki,village,362,345,707
+11,29577,Komárom - Esztergom megye,Kesztölc,village,1365,1409,2774
+11,20923,Komárom - Esztergom megye,Kisigmánd,village,270,263,533
+11,02510,Komárom - Esztergom megye,Kocs,village,1260,1332,2592
+11,07630,Komárom - Esztergom megye,Kömlőd,village,540,561,1101
+11,30553,Komárom - Esztergom megye,Környe,village,2363,2368,4731
+11,25487,Komárom - Esztergom megye,Leányvár,village,906,965,1871
+11,22637,Komárom - Esztergom megye,Máriahalom,village,355,323,678
+11,26930,Komárom - Esztergom megye,Mocsa,village,1056,1088,2144
+11,28255,Komárom - Esztergom megye,Mogyorósbánya,village,409,466,875
+11,27076,Komárom - Esztergom megye,Nagysáp,village,737,746,1483
+11,20163,Komárom - Esztergom megye,Naszály,village,1178,1257,2435
+11,33826,Komárom - Esztergom megye,Neszmély,village,669,707,1376
+11,21874,Komárom - Esztergom megye,Piliscsév,village,1251,1292,2543
+11,14669,Komárom - Esztergom megye,Pilismarót,village,1047,1076,2123
+11,30012,Komárom - Esztergom megye,Réde,village,632,665,1297
+11,26903,Komárom - Esztergom megye,Sárisáp,village,1376,1433,2809
+11,31990,Komárom - Esztergom megye,Súr,village,610,625,1235
+11,08688,Komárom - Esztergom megye,Süttő,village,997,1037,2034
+11,33516,Komárom - Esztergom megye,Szákszend,village,760,725,1485
+11,33491,Komárom - Esztergom megye,Szárliget,village,1286,1254,2540
+11,22619,Komárom - Esztergom megye,Szomód,village,1166,1140,2306
+11,21421,Komárom - Esztergom megye,Szomor,village,555,586,1141
+11,30225,Komárom - Esztergom megye,Tardos,village,820,907,1727
+11,18935,Komárom - Esztergom megye,Tarján,village,1277,1377,2654
+11,20987,Komárom - Esztergom megye,Tárkány,village,712,784,1496
+11,34023,Komárom - Esztergom megye,Tokodaltáró,village,1551,1522,3073
+11,27632,Komárom - Esztergom megye,Úny,village,378,375,753
+11,17251,Komárom - Esztergom megye,Várgesztes,village,316,322,638
+11,32586,Komárom - Esztergom megye,Vérteskethely,village,306,299,605
+11,15282,Komárom - Esztergom megye,Vértessomló,village,713,680,1393
+11,31264,Komárom - Esztergom megye,Vértesszőlős,village,1724,1724,3448
+11,29629,Komárom - Esztergom megye,Vértestolna,village,279,294,573
+12,25788,Nógrád megye,Salgótarján,large_city,16415,18462,34877
+12,13657,Nógrád megye,Balassagyarmat,city,7019,7800,14819
+12,33534,Nógrád megye,Bátonyterenye,city,5947,6260,12207
+12,07409,Nógrád megye,Pásztó,city,4300,4689,8989
+12,23825,Nógrád megye,Rétság,city,1334,1417,2751
+12,06628,Nógrád megye,Szécsény,city,2677,3000,5677
+12,16425,Nógrád megye,Alsópetény,village,276,313,589
+12,07621,Nógrád megye,Alsótold,village,118,107,225
+12,24341,Nógrád megye,Bánk,village,352,363,715
+12,20048,Nógrád megye,Bárna,village,509,486,995
+12,12016,Nógrád megye,Becske,village,274,284,558
+12,32911,Nógrád megye,Bér,village,185,189,374
+12,02389,Nógrád megye,Bercel,village,853,855,1708
+12,09034,Nógrád megye,Berkenye,village,335,347,682
+12,03841,Nógrád megye,Bokor,village,51,61,112
+12,09894,Nógrád megye,Borsosberény,village,471,463,934
+12,14234,Nógrád megye,Buják,village,994,1072,2066
+12,03665,Nógrád megye,Cered,village,499,561,1060
+12,30270,Nógrád megye,Csécse,village,428,475,903
+12,21935,Nógrád megye,Cserháthaláp,village,193,194,387
+12,22594,Nógrád megye,Cserhátsurány,village,371,399,770
+12,32319,Nógrád megye,Cserhátszentiván,village,54,55,109
+12,20145,Nógrád megye,Csesztve,village,175,164,339
+12,05050,Nógrád megye,Csitár,village,210,192,402
+12,07320,Nógrád megye,Debercsény,village,33,43,76
+12,12511,Nógrád megye,Dejtár,village,722,721,1443
+12,06743,Nógrád megye,Diósjenő,village,1533,1439,2972
+12,24439,Nógrád megye,Dorogháza,village,481,535,1016
+12,08156,Nógrád megye,Drégelypalánk,village,698,741,1439
+12,04251,Nógrád megye,Ecseg,village,587,588,1175
+12,17659,Nógrád megye,Egyházasdengeleg,village,213,214,427
+12,05980,Nógrád megye,Egyházasgerge,village,346,356,702
+12,25496,Nógrád megye,Endrefalva,village,609,615,1224
+12,22655,Nógrád megye,Erdőkürt,village,267,274,541
+12,21795,Nógrád megye,Erdőtarcsa,village,245,274,519
+12,21582,Nógrád megye,Érsekvadkert,village,1810,1835,3645
+12,15370,Nógrád megye,Etes,village,668,684,1352
+12,24323,Nógrád megye,Felsőpetény,village,286,307,593
+12,33312,Nógrád megye,Felsőtold,village,60,71,131
+12,25663,Nógrád megye,Galgaguta,village,301,307,608
+12,18494,Nógrád megye,Garáb,village,23,20,43
+12,03993,Nógrád megye,Héhalom,village,517,524,1041
+12,05324,Nógrád megye,Herencsény,village,265,286,551
+12,33242,Nógrád megye,Hollókő,village,154,185,339
+12,13204,Nógrád megye,Hont,village,243,269,512
+12,13718,Nógrád megye,Horpács,village,81,93,174
+12,16878,Nógrád megye,Hugyag,village,422,440,862
+12,26833,Nógrád megye,Iliny,village,75,86,161
+12,01508,Nógrád megye,Ipolyszög,village,316,312,628
+12,03328,Nógrád megye,Ipolytarnóc,village,233,211,444
+12,29319,Nógrád megye,Ipolyvece,village,396,423,819
+12,08712,Nógrád megye,Jobbágyi,village,979,1014,1993
+12,08642,Nógrád megye,Kálló,village,796,778,1574
+12,18625,Nógrád megye,Karancsalja,village,733,780,1513
+12,25548,Nógrád megye,Karancsberény,village,393,404,797
+12,08855,Nógrád megye,Karancskeszi,village,866,943,1809
+12,21041,Nógrád megye,Karancslapujtő,village,1249,1309,2558
+12,26897,Nógrád megye,Karancsság,village,637,660,1297
+12,28389,Nógrád megye,Kazár,village,862,872,1734
+12,31413,Nógrád megye,Keszeg,village,357,349,706
+12,11846,Nógrád megye,Kétbodony,village,231,229,460
+12,27243,Nógrád megye,Kisbágyon,village,201,219,420
+12,26295,Nógrád megye,Kisbárkány,village,75,76,151
+12,33206,Nógrád megye,Kisecset,village,93,85,178
+12,33400,Nógrád megye,Kishartyán,village,264,297,561
+12,13842,Nógrád megye,Kozárd,village,87,81,168
+12,19451,Nógrád megye,Kutasó,village,48,53,101
+12,30395,Nógrád megye,Legénd,village,253,237,490
+12,04871,Nógrád megye,Litke,village,434,386,820
+12,20190,Nógrád megye,Lucfalva,village,299,338,637
+12,02778,Nógrád megye,Ludányhalászi,village,765,701,1466
+12,26967,Nógrád megye,Magyargéc,village,403,443,846
+12,32407,Nógrád megye,Magyarnándor,village,528,583,1111
+12,14641,Nógrád megye,Márkháza,village,116,136,252
+12,20075,Nógrád megye,Mátramindszent,village,370,396,766
+12,19372,Nógrád megye,Mátranovák,village,771,871,1642
+12,24332,Nógrád megye,Mátraszele,village,444,474,918
+12,04330,Nógrád megye,Mátraszőlős,village,695,813,1508
+12,33525,Nógrád megye,Mátraterenye,village,888,905,1793
+12,30100,Nógrád megye,Mátraverebély,village,943,936,1879
+12,13222,Nógrád megye,Mihálygerge,village,265,285,550
+12,27915,Nógrád megye,Mohora,village,478,503,981
+12,16391,Nógrád megye,Nagybárkány,village,314,328,642
+12,34281,Nógrád megye,Nagykeresztúr,village,125,130,255
+12,21102,Nógrád megye,Nagylóc,village,712,784,1496
+12,23986,Nógrád megye,Nagyoroszi,village,1008,1020,2028
+12,27580,Nógrád megye,Nemti,village,359,364,723
+12,09797,Nógrád megye,Nézsa,village,573,607,1180
+12,04358,Nógrád megye,Nógrád,village,836,786,1622
+12,32300,Nógrád megye,Nógrádkövesd,village,332,318,650
+12,29832,Nógrád megye,Nógrádmarcal,village,245,234,479
+12,12131,Nógrád megye,Nógrádmegyer,village,810,838,1648
+12,08387,Nógrád megye,Nógrádsáp,village,475,458,933
+12,19497,Nógrád megye,Nógrádsipek,village,343,367,710
+12,27340,Nógrád megye,Nógrádszakál,village,330,350,680
+12,29425,Nógrád megye,Nőtincs,village,563,625,1188
+12,03249,Nógrád megye,Őrhalom,village,520,482,1002
+12,19318,Nógrád megye,Ősagárd,village,149,183,332
+12,05883,Nógrád megye,Palotás,village,767,852,1619
+12,07199,Nógrád megye,Patak,village,436,470,906
+12,33880,Nógrád megye,Patvarc,village,365,375,740
+12,11590,Nógrád megye,Piliny,village,307,299,606
+12,17862,Nógrád megye,Pusztaberki,village,83,82,165
+12,34360,Nógrád megye,Rákóczibánya,village,320,334,654
+12,28884,Nógrád megye,Rimóc,village,787,870,1657
+12,12195,Nógrád megye,Romhány,village,1049,1126,2175
+12,12520,Nógrád megye,Ságújfalu,village,495,499,994
+12,24572,Nógrád megye,Sámsonháza,village,140,145,285
+12,01526,Nógrád megye,Somoskőújfalu,village,1083,1133,2216
+12,14881,Nógrád megye,Sóshartyán,village,448,466,914
+12,19798,Nógrád megye,Szalmatercs,village,240,228,468
+12,13754,Nógrád megye,Szanda,village,307,295,602
+12,10199,Nógrád megye,Szarvasgede,village,193,205,398
+12,15325,Nógrád megye,Szátok,village,291,273,564
+12,23047,Nógrád megye,Szécsénke,village,101,99,200
+12,33011,Nógrád megye,Szécsényfelfalu,village,195,206,401
+12,04507,Nógrád megye,Szendehely,village,793,836,1629
+12,09043,Nógrád megye,Szente,village,156,172,328
+12,07959,Nógrád megye,Szilaspogony,village,161,164,325
+12,21634,Nógrád megye,Szirák,village,560,559,1119
+12,28194,Nógrád megye,Szuha,village,245,277,522
+12,19044,Nógrád megye,Szurdokpüspöki,village,912,961,1873
+12,18786,Nógrád megye,Szügy,village,726,750,1476
+12,32896,Nógrád megye,Tar,village,891,987,1878
+12,04844,Nógrád megye,Terény,village,167,200,367
+12,24174,Nógrád megye,Tereske,village,342,349,691
+12,06381,Nógrád megye,Tolmács,village,361,402,763
+12,30915,Nógrád megye,Vanyarc,village,582,623,1205
+12,29498,Nógrád megye,Varsány,village,776,812,1588
+12,10320,Nógrád megye,Vizslás,village,639,668,1307
+12,21661,Nógrád megye,Zabar,village,218,246,464
+13,30988,Pest megye,Érd,large_city,34157,35632,69789
+13,27872,Pest megye,Abony,city,7241,7654,14895
+13,31653,Pest megye,Albertirsa,city,6353,6935,13288
+13,16188,Pest megye,Aszód,city,2971,3222,6193
+13,08891,Pest megye,Biatorbágy,city,6979,7093,14072
+13,23463,Pest megye,Budakalász,city,5639,5962,11601
+13,12052,Pest megye,Budakeszi,city,7328,7924,15252
+13,23278,Pest megye,Budaörs,city,14386,15429,29815
+13,11341,Pest megye,Cegléd,city,17644,19224,36868
+13,09247,Pest megye,Dabas,city,8300,8953,17253
+13,24013,Pest megye,Diósd,city,5296,5589,10885
+13,09584,Pest megye,Dunaharaszti,city,11391,11996,23387
+13,18616,Pest megye,Dunakeszi,city,21010,22755,43765
+13,20534,Pest megye,Dunavarsány,city,4178,4344,8522
+13,32610,Pest megye,Fót,city,10238,10464,20702
+13,23649,Pest megye,Göd,city,10470,10948,21418
+13,32559,Pest megye,Gödöllő,city,15152,16804,31956
+13,25627,Pest megye,Gyál,city,12227,12579,24806
+13,29735,Pest megye,Gyömrő,city,9193,10050,19243
+13,09690,Pest megye,Halásztelek,city,5698,5925,11623
+13,07807,Pest megye,Isaszeg,city,5755,5855,11610
+13,34166,Pest megye,Kerepes,city,5320,5359,10679
+13,34157,Pest megye,Kistarcsa,city,6424,6914,13338
+13,10922,Pest megye,Maglód,city,6296,6465,12761
+13,10551,Pest megye,Monor,city,9139,9668,18807
+13,13435,Pest megye,Nagykáta,city,6121,6444,12565
+13,19716,Pest megye,Nagykőrös,city,11451,12396,23847
+13,31732,Pest megye,Nagymaros,city,2555,2607,5162
+13,04075,Pest megye,Ócsa,city,4902,4963,9865
+13,08545,Pest megye,Őrbottyán,city,3761,3941,7702
+13,05281,Pest megye,Örkény,city,2530,2552,5082
+13,04057,Pest megye,Pécel,city,8174,8558,16732
+13,09821,Pest megye,Pilis,city,6110,6072,12182
+13,07144,Pest megye,Piliscsaba,city,4097,4259,8356
+13,14340,Pest megye,Pilisvörösvár,city,6984,7762,14746
+13,06372,Pest megye,Pomáz,city,8905,9389,18294
+13,17260,Pest megye,Ráckeve,city,5158,5524,10682
+13,21713,Pest megye,Sülysáp,city,4226,4289,8515
+13,17312,Pest megye,Százhalombatta,city,8989,9865,18854
+13,15440,Pest megye,Szentendre,city,13495,14890,28385
+13,13277,Pest megye,Szigethalom,city,9121,9358,18479
+13,28954,Pest megye,Szigetszentmiklós,city,19455,20497,39952
+13,24916,Pest megye,Szob,city,1241,1380,2621
+13,14146,Pest megye,Tápiószele,city,3116,3152,6268
+13,29823,Pest megye,Tököl,city,5072,5434,10506
+13,06859,Pest megye,Törökbálint,city,6994,7382,14376
+13,09593,Pest megye,Tura,city,3736,4050,7786
+13,06293,Pest megye,Újhartyán,city,1345,1462,2807
+13,12894,Pest megye,Üllő,city,6046,6424,12470
+13,24934,Pest megye,Vác,city,16085,17925,34010
+13,26815,Pest megye,Vecsés,city,10396,11028,21424
+13,18342,Pest megye,Veresegyház,city,9620,10200,19820
+13,28413,Pest megye,Visegrád,city,882,926,1808
+13,25034,Pest megye,Zsámbék,city,2830,2918,5748
+13,23199,Pest megye,Alsónémedi,large_village,2663,2750,5413
+13,09131,Pest megye,Bag,large_village,1960,1994,3954
+13,32027,Pest megye,Bugyi,large_village,2665,2726,5391
+13,22804,Pest megye,Csömör,large_village,4831,5069,9900
+13,29647,Pest megye,Dömsöd,large_village,3029,3050,6079
+13,30696,Pest megye,Kartal,large_village,2961,3054,6015
+13,10816,Pest megye,Kiskunlacháza,large_village,4493,4704,9197
+13,30809,Pest megye,Leányfalu,large_village,1902,2049,3951
+13,17783,Pest megye,Mogyoród,large_village,3637,3610,7247
+13,09991,Pest megye,Nagykovácsi,large_village,4226,4425,8651
+13,07384,Pest megye,Solymár,large_village,5443,5848,11291
+13,30720,Pest megye,Taksony,large_village,3180,3309,6489
+13,31796,Pest megye,Tápiószecső,large_village,3081,3227,6308
+13,14571,Pest megye,Tápiószentmárton,large_village,2769,2894,5663
+13,04154,Pest megye,Tárnok,large_village,5054,5189,10243
+13,17598,Pest megye,Valkó,large_village,1257,1247,2504
+13,18573,Pest megye,Acsa,village,707,667,1374
+13,33561,Pest megye,Apaj,village,603,574,1177
+13,10108,Pest megye,Áporka,village,664,609,1273
+13,25098,Pest megye,Bénye,village,619,654,1273
+13,18777,Pest megye,Bernecebaráti,village,400,426,826
+13,03407,Pest megye,Budajenő,village,1054,1105,2159
+13,20640,Pest megye,Ceglédbercel,village,2072,2306,4378
+13,05184,Pest megye,Csemő,village,2371,2313,4684
+13,18476,Pest megye,Csévharaszt,village,1036,1017,2053
+13,06822,Pest megye,Csobánka,village,1771,1767,3538
+13,33118,Pest megye,Csomád,village,877,845,1722
+13,34333,Pest megye,Csörög,village,1097,1105,2202
+13,26985,Pest megye,Csővár,village,313,332,645
+13,31811,Pest megye,Dánszentmiklós,village,1457,1434,2891
+13,18397,Pest megye,Dány,village,2207,2314,4521
+13,09973,Pest megye,Délegyháza,village,2574,2583,5157
+13,04808,Pest megye,Domony,village,1120,1148,2268
+13,25362,Pest megye,Dunabogdány,village,1572,1683,3255
+13,24518,Pest megye,Ecser,village,1983,2100,4083
+13,13480,Pest megye,Erdőkertes,village,4434,4539,8973
+13,09122,Pest megye,Farmos,village,1767,1775,3542
+13,06035,Pest megye,Felsőpakony,village,1933,1926,3859
+13,13295,Pest megye,Galgagyörk,village,468,519,987
+13,19503,Pest megye,Galgahévíz,village,1279,1359,2638
+13,27128,Pest megye,Galgamácsa,village,949,975,1924
+13,09441,Pest megye,Gomba,village,1555,1570,3125
+13,33552,Pest megye,Herceghalom,village,1364,1304,2668
+13,09849,Pest megye,Hernád,village,2119,2123,4242
+13,13949,Pest megye,Hévízgyörk,village,1554,1712,3266
+13,03300,Pest megye,Iklad,village,1004,1066,2070
+13,32106,Pest megye,Inárcs,village,2329,2392,4721
+13,28097,Pest megye,Ipolydamásd,village,233,190,423
+13,04978,Pest megye,Ipolytölgyes,village,157,163,320
+13,11004,Pest megye,Jászkarajenő,village,1314,1342,2656
+13,32230,Pest megye,Kakucs,village,1595,1519,3114
+13,27827,Pest megye,Káva,village,327,331,658
+13,22345,Pest megye,Kemence,village,437,491,928
+13,33738,Pest megye,Kismaros,village,1242,1217,2459
+13,05227,Pest megye,Kisnémedi,village,357,388,745
+13,29850,Pest megye,Kisoroszi,village,491,496,987
+13,32771,Pest megye,Kocsér,village,876,930,1806
+13,31361,Pest megye,Kóka,village,2258,2310,4568
+13,27687,Pest megye,Kosd,village,1213,1266,2479
+13,24679,Pest megye,Kóspallag,village,365,361,726
+13,32975,Pest megye,Kőröstetétlen,village,396,398,794
+13,22682,Pest megye,Letkés,village,571,596,1167
+13,09140,Pest megye,Lórév,village,169,154,323
+13,10755,Pest megye,Majosháza,village,899,836,1735
+13,04394,Pest megye,Makád,village,645,623,1268
+13,04570,Pest megye,Márianosztra,village,394,413,807
+13,03692,Pest megye,Mende,village,2054,2111,4165
+13,24466,Pest megye,Mikebuda,village,358,376,734
+13,34397,Pest megye,Monorierdő,village,2436,2481,4917
+13,14775,Pest megye,Nagybörzsöny,village,345,342,687
+13,23409,Pest megye,Nagytarcsa,village,2524,2635,5159
+13,23038,Pest megye,Nyáregyháza,village,1928,1936,3864
+13,20066,Pest megye,Nyársapát,village,1096,1064,2160
+13,22248,Pest megye,Pánd,village,1009,986,1995
+13,15024,Pest megye,Páty,village,3947,4134,8081
+13,18689,Pest megye,Penc,village,761,786,1547
+13,28185,Pest megye,Perbál,village,1037,1106,2143
+13,04181,Pest megye,Perőcsény,village,174,149,323
+13,21847,Pest megye,Péteri,village,1220,1282,2502
+13,29601,Pest megye,Pilisborosjenő,village,2000,1997,3997
+13,34148,Pest megye,Pilisjászfalu,village,881,887,1768
+13,05290,Pest megye,Pilisszántó,village,1306,1349,2655
+13,11396,Pest megye,Pilisszentiván,village,2153,2314,4467
+13,18731,Pest megye,Pilisszentkereszt,village,1047,1132,2179
+13,08457,Pest megye,Pilisszentlászló,village,620,651,1271
+13,04905,Pest megye,Pócsmegyer,village,1354,1304,2658
+13,23083,Pest megye,Pusztavacs,village,670,663,1333
+13,15583,Pest megye,Pusztazámor,village,603,620,1223
+13,21388,Pest megye,Püspökhatvan,village,672,731,1403
+13,04303,Pest megye,Püspökszilágy,village,370,366,736
+13,02370,Pest megye,Rád,village,954,958,1912
+13,34315,Pest megye,Remeteszőlős,village,504,547,1051
+13,06840,Pest megye,Sóskút,village,1790,1758,3548
+13,21458,Pest megye,Szada,village,2729,2898,5627
+13,07542,Pest megye,Szentlőrinckáta,village,952,1014,1966
+13,28653,Pest megye,Szentmártonkáta,village,2519,2462,4981
+13,26259,Pest megye,Szigetbecse,village,712,720,1432
+13,07870,Pest megye,Szigetcsép,village,1239,1311,2550
+13,26213,Pest megye,Szigetmonostor,village,1455,1401,2856
+13,15185,Pest megye,Szigetszentmárton,village,1159,1251,2410
+13,22114,Pest megye,Szigetújfalu,village,1121,1130,2251
+13,06947,Pest megye,Szokolya,village,984,985,1969
+13,12690,Pest megye,Sződ,village,1476,1578,3054
+13,28866,Pest megye,Sződliget,village,2282,2377,4659
+13,08332,Pest megye,Táborfalva,village,1730,1780,3510
+13,31963,Pest megye,Tahitótfalu,village,2985,3082,6067
+13,15015,Pest megye,Tápióbicske,village,1871,1819,3690
+13,17303,Pest megye,Tápiógyörgye,village,1776,1855,3631
+13,09405,Pest megye,Tápióság,village,1350,1445,2795
+13,02769,Pest megye,Tápiószőlős,village,1469,1538,3007
+13,27386,Pest megye,Tatárszentgyörgy,village,999,1019,2018
+13,08280,Pest megye,Telki,village,2184,2177,4361
+13,19248,Pest megye,Tésa,village,58,39,97
+13,07108,Pest megye,Tinnye,village,931,929,1860
+13,21467,Pest megye,Tóalmás,village,1904,1933,3837
+13,24527,Pest megye,Tök,village,701,696,1397
+13,22008,Pest megye,Törtel,village,2068,2201,4269
+13,19682,Pest megye,Újlengyel,village,830,926,1756
+13,17808,Pest megye,Újszilvás,village,1363,1374,2737
+13,28644,Pest megye,Úri,village,1266,1382,2648
+13,11934,Pest megye,Üröm,village,3958,4138,8096
+13,05917,Pest megye,Vácduka,village,821,878,1699
+13,30331,Pest megye,Vácegres,village,467,457,924
+13,19886,Pest megye,Váchartyán,village,915,958,1873
+13,05698,Pest megye,Váckisújfalu,village,239,236,475
+13,17668,Pest megye,Vácrátót,village,943,984,1927
+13,09104,Pest megye,Vácszentlászló,village,1050,1096,2146
+13,10737,Pest megye,Vámosmikola,village,749,772,1521
+13,22585,Pest megye,Vasad,village,1013,982,1995
+13,33729,Pest megye,Verőce,village,1948,1971,3919
+13,22488,Pest megye,Verseg,village,663,674,1337
+13,14960,Pest megye,Zebegény,village,643,637,1280
+13,22035,Pest megye,Zsámbok,village,1245,1282,2527
+14,20473,Somogy megye,Kaposvár,large_city,29175,33436,62611
+14,33853,Somogy megye,Balatonboglár,city,2765,3072,5837
+14,07117,Somogy megye,Balatonföldvár,city,1138,1206,2344
+14,33862,Somogy megye,Balatonlelle,city,2358,2521,4879
+14,32799,Somogy megye,Barcs,city,5189,5654,10843
+14,21315,Somogy megye,Csurgó,city,2348,2537,4885
+14,14632,Somogy megye,Fonyód,city,2475,2704,5179
+14,11192,Somogy megye,Igal,city,743,773,1516
+14,26453,Somogy megye,Kadarkút,city,1234,1211,2445
+14,26675,Somogy megye,Lengyeltóti,city,1536,1575,3111
+14,18500,Somogy megye,Marcali,city,5328,6052,11380
+14,17941,Somogy megye,Nagyatád,city,4839,5553,10392
+14,21652,Somogy megye,Nagybajom,city,1578,1594,3172
+14,17631,Somogy megye,Siófok,city,11633,13410,25043
+14,08590,Somogy megye,Tab,city,2095,2226,4321
+14,06008,Somogy megye,Zamárdi,city,1286,1346,2632
+14,24907,Somogy megye,Balatonszárszó,large_village,1080,1174,2254
+14,30119,Somogy megye,Berzence,large_village,1137,1306,2443
+14,06080,Somogy megye,Ádánd,village,1069,1089,2158
+14,34184,Somogy megye,Alsóbogát,village,135,131,266
+14,28714,Somogy megye,Andocs,village,519,536,1055
+14,30474,Somogy megye,Babócsa,village,732,746,1478
+14,28316,Somogy megye,Bábonymegyer,village,402,415,817
+14,14395,Somogy megye,Bakháza,village,95,83,178
+14,27377,Somogy megye,Balatonberény,village,591,607,1198
+14,19460,Somogy megye,Balatonendréd,village,644,703,1347
+14,20729,Somogy megye,Balatonfenyves,village,1080,1138,2218
+14,07375,Somogy megye,Balatonkeresztúr,village,823,890,1713
+14,14562,Somogy megye,Balatonmáriafürdő,village,374,419,793
+14,11916,Somogy megye,Balatonőszöd,village,267,282,549
+14,16601,Somogy megye,Balatonszabadi,village,1456,1513,2969
+14,22822,Somogy megye,Balatonszemes,village,887,939,1826
+14,21324,Somogy megye,Balatonszentgyörgy,village,813,887,1700
+14,16470,Somogy megye,Balatonújlak,village,237,260,497
+14,03559,Somogy megye,Balatonvilágos,village,753,724,1477
+14,24457,Somogy megye,Bálványos,village,288,320,608
+14,03735,Somogy megye,Bárdudvarnok,village,599,578,1177
+14,32337,Somogy megye,Baté,village,380,402,782
+14,20710,Somogy megye,Bedegkér,village,200,203,403
+14,06910,Somogy megye,Bélavár,village,152,181,333
+14,17127,Somogy megye,Beleg,village,326,296,622
+14,10506,Somogy megye,Bodrog,village,203,196,399
+14,13994,Somogy megye,Bolhás,village,204,211,415
+14,18120,Somogy megye,Bolhó,village,348,391,739
+14,22673,Somogy megye,Bonnya,village,129,119,248
+14,26532,Somogy megye,Böhönye,village,1128,1141,2269
+14,26277,Somogy megye,Bőszénfa,village,251,257,508
+14,17358,Somogy megye,Buzsák,village,718,827,1545
+14,08703,Somogy megye,Büssü,village,217,219,436
+14,03799,Somogy megye,Csákány,village,164,157,321
+14,25681,Somogy megye,Cserénfa,village,112,103,215
+14,05971,Somogy megye,Csokonyavisonta,village,776,797,1573
+14,08040,Somogy megye,Csoma,village,232,217,449
+14,02477,Somogy megye,Csombárd,village,139,127,266
+14,24314,Somogy megye,Csököly,village,496,546,1042
+14,27270,Somogy megye,Csömend,village,138,163,301
+14,10603,Somogy megye,Csurgónagymarton,village,87,88,175
+14,31352,Somogy megye,Darány,village,450,478,928
+14,13611,Somogy megye,Drávagárdony,village,72,83,155
+14,15884,Somogy megye,Drávatamási,village,205,188,393
+14,10861,Somogy megye,Ecseny,village,117,110,227
+14,03489,Somogy megye,Edde,village,107,96,203
+14,13985,Somogy megye,Felsőmocsolád,village,211,180,391
+14,31644,Somogy megye,Fiad,village,65,68,133
+14,22026,Somogy megye,Fonó,village,160,166,326
+14,22707,Somogy megye,Főnyed,village,48,36,84
+14,28264,Somogy megye,Gadács,village,63,38,101
+14,26222,Somogy megye,Gadány,village,150,197,347
+14,06585,Somogy megye,Gálosfa,village,124,116,240
+14,06451,Somogy megye,Gamás,village,351,393,744
+14,09177,Somogy megye,Gige,village,195,210,405
+14,30571,Somogy megye,Gölle,village,430,433,863
+14,14599,Somogy megye,Görgeteg,village,558,573,1131
+14,30960,Somogy megye,Gyékényes,village,488,497,985
+14,23904,Somogy megye,Gyugy,village,171,158,329
+14,18634,Somogy megye,Hács,village,198,171,369
+14,25830,Somogy megye,Hajmás,village,130,123,253
+14,08837,Somogy megye,Háromfa,village,345,364,709
+14,16726,Somogy megye,Hedrehely,village,199,190,389
+14,09946,Somogy megye,Hencse,village,162,170,332
+14,24846,Somogy megye,Heresznye,village,141,131,272
+14,09928,Somogy megye,Hetes,village,558,602,1160
+14,06211,Somogy megye,Hollád,village,128,133,261
+14,19150,Somogy megye,Homokszentgyörgy,village,515,556,1071
+14,30775,Somogy megye,Hosszúvíz,village,31,26,57
+14,19619,Somogy megye,Iharos,village,250,262,512
+14,27784,Somogy megye,Iharosberény,village,631,683,1314
+14,26301,Somogy megye,Inke,village,613,628,1241
+14,21333,Somogy megye,Istvándi,village,275,321,596
+14,15927,Somogy megye,Jákó,village,305,328,633
+14,17279,Somogy megye,Juta,village,600,581,1181
+14,06105,Somogy megye,Kálmáncsa,village,302,290,592
+14,05272,Somogy megye,Kánya,village,210,222,432
+14,33394,Somogy megye,Kapoly,village,318,317,635
+14,09098,Somogy megye,Kaposfő,village,779,804,1583
+14,28811,Somogy megye,Kaposgyarmat,village,47,44,91
+14,25867,Somogy megye,Kaposhomok,village,241,239,480
+14,12663,Somogy megye,Kaposkeresztúr,village,168,181,349
+14,18227,Somogy megye,Kaposmérő,village,1181,1266,2447
+14,06424,Somogy megye,Kaposszerdahely,village,516,516,1032
+14,15732,Somogy megye,Kaposújlak,village,353,355,708
+14,05351,Somogy megye,Kára,village,31,30,61
+14,05263,Somogy megye,Karád,village,783,777,1560
+14,08411,Somogy megye,Kastélyosdombó,village,105,107,212
+14,34193,Somogy megye,Kaszó,village,54,45,99
+14,26888,Somogy megye,Kazsok,village,175,151,326
+14,17446,Somogy megye,Kelevíz,village,189,165,354
+14,14386,Somogy megye,Kercseliget,village,207,182,389
+14,04598,Somogy megye,Kereki,village,258,285,543
+14,11174,Somogy megye,Kéthely,village,1142,1181,2323
+14,19053,Somogy megye,Kisasszond,village,106,78,184
+14,24387,Somogy megye,Kisbajom,village,197,223,420
+14,24493,Somogy megye,Kisbárapáti,village,203,197,400
+14,30827,Somogy megye,Kisberény,village,105,107,212
+14,04826,Somogy megye,Kisgyalán,village,122,117,239
+14,13781,Somogy megye,Kiskorpád,village,439,469,908
+14,09858,Somogy megye,Komlósd,village,77,97,174
+14,13745,Somogy megye,Kőkút,village,285,242,527
+14,15510,Somogy megye,Kőröshegy,village,678,742,1420
+14,18148,Somogy megye,Kötcse,village,267,277,544
+14,28857,Somogy megye,Kutas,village,716,715,1431
+14,28291,Somogy megye,Lábod,village,920,961,1881
+14,16258,Somogy megye,Lad,village,289,316,605
+14,11040,Somogy megye,Lakócsa,village,283,301,584
+14,14863,Somogy megye,Látrány,village,665,746,1411
+14,32355,Somogy megye,Libickozma,village,22,17,39
+14,10010,Somogy megye,Lulla,village,118,103,221
+14,10427,Somogy megye,Magyaratád,village,402,403,805
+14,25371,Somogy megye,Magyaregres,village,297,305,602
+14,23630,Somogy megye,Mernye,village,631,665,1296
+14,16106,Somogy megye,Mesztegnyő,village,627,678,1305
+14,30854,Somogy megye,Mezőcsokonya,village,613,630,1243
+14,20905,Somogy megye,Mike,village,330,305,635
+14,33376,Somogy megye,Miklósi,village,107,109,216
+14,31343,Somogy megye,Mosdós,village,417,483,900
+14,15909,Somogy megye,Nágocs,village,295,324,619
+14,29063,Somogy megye,Nagyberény,village,655,690,1345
+14,21449,Somogy megye,Nagyberki,village,679,767,1446
+14,20598,Somogy megye,Nagycsepely,village,184,194,378
+14,32805,Somogy megye,Nagykorpád,village,288,264,552
+14,25520,Somogy megye,Nagyszakácsi,village,245,215,460
+14,07913,Somogy megye,Nemesdéd,village,417,409,826
+14,25511,Somogy megye,Nemeskisfalud,village,65,61,126
+14,17561,Somogy megye,Nemesvid,village,396,349,745
+14,10959,Somogy megye,Nikla,village,394,376,770
+14,03203,Somogy megye,Nyim,village,170,167,337
+14,24536,Somogy megye,Orci,village,264,288,552
+14,16823,Somogy megye,Ordacsehi,village,442,424,866
+14,19770,Somogy megye,Osztopán,village,410,385,795
+14,07056,Somogy megye,Öreglak,village,745,788,1533
+14,14012,Somogy megye,Őrtilos,village,250,230,480
+14,32115,Somogy megye,Ötvöskónyi,village,454,464,918
+14,34041,Somogy megye,Pálmajor,village,169,176,345
+14,26392,Somogy megye,Pamuk,village,152,141,293
+14,06141,Somogy megye,Patalom,village,153,172,325
+14,12168,Somogy megye,Patca,village,29,32,61
+14,15592,Somogy megye,Patosfa,village,111,131,242
+14,29197,Somogy megye,Péterhida,village,83,84,167
+14,27553,Somogy megye,Pogányszentpéter,village,266,241,507
+14,13790,Somogy megye,Polány,village,139,132,271
+14,11828,Somogy megye,Porrog,village,109,105,214
+14,13930,Somogy megye,Porrogszentkirály,village,136,151,287
+14,28510,Somogy megye,Porrogszentpál,village,37,47,84
+14,28361,Somogy megye,Potony,village,93,105,198
+14,19026,Somogy megye,Pusztakovácsi,village,423,443,866
+14,23311,Somogy megye,Pusztaszemes,village,194,195,389
+14,30863,Somogy megye,Ráksi,village,227,228,455
+14,05078,Somogy megye,Rinyabesenyő,village,115,91,206
+14,32674,Somogy megye,Rinyakovácsi,village,94,79,173
+14,26754,Somogy megye,Rinyaszentkirály,village,220,181,401
+14,20622,Somogy megye,Rinyaújlak,village,161,160,321
+14,20321,Somogy megye,Rinyaújnép,village,29,22,51
+14,14942,Somogy megye,Ságvár,village,894,1020,1914
+14,31121,Somogy megye,Sántos,village,240,260,500
+14,02051,Somogy megye,Sávoly,village,273,230,503
+14,27368,Somogy megye,Segesd,village,1211,1237,2448
+14,32133,Somogy megye,Sérsekszőlős,village,70,72,142
+14,32780,Somogy megye,Simonfa,village,174,202,376
+14,23092,Somogy megye,Siójut,village,345,316,661
+14,04127,Somogy megye,Som,village,354,340,694
+14,13824,Somogy megye,Somodor,village,217,192,409
+14,30580,Somogy megye,Somogyacsa,village,92,86,178
+14,05500,Somogy megye,Somogyaracs,village,103,86,189
+14,31219,Somogy megye,Somogyaszaló,village,385,369,754
+14,32470,Somogy megye,Somogybabod,village,235,230,465
+14,25043,Somogy megye,Somogybükkösd,village,48,36,84
+14,11484,Somogy megye,Somogycsicsó,village,72,79,151
+14,15981,Somogy megye,Somogydöröcske,village,63,75,138
+14,20057,Somogy megye,Somogyegres,village,107,89,196
+14,18078,Somogy megye,Somogyfajsz,village,281,261,542
+14,20330,Somogy megye,Somogygeszti,village,230,209,439
+14,28963,Somogy megye,Somogyjád,village,732,830,1562
+14,12876,Somogy megye,Somogymeggyes,village,247,233,480
+14,15626,Somogy megye,Somogysámson,village,370,359,729
+14,28723,Somogy megye,Somogysárd,village,651,644,1295
+14,27535,Somogy megye,Somogysimonyi,village,57,52,109
+14,06600,Somogy megye,Somogyszentpál,village,413,399,812
+14,03416,Somogy megye,Somogyszil,village,352,357,709
+14,18546,Somogy megye,Somogyszob,village,744,773,1517
+14,32601,Somogy megye,Somogytúr,village,238,242,480
+14,04853,Somogy megye,Somogyudvarhely,village,483,530,1013
+14,21856,Somogy megye,Somogyvámos,village,386,393,779
+14,19442,Somogy megye,Somogyvár,village,864,849,1713
+14,04835,Somogy megye,Somogyzsitfa,village,286,293,579
+14,14854,Somogy megye,Szabadi,village,148,160,308
+14,28574,Somogy megye,Szabás,village,333,261,594
+14,34236,Somogy megye,Szántód,village,343,355,698
+14,18607,Somogy megye,Szegerdő,village,111,111,222
+14,15103,Somogy megye,Szenna,village,386,393,779
+14,11509,Somogy megye,Szenta,village,201,202,403
+14,25706,Somogy megye,Szentbalázs,village,154,157,311
+14,32841,Somogy megye,Szentborbás,village,63,64,127
+14,12973,Somogy megye,Szentgáloskér,village,264,266,530
+14,30146,Somogy megye,Szenyér,village,182,154,336
+14,32461,Somogy megye,Szilvásszentmárton,village,98,100,198
+14,15194,Somogy megye,Szólád,village,296,293,589
+14,05193,Somogy megye,Szorosad,village,43,58,101
+14,05810,Somogy megye,Szőkedencs,village,132,132,264
+14,11101,Somogy megye,Szőlősgyörök,village,650,653,1303
+14,10986,Somogy megye,Szulok,village,317,303,620
+14,24615,Somogy megye,Tapsony,village,326,353,679
+14,16735,Somogy megye,Tarany,village,552,604,1156
+14,13693,Somogy megye,Táska,village,212,203,415
+14,04932,Somogy megye,Taszár,village,957,1025,1982
+14,23968,Somogy megye,Teleki,village,118,108,226
+14,32416,Somogy megye,Tengőd,village,225,224,449
+14,17844,Somogy megye,Tikos,village,77,65,142
+14,10153,Somogy megye,Torvaj,village,137,117,254
+14,16407,Somogy megye,Tótújfalu,village,129,120,249
+14,20093,Somogy megye,Törökkoppány,village,195,218,413
+14,07205,Somogy megye,Újvárfalva,village,135,122,257
+14,09274,Somogy megye,Varászló,village,71,89,160
+14,26781,Somogy megye,Várda,village,217,239,456
+14,08183,Somogy megye,Vése,village,355,377,732
+14,19017,Somogy megye,Visnye,village,130,112,242
+14,06877,Somogy megye,Visz,village,104,96,200
+14,29780,Somogy megye,Vízvár,village,252,264,516
+14,09645,Somogy megye,Vörs,village,245,273,518
+14,14623,Somogy megye,Zákány,village,527,579,1106
+14,34403,Somogy megye,Zákányfalu,village,251,274,525
+14,11466,Somogy megye,Zala,village,124,118,242
+14,33057,Somogy megye,Zics,village,166,171,337
+14,27614,Somogy megye,Zimány,village,282,268,550
+14,26842,Somogy megye,Zselickisfalud,village,132,116,248
+14,24110,Somogy megye,Zselickislak,village,187,235,422
+14,17491,Somogy megye,Zselicszentpál,village,213,210,423
+15,17206,Szabolcs - Szatmár - Bereg megye,Nyíregyháza,large_city,56363,63402,119765
+15,08776,Szabolcs - Szatmár - Bereg megye,Ajak,city,1794,1931,3725
+15,02325,Szabolcs - Szatmár - Bereg megye,Baktalórántháza,city,1839,1947,3786
+15,26958,Szabolcs - Szatmár - Bereg megye,Balkány,city,3089,3088,6177
+15,30641,Szabolcs - Szatmár - Bereg megye,Csenger,city,2460,2659,5119
+15,17756,Szabolcs - Szatmár - Bereg megye,Demecser,city,2071,2211,4282
+15,14508,Szabolcs - Szatmár - Bereg megye,Dombrád,city,2027,2050,4077
+15,18971,Szabolcs - Szatmár - Bereg megye,Fehérgyarmat,city,3828,4162,7990
+15,25636,Szabolcs - Szatmár - Bereg megye,Ibrány,city,3400,3514,6914
+15,19992,Szabolcs - Szatmár - Bereg megye,Kemecse,city,2472,2552,5024
+15,09265,Szabolcs - Szatmár - Bereg megye,Kisvárda,city,8007,8837,16844
+15,17826,Szabolcs - Szatmár - Bereg megye,Mándok,city,2076,2200,4276
+15,19655,Szabolcs - Szatmár - Bereg megye,Máriapócs,city,978,1083,2061
+15,18874,Szabolcs - Szatmár - Bereg megye,Mátészalka,city,7939,8785,16724
+15,06488,Szabolcs - Szatmár - Bereg megye,Nagyecsed,city,3135,3278,6413
+15,27155,Szabolcs - Szatmár - Bereg megye,Nagyhalász,city,2858,2902,5760
+15,24785,Szabolcs - Szatmár - Bereg megye,Nagykálló,city,4716,4997,9713
+15,14845,Szabolcs - Szatmár - Bereg megye,Nyírbátor,city,5839,6250,12089
+15,11271,Szabolcs - Szatmár - Bereg megye,Nyírlugos,city,1326,1409,2735
+15,12274,Szabolcs - Szatmár - Bereg megye,Nyírmada,city,2470,2601,5071
+15,13550,Szabolcs - Szatmár - Bereg megye,Nyírtelek,city,3562,3534,7096
+15,14739,Szabolcs - Szatmár - Bereg megye,Rakamaz,city,2247,2427,4674
+15,23524,Szabolcs - Szatmár - Bereg megye,Tiszalök,city,2582,2760,5342
+15,07597,Szabolcs - Szatmár - Bereg megye,Tiszavasvári,city,6448,6588,13036
+15,26611,Szabolcs - Szatmár - Bereg megye,Újfehértó,city,6228,6516,12744
+15,18591,Szabolcs - Szatmár - Bereg megye,Vaja,city,1840,1833,3673
+15,18324,Szabolcs - Szatmár - Bereg megye,Vásárosnamény,city,4295,4550,8845
+15,16203,Szabolcs - Szatmár - Bereg megye,Záhony,city,2147,2305,4452
+15,05801,Szabolcs - Szatmár - Bereg megye,Gávavencsellő,large_village,1707,1811,3518
+15,13019,Szabolcs - Szatmár - Bereg megye,Hodász,large_village,1661,1657,3318
+15,31404,Szabolcs - Szatmár - Bereg megye,Kállósemjén,large_village,1826,1882,3708
+15,16665,Szabolcs - Szatmár - Bereg megye,Kölcse,large_village,694,737,1431
+15,30979,Szabolcs - Szatmár - Bereg megye,Levelek,large_village,1487,1505,2992
+15,07463,Szabolcs - Szatmár - Bereg megye,Mérk,large_village,1053,1138,2191
+15,15802,Szabolcs - Szatmár - Bereg megye,Nyírbéltek,large_village,1439,1457,2896
+15,31158,Szabolcs - Szatmár - Bereg megye,Nyírbogát,large_village,1528,1560,3088
+15,31769,Szabolcs - Szatmár - Bereg megye,Ököritófülpös,large_village,920,927,1847
+15,17215,Szabolcs - Szatmár - Bereg megye,Porcsalma,large_village,1428,1407,2835
+15,04312,Szabolcs - Szatmár - Bereg megye,Tarpa,large_village,1362,1376,2738
+15,17817,Szabolcs - Szatmár - Bereg megye,Tiszabecs,large_village,800,750,1550
+15,12593,Szabolcs - Szatmár - Bereg megye,Tiszadob,large_village,1394,1341,2735
+15,09919,Szabolcs - Szatmár - Bereg megye,Tuzsér,large_village,1815,1741,3556
+15,31398,Szabolcs - Szatmár - Bereg megye,Tyukod,large_village,1009,1048,2057
+15,29975,Szabolcs - Szatmár - Bereg megye,Anarcs,village,1006,1021,2027
+15,20303,Szabolcs - Szatmár - Bereg megye,Apagy,village,1193,1205,2398
+15,09353,Szabolcs - Szatmár - Bereg megye,Aranyosapáti,village,1080,1150,2230
+15,15963,Szabolcs - Szatmár - Bereg megye,Balsa,village,357,378,735
+15,26480,Szabolcs - Szatmár - Bereg megye,Barabás,village,537,502,1039
+15,02990,Szabolcs - Szatmár - Bereg megye,Bátorliget,village,340,329,669
+15,25441,Szabolcs - Szatmár - Bereg megye,Benk,village,238,244,482
+15,28246,Szabolcs - Szatmár - Bereg megye,Beregdaróc,village,548,490,1038
+15,20677,Szabolcs - Szatmár - Bereg megye,Beregsurány,village,532,485,1017
+15,07472,Szabolcs - Szatmár - Bereg megye,Berkesz,village,378,394,772
+15,13639,Szabolcs - Szatmár - Bereg megye,Besenyőd,village,428,413,841
+15,21227,Szabolcs - Szatmár - Bereg megye,Beszterec,village,499,510,1009
+15,02945,Szabolcs - Szatmár - Bereg megye,Biri,village,667,688,1355
+15,22239,Szabolcs - Szatmár - Bereg megye,Botpalád,village,523,392,915
+15,11299,Szabolcs - Szatmár - Bereg megye,Bököny,village,1546,1581,3127
+15,19707,Szabolcs - Szatmár - Bereg megye,Buj,village,1136,1150,2286
+15,09681,Szabolcs - Szatmár - Bereg megye,Cégénydányád,village,325,338,663
+15,12928,Szabolcs - Szatmár - Bereg megye,Csaholc,village,364,302,666
+15,29416,Szabolcs - Szatmár - Bereg megye,Csaroda,village,290,332,622
+15,09715,Szabolcs - Szatmár - Bereg megye,Császló,village,189,199,388
+15,26107,Szabolcs - Szatmár - Bereg megye,Csegöld,village,358,363,721
+15,24095,Szabolcs - Szatmár - Bereg megye,Csengersima,village,412,397,809
+15,26851,Szabolcs - Szatmár - Bereg megye,Csengerújfalu,village,500,468,968
+15,18795,Szabolcs - Szatmár - Bereg megye,Darnó,village,93,93,186
+15,03647,Szabolcs - Szatmár - Bereg megye,Döge,village,1153,1128,2281
+15,32328,Szabolcs - Szatmár - Bereg megye,Encsencs,village,987,952,1939
+15,18528,Szabolcs - Szatmár - Bereg megye,Eperjeske,village,600,642,1242
+15,10852,Szabolcs - Szatmár - Bereg megye,Érpatak,village,927,857,1784
+15,23250,Szabolcs - Szatmár - Bereg megye,Fábiánháza,village,969,897,1866
+15,22415,Szabolcs - Szatmár - Bereg megye,Fényeslitke,village,1202,1334,2536
+15,10791,Szabolcs - Szatmár - Bereg megye,Fülesd,village,247,216,463
+15,14377,Szabolcs - Szatmár - Bereg megye,Fülpösdaróc,village,154,198,352
+15,13727,Szabolcs - Szatmár - Bereg megye,Gacsály,village,506,514,1020
+15,04996,Szabolcs - Szatmár - Bereg megye,Garbolc,village,70,80,150
+15,03629,Szabolcs - Szatmár - Bereg megye,Géberjén,village,239,246,485
+15,05670,Szabolcs - Szatmár - Bereg megye,Gégény,village,969,951,1920
+15,04613,Szabolcs - Szatmár - Bereg megye,Gelénes,village,321,310,631
+15,13000,Szabolcs - Szatmár - Bereg megye,Gemzse,village,461,466,927
+15,28893,Szabolcs - Szatmár - Bereg megye,Geszteréd,village,877,914,1791
+15,29443,Szabolcs - Szatmár - Bereg megye,Gulács,village,547,531,1078
+15,28945,Szabolcs - Szatmár - Bereg megye,Győröcske,village,89,75,164
+15,10126,Szabolcs - Szatmár - Bereg megye,Győrtelek,village,879,852,1731
+15,07676,Szabolcs - Szatmár - Bereg megye,Gyulaháza,village,962,994,1956
+15,19558,Szabolcs - Szatmár - Bereg megye,Gyügye,village,150,145,295
+15,33774,Szabolcs - Szatmár - Bereg megye,Gyüre,village,658,646,1304
+15,12061,Szabolcs - Szatmár - Bereg megye,Hermánszeg,village,142,148,290
+15,05616,Szabolcs - Szatmár - Bereg megye,Hetefejércse,village,136,173,309
+15,09654,Szabolcs - Szatmár - Bereg megye,Ilk,village,693,667,1360
+15,17075,Szabolcs - Szatmár - Bereg megye,Jánd,village,410,388,798
+15,07843,Szabolcs - Szatmár - Bereg megye,Jánkmajtis,village,869,924,1793
+15,17589,Szabolcs - Szatmár - Bereg megye,Jármi,village,621,651,1272
+15,13143,Szabolcs - Szatmár - Bereg megye,Jéke,village,355,402,757
+15,27225,Szabolcs - Szatmár - Bereg megye,Kálmánháza,village,936,943,1879
+15,02671,Szabolcs - Szatmár - Bereg megye,Kántorjánosi,village,1025,1096,2121
+15,28431,Szabolcs - Szatmár - Bereg megye,Kék,village,1006,1027,2033
+15,14359,Szabolcs - Szatmár - Bereg megye,Kékcse,village,757,825,1582
+15,32869,Szabolcs - Szatmár - Bereg megye,Kérsemjén,village,162,157,319
+15,19424,Szabolcs - Szatmár - Bereg megye,Kisar,village,582,526,1108
+15,08509,Szabolcs - Szatmár - Bereg megye,Kishódos,village,46,46,92
+15,28477,Szabolcs - Szatmár - Bereg megye,Kisléta,village,881,867,1748
+15,16036,Szabolcs - Szatmár - Bereg megye,Kisnamény,village,152,158,310
+15,29300,Szabolcs - Szatmár - Bereg megye,Kispalád,village,496,423,919
+15,09751,Szabolcs - Szatmár - Bereg megye,Kisszekeres,village,263,295,558
+15,12672,Szabolcs - Szatmár - Bereg megye,Kisvarsány,village,512,534,1046
+15,07445,Szabolcs - Szatmár - Bereg megye,Kocsord,village,1476,1538,3014
+15,22336,Szabolcs - Szatmár - Bereg megye,Komlódtótfalu,village,73,75,148
+15,27146,Szabolcs - Szatmár - Bereg megye,Komoró,village,648,685,1333
+15,23728,Szabolcs - Szatmár - Bereg megye,Kótaj,village,2289,2317,4606
+15,23612,Szabolcs - Szatmár - Bereg megye,Kömörő,village,303,302,605
+15,21290,Szabolcs - Szatmár - Bereg megye,Laskod,village,453,479,932
+15,26091,Szabolcs - Szatmár - Bereg megye,Lónya,village,587,499,1086
+15,07995,Szabolcs - Szatmár - Bereg megye,Lövőpetri,village,249,269,518
+15,29984,Szabolcs - Szatmár - Bereg megye,Magosliget,village,170,162,332
+15,16629,Szabolcs - Szatmár - Bereg megye,Magy,village,435,473,908
+15,02088,Szabolcs - Szatmár - Bereg megye,Mánd,village,168,154,322
+15,33224,Szabolcs - Szatmár - Bereg megye,Márokpapi,village,344,308,652
+15,20668,Szabolcs - Szatmár - Bereg megye,Mátyus,village,176,158,334
+15,29799,Szabolcs - Szatmár - Bereg megye,Méhtelek,village,387,407,794
+15,32656,Szabolcs - Szatmár - Bereg megye,Mezőladány,village,548,510,1058
+15,31750,Szabolcs - Szatmár - Bereg megye,Milota,village,498,500,998
+15,19211,Szabolcs - Szatmár - Bereg megye,Nábrád,village,456,450,906
+15,04710,Szabolcs - Szatmár - Bereg megye,Nagyar,village,343,333,676
+15,22743,Szabolcs - Szatmár - Bereg megye,Nagycserkesz,village,927,811,1738
+15,21485,Szabolcs - Szatmár - Bereg megye,Nagydobos,village,1124,1142,2266
+15,26976,Szabolcs - Szatmár - Bereg megye,Nagyhódos,village,75,77,152
+15,27988,Szabolcs - Szatmár - Bereg megye,Nagyszekeres,village,273,282,555
+15,33783,Szabolcs - Szatmár - Bereg megye,Nagyvarsány,village,703,716,1419
+15,08420,Szabolcs - Szatmár - Bereg megye,Napkor,village,1893,1935,3828
+15,27119,Szabolcs - Szatmár - Bereg megye,Nemesborzova,village,61,60,121
+15,28802,Szabolcs - Szatmár - Bereg megye,Nyírbogdány,village,1454,1484,2938
+15,07904,Szabolcs - Szatmár - Bereg megye,Nyírcsaholy,village,1160,1157,2317
+15,25973,Szabolcs - Szatmár - Bereg megye,Nyírcsászári,village,606,606,1212
+15,05041,Szabolcs - Szatmár - Bereg megye,Nyírderzs,village,290,314,604
+15,28440,Szabolcs - Szatmár - Bereg megye,Nyírgelse,village,567,565,1132
+15,09238,Szabolcs - Szatmár - Bereg megye,Nyírgyulaj,village,1019,1006,2025
+15,14696,Szabolcs - Szatmár - Bereg megye,Nyíribrony,village,584,580,1164
+15,31477,Szabolcs - Szatmár - Bereg megye,Nyírjákó,village,421,441,862
+15,18290,Szabolcs - Szatmár - Bereg megye,Nyírkarász,village,1078,1207,2285
+15,32452,Szabolcs - Szatmár - Bereg megye,Nyírkáta,village,1093,1002,2095
+15,25928,Szabolcs - Szatmár - Bereg megye,Nyírkércs,village,377,386,763
+15,11095,Szabolcs - Szatmár - Bereg megye,Nyírlövő,village,328,356,684
+15,23269,Szabolcs - Szatmár - Bereg megye,Nyírmeggyes,village,1340,1330,2670
+15,26365,Szabolcs - Szatmár - Bereg megye,Nyírmihálydi,village,1115,1148,2263
+15,10807,Szabolcs - Szatmár - Bereg megye,Nyírparasznya,village,492,482,974
+15,33145,Szabolcs - Szatmár - Bereg megye,Nyírpazony,village,1819,1901,3720
+15,03878,Szabolcs - Szatmár - Bereg megye,Nyírpilis,village,508,477,985
+15,28060,Szabolcs - Szatmár - Bereg megye,Nyírtass,village,1024,965,1989
+15,09256,Szabolcs - Szatmár - Bereg megye,Nyírtét,village,512,500,1012
+15,12098,Szabolcs - Szatmár - Bereg megye,Nyírtura,village,953,1000,1953
+15,16522,Szabolcs - Szatmár - Bereg megye,Nyírvasvári,village,1030,998,2028
+15,22284,Szabolcs - Szatmár - Bereg megye,Ófehértó,village,1296,1310,2606
+15,11129,Szabolcs - Szatmár - Bereg megye,Olcsva,village,405,344,749
+15,10834,Szabolcs - Szatmár - Bereg megye,Olcsvaapáti,village,155,163,318
+15,27924,Szabolcs - Szatmár - Bereg megye,Ópályi,village,1654,1584,3238
+15,26550,Szabolcs - Szatmár - Bereg megye,Ömböly,village,239,236,475
+15,09025,Szabolcs - Szatmár - Bereg megye,Őr,village,757,767,1524
+15,29559,Szabolcs - Szatmár - Bereg megye,Panyola,village,286,282,568
+15,27748,Szabolcs - Szatmár - Bereg megye,Pap,village,956,970,1926
+15,32577,Szabolcs - Szatmár - Bereg megye,Papos,village,419,440,859
+15,31972,Szabolcs - Szatmár - Bereg megye,Paszab,village,661,628,1289
+15,12186,Szabolcs - Szatmár - Bereg megye,Pátroha,village,1526,1594,3120
+15,23685,Szabolcs - Szatmár - Bereg megye,Pátyod,village,346,353,699
+15,17084,Szabolcs - Szatmár - Bereg megye,Penészlek,village,517,529,1046
+15,32692,Szabolcs - Szatmár - Bereg megye,Penyige,village,400,388,788
+15,17224,Szabolcs - Szatmár - Bereg megye,Petneháza,village,880,869,1749
+15,03391,Szabolcs - Szatmár - Bereg megye,Piricse,village,928,966,1894
+15,11244,Szabolcs - Szatmár - Bereg megye,Pócspetri,village,806,919,1725
+15,13860,Szabolcs - Szatmár - Bereg megye,Pusztadobos,village,743,786,1529
+15,31857,Szabolcs - Szatmár - Bereg megye,Ramocsaháza,village,719,782,1501
+15,09061,Szabolcs - Szatmár - Bereg megye,Rápolt,village,81,81,162
+15,21573,Szabolcs - Szatmár - Bereg megye,Rétközberencs,village,597,579,1176
+15,24581,Szabolcs - Szatmár - Bereg megye,Rohod,village,601,669,1270
+15,17428,Szabolcs - Szatmár - Bereg megye,Rozsály,village,403,369,772
+15,04491,Szabolcs - Szatmár - Bereg megye,Sényő,village,708,721,1429
+15,23889,Szabolcs - Szatmár - Bereg megye,Sonkád,village,455,428,883
+15,19169,Szabolcs - Szatmár - Bereg megye,Szabolcs,village,169,182,351
+15,22053,Szabolcs - Szatmár - Bereg megye,Szabolcsbáka,village,562,595,1157
+15,03586,Szabolcs - Szatmár - Bereg megye,Szabolcsveresmart,village,747,752,1499
+15,04774,Szabolcs - Szatmár - Bereg megye,Szakoly,village,1407,1371,2778
+15,18005,Szabolcs - Szatmár - Bereg megye,Szamosangyalos,village,469,337,806
+15,22017,Szabolcs - Szatmár - Bereg megye,Szamosbecs,village,212,199,411
+15,16300,Szabolcs - Szatmár - Bereg megye,Szamoskér,village,226,189,415
+15,10436,Szabolcs - Szatmár - Bereg megye,Szamossályi,village,378,374,752
+15,13046,Szabolcs - Szatmár - Bereg megye,Szamosszeg,village,939,946,1885
+15,30085,Szabolcs - Szatmár - Bereg megye,Szamostatárfalva,village,172,159,331
+15,31273,Szabolcs - Szatmár - Bereg megye,Szamosújlak,village,195,217,412
+15,31237,Szabolcs - Szatmár - Bereg megye,Szatmárcseke,village,850,796,1646
+15,31088,Szabolcs - Szatmár - Bereg megye,Székely,village,581,512,1093
+15,34388,Szabolcs - Szatmár - Bereg megye,Szorgalmatos,village,520,489,1009
+15,29911,Szabolcs - Szatmár - Bereg megye,Tákos,village,177,173,350
+15,33358,Szabolcs - Szatmár - Bereg megye,Terem,village,358,334,692
+15,08952,Szabolcs - Szatmár - Bereg megye,Tiborszállás,village,495,518,1013
+15,24475,Szabolcs - Szatmár - Bereg megye,Timár,village,676,672,1348
+15,09423,Szabolcs - Szatmár - Bereg megye,Tiszaadony,village,335,336,671
+15,03850,Szabolcs - Szatmár - Bereg megye,Tiszabercel,village,901,940,1841
+15,20172,Szabolcs - Szatmár - Bereg megye,Tiszabezdéd,village,979,974,1953
+15,24448,Szabolcs - Szatmár - Bereg megye,Tiszacsécse,village,133,130,263
+15,06433,Szabolcs - Szatmár - Bereg megye,Tiszadada,village,1085,1122,2207
+15,09113,Szabolcs - Szatmár - Bereg megye,Tiszaeszlár,village,1314,1331,2645
+15,08554,Szabolcs - Szatmár - Bereg megye,Tiszakanyár,village,796,852,1648
+15,04446,Szabolcs - Szatmár - Bereg megye,Tiszakerecseny,village,535,522,1057
+15,08794,Szabolcs - Szatmár - Bereg megye,Tiszakóród,village,412,397,809
+15,11907,Szabolcs - Szatmár - Bereg megye,Tiszamogyorós,village,339,354,693
+15,27252,Szabolcs - Szatmár - Bereg megye,Tiszanagyfalu,village,920,986,1906
+15,10205,Szabolcs - Szatmár - Bereg megye,Tiszarád,village,322,292,614
+15,13541,Szabolcs - Szatmár - Bereg megye,Tiszaszalka,village,452,500,952
+15,27544,Szabolcs - Szatmár - Bereg megye,Tiszaszentmárton,village,618,594,1212
+15,14447,Szabolcs - Szatmár - Bereg megye,Tiszatelek,village,672,706,1378
+15,33747,Szabolcs - Szatmár - Bereg megye,Tiszavid,village,323,300,623
+15,27261,Szabolcs - Szatmár - Bereg megye,Tisztaberek,village,372,335,707
+15,20260,Szabolcs - Szatmár - Bereg megye,Tivadar,village,103,101,204
+15,16957,Szabolcs - Szatmár - Bereg megye,Tornyospálca,village,1397,1333,2730
+15,13213,Szabolcs - Szatmár - Bereg megye,Tunyogmatolcs,village,1281,1237,2518
+15,13602,Szabolcs - Szatmár - Bereg megye,Túristvándi,village,410,376,786
+15,08998,Szabolcs - Szatmár - Bereg megye,Túrricse,village,352,350,702
+15,33659,Szabolcs - Szatmár - Bereg megye,Újdombrád,village,355,340,695
+15,10117,Szabolcs - Szatmár - Bereg megye,Újkenéz,village,507,512,1019
+15,28981,Szabolcs - Szatmár - Bereg megye,Ura,village,318,326,644
+15,31820,Szabolcs - Szatmár - Bereg megye,Uszka,village,304,292,596
+15,06938,Szabolcs - Szatmár - Bereg megye,Vállaj,village,661,614,1275
+15,27322,Szabolcs - Szatmár - Bereg megye,Vámosatya,village,288,281,569
+15,08934,Szabolcs - Szatmár - Bereg megye,Vámosoroszi,village,286,281,567
+15,27100,Szabolcs - Szatmár - Bereg megye,Vasmegyer,village,861,881,1742
+15,06275,Szabolcs - Szatmár - Bereg megye,Zajta,village,237,228,465
+15,28750,Szabolcs - Szatmár - Bereg megye,Zsarolyán,village,210,226,436
+15,13037,Szabolcs - Szatmár - Bereg megye,Zsurk,village,358,359,717
+16,27854,Jász - Nagykun - Szolnok megye,Szolnok,large_city,32922,36721,69643
+16,12441,Jász - Nagykun - Szolnok megye,Abádszalók,city,2070,2187,4257
+16,11305,Jász - Nagykun - Szolnok megye,Besenyszög,city,1633,1668,3301
+16,16647,Jász - Nagykun - Szolnok megye,Fegyvernek,city,3315,3368,6683
+16,22202,Jász - Nagykun - Szolnok megye,Jászapáti,city,4166,4480,8646
+16,22105,Jász - Nagykun - Szolnok megye,Jászárokszállás,city,3706,3978,7684
+16,18209,Jász - Nagykun - Szolnok megye,Jászberény,city,12515,13529,26044
+16,23339,Jász - Nagykun - Szolnok megye,Jászfényszaru,city,2813,2991,5804
+16,22798,Jász - Nagykun - Szolnok megye,Jászkisér,city,2617,2675,5292
+16,04923,Jász - Nagykun - Szolnok megye,Karcag,city,9659,10190,19849
+16,17145,Jász - Nagykun - Szolnok megye,Kenderes,city,2179,2271,4450
+16,25919,Jász - Nagykun - Szolnok megye,Kisújszállás,city,5367,5581,10948
+16,22567,Jász - Nagykun - Szolnok megye,Kunhegyes,city,3814,3913,7727
+16,32504,Jász - Nagykun - Szolnok megye,Kunszentmárton,city,3898,4133,8031
+16,02626,Jász - Nagykun - Szolnok megye,Martfű,city,3045,3311,6356
+16,04260,Jász - Nagykun - Szolnok megye,Mezőtúr,city,8193,8627,16820
+16,14207,Jász - Nagykun - Szolnok megye,Rákóczifalva,city,2665,2775,5440
+16,13815,Jász - Nagykun - Szolnok megye,Tiszaföldvár,city,5319,5483,10802
+16,29726,Jász - Nagykun - Szolnok megye,Tiszafüred,city,5533,5878,11411
+16,27313,Jász - Nagykun - Szolnok megye,Törökszentmiklós,city,10110,10654,20764
+16,28228,Jász - Nagykun - Szolnok megye,Túrkeve,city,4237,4420,8657
+16,15291,Jász - Nagykun - Szolnok megye,Újszász,city,3008,3196,6204
+16,22938,Jász - Nagykun - Szolnok megye,Cibakháza,large_village,1999,1953,3952
+16,21111,Jász - Nagykun - Szolnok megye,Jászladány,large_village,2803,2837,5640
+16,23171,Jász - Nagykun - Szolnok megye,Kunmadaras,large_village,2730,2720,5450
+16,28006,Jász - Nagykun - Szolnok megye,Öcsöd,large_village,1599,1621,3220
+16,25265,Jász - Nagykun - Szolnok megye,Alattyán,village,971,1052,2023
+16,34005,Jász - Nagykun - Szolnok megye,Berekfürdő,village,646,690,1336
+16,34175,Jász - Nagykun - Szolnok megye,Csataszög,village,157,157,314
+16,13170,Jász - Nagykun - Szolnok megye,Csépa,village,818,866,1684
+16,05795,Jász - Nagykun - Szolnok megye,Cserkeszőlő,village,1119,1206,2325
+16,34050,Jász - Nagykun - Szolnok megye,Hunyadfalva,village,105,102,207
+16,22859,Jász - Nagykun - Szolnok megye,Jánoshida,village,1238,1323,2561
+16,22929,Jász - Nagykun - Szolnok megye,Jászágó,village,338,371,709
+16,30711,Jász - Nagykun - Szolnok megye,Jászalsószentgyörgy,village,1673,1741,3414
+16,15811,Jász - Nagykun - Szolnok megye,Jászboldogháza,village,846,849,1695
+16,17978,Jász - Nagykun - Szolnok megye,Jászdózsa,village,1002,1132,2134
+16,23579,Jász - Nagykun - Szolnok megye,Jászfelsőszentgyörgy,village,931,911,1842
+16,24086,Jász - Nagykun - Szolnok megye,Jászivány,village,206,198,404
+16,25186,Jász - Nagykun - Szolnok megye,Jászjákóhalma,village,1444,1463,2907
+16,13514,Jász - Nagykun - Szolnok megye,Jászszentandrás,village,1199,1277,2476
+16,23135,Jász - Nagykun - Szolnok megye,Jásztelek,village,782,761,1543
+16,07418,Jász - Nagykun - Szolnok megye,Kengyel,village,1726,1766,3492
+16,19813,Jász - Nagykun - Szolnok megye,Kétpó,village,339,299,638
+16,11235,Jász - Nagykun - Szolnok megye,Kőtelek,village,745,817,1562
+16,05254,Jász - Nagykun - Szolnok megye,Kuncsorba,village,293,292,585
+16,30234,Jász - Nagykun - Szolnok megye,Mesterszállás,village,335,333,668
+16,26286,Jász - Nagykun - Szolnok megye,Mezőhék,village,164,178,342
+16,21689,Jász - Nagykun - Szolnok megye,Nagyiván,village,529,564,1093
+16,15574,Jász - Nagykun - Szolnok megye,Nagykörű,village,823,823,1646
+16,06318,Jász - Nagykun - Szolnok megye,Nagyrév,village,350,317,667
+16,29382,Jász - Nagykun - Szolnok megye,Örményes,village,502,506,1008
+16,15246,Jász - Nagykun - Szolnok megye,Pusztamonostor,village,786,811,1597
+16,12423,Jász - Nagykun - Szolnok megye,Rákócziújfalu,village,994,982,1976
+16,05874,Jász - Nagykun - Szolnok megye,Szajol,village,1933,1924,3857
+16,05777,Jász - Nagykun - Szolnok megye,Szászberek,village,483,510,993
+16,20428,Jász - Nagykun - Szolnok megye,Szelevény,village,518,498,1016
+16,10773,Jász - Nagykun - Szolnok megye,Tiszabő,village,1183,1088,2271
+16,22770,Jász - Nagykun - Szolnok megye,Tiszabura,village,1660,1546,3206
+16,16230,Jász - Nagykun - Szolnok megye,Tiszaderzs,village,564,602,1166
+16,30304,Jász - Nagykun - Szolnok megye,Tiszagyenda,village,517,526,1043
+16,28699,Jász - Nagykun - Szolnok megye,Tiszaigar,village,399,403,802
+16,20446,Jász - Nagykun - Szolnok megye,Tiszainoka,village,204,210,414
+16,29346,Jász - Nagykun - Szolnok megye,Tiszajenő,village,772,799,1571
+16,30386,Jász - Nagykun - Szolnok megye,Tiszakürt,village,675,691,1366
+16,15787,Jász - Nagykun - Szolnok megye,Tiszaörs,village,678,665,1343
+16,03373,Jász - Nagykun - Szolnok megye,Tiszapüspöki,village,1041,1050,2091
+16,20181,Jász - Nagykun - Szolnok megye,Tiszaroff,village,835,858,1693
+16,21494,Jász - Nagykun - Szolnok megye,Tiszasas,village,526,552,1078
+16,17695,Jász - Nagykun - Szolnok megye,Tiszasüly,village,756,761,1517
+16,22789,Jász - Nagykun - Szolnok megye,Tiszaszentimre,village,971,1021,1992
+16,07852,Jász - Nagykun - Szolnok megye,Tiszaszőlős,village,776,735,1511
+16,09627,Jász - Nagykun - Szolnok megye,Tiszatenyő,village,818,817,1635
+16,31866,Jász - Nagykun - Szolnok megye,Tiszavárkony,village,788,789,1577
+16,09557,Jász - Nagykun - Szolnok megye,Tomajmonostora,village,385,361,746
+16,07490,Jász - Nagykun - Szolnok megye,Tószeg,village,2259,2262,4521
+16,21157,Jász - Nagykun - Szolnok megye,Vezseny,village,326,337,663
+16,14836,Jász - Nagykun - Szolnok megye,Zagyvarékas,village,1804,1920,3724
+17,22761,Tolna megye,Szekszárd,large_city,15050,17076,32126
+17,08864,Tolna megye,Bátaszék,city,3090,3385,6475
+17,06497,Tolna megye,Bonyhád,city,6148,6758,12906
+17,07685,Tolna megye,Dombóvár,city,8716,9680,18396
+17,31501,Tolna megye,Dunaföldvár,city,4126,4363,8489
+17,30289,Tolna megye,Gyönk,city,814,918,1732
+17,14030,Tolna megye,Nagymányok,city,1098,1175,2273
+17,04862,Tolna megye,Paks,city,8865,9574,18439
+17,20783,Tolna megye,Simontornya,city,1877,2012,3889
+17,24563,Tolna megye,Tamási,city,3851,4186,8037
+17,25274,Tolna megye,Tolna,city,5551,5949,11500
+17,24989,Tolna megye,Decs,large_village,1978,2171,4149
+17,18980,Tolna megye,Fadd,large_village,2109,2109,4218
+17,26055,Tolna megye,Hőgyész,large_village,1301,1462,2763
+17,18388,Tolna megye,Nagydorog,large_village,1302,1340,2642
+17,19585,Tolna megye,Pincehely,large_village,1031,1127,2158
+17,29665,Tolna megye,Alsónána,village,341,372,713
+17,11563,Tolna megye,Alsónyék,village,353,367,720
+17,26125,Tolna megye,Aparhant,village,510,500,1010
+17,32735,Tolna megye,Attala,village,404,376,780
+17,11712,Tolna megye,Báta,village,767,833,1600
+17,28909,Tolna megye,Bátaapáti,village,218,192,410
+17,28662,Tolna megye,Belecska,village,173,183,356
+17,11970,Tolna megye,Bikács,village,221,200,421
+17,03425,Tolna megye,Bogyiszló,village,1070,1086,2156
+17,14818,Tolna megye,Bonyhádvarasd,village,218,230,448
+17,06558,Tolna megye,Bölcske,village,1354,1392,2746
+17,19284,Tolna megye,Cikó,village,438,466,904
+17,11998,Tolna megye,Csibrák,village,143,157,300
+17,30094,Tolna megye,Csikóstőttős,village,424,427,851
+17,29230,Tolna megye,Dalmand,village,611,643,1254
+17,11688,Tolna megye,Diósberény,village,158,166,324
+17,02565,Tolna megye,Döbrököz,village,948,1027,1975
+17,09539,Tolna megye,Dunaszentgyörgy,village,1262,1290,2552
+17,19202,Tolna megye,Dúzs,village,123,109,232
+17,08448,Tolna megye,Értény,village,401,328,729
+17,24192,Tolna megye,Fácánkert,village,348,344,692
+17,15820,Tolna megye,Felsőnána,village,315,301,616
+17,17914,Tolna megye,Felsőnyék,village,546,538,1084
+17,17950,Tolna megye,Fürged,village,353,360,713
+17,05731,Tolna megye,Gerjen,village,623,618,1241
+17,26727,Tolna megye,Grábóc,village,88,83,171
+17,25539,Tolna megye,Györe,village,331,329,660
+17,12326,Tolna megye,Györköny,village,506,501,1007
+17,30359,Tolna megye,Gyulaj,village,479,483,962
+17,14164,Tolna megye,Harc,village,427,435,862
+17,04701,Tolna megye,Iregszemcse,village,1314,1308,2622
+17,27711,Tolna megye,Izmény,village,268,226,494
+17,09326,Tolna megye,Jágónak,village,122,117,239
+17,14100,Tolna megye,Kajdacs,village,587,564,1151
+17,02033,Tolna megye,Kakasd,village,812,869,1681
+17,23791,Tolna megye,Kalaznó,village,85,66,151
+17,23296,Tolna megye,Kapospula,village,420,441,861
+17,18962,Tolna megye,Kaposszekcső,village,729,795,1524
+17,17640,Tolna megye,Keszőhidegkút,village,102,106,208
+17,21731,Tolna megye,Kéty,village,350,363,713
+17,17710,Tolna megye,Kisdorog,village,367,347,714
+17,06512,Tolna megye,Kismányok,village,173,165,338
+17,27766,Tolna megye,Kisszékely,village,151,161,312
+17,03869,Tolna megye,Kistormás,village,165,168,333
+17,31185,Tolna megye,Kisvejke,village,225,195,420
+17,22433,Tolna megye,Kocsola,village,630,621,1251
+17,21184,Tolna megye,Koppányszántó,village,160,167,327
+17,10463,Tolna megye,Kölesd,village,746,741,1487
+17,20507,Tolna megye,Kurd,village,570,564,1134
+17,14605,Tolna megye,Lápafő,village,87,81,168
+17,24411,Tolna megye,Lengyel,village,243,277,520
+17,29337,Tolna megye,Madocsa,village,938,970,1908
+17,06017,Tolna megye,Magyarkeszi,village,571,599,1170
+17,30562,Tolna megye,Medina,village,403,389,792
+17,02811,Tolna megye,Miszla,village,155,121,276
+17,20701,Tolna megye,Mórágy,village,374,363,737
+17,33349,Tolna megye,Mőcsény,village,168,175,343
+17,13620,Tolna megye,Mucsfa,village,182,162,344
+17,07029,Tolna megye,Mucsi,village,249,220,469
+17,18917,Tolna megye,Murga,village,35,24,59
+17,27182,Tolna megye,Nagykónyi,village,520,528,1048
+17,06761,Tolna megye,Nagyszékely,village,215,207,422
+17,13709,Tolna megye,Nagyszokoly,village,440,431,871
+17,16452,Tolna megye,Nagyvejke,village,76,74,150
+17,02796,Tolna megye,Nak,village,276,260,536
+17,15006,Tolna megye,Németkér,village,866,858,1724
+17,05661,Tolna megye,Ozora,village,848,814,1662
+17,08961,Tolna megye,Őcsény,village,1189,1228,2417
+17,09371,Tolna megye,Pálfa,village,735,767,1502
+17,09618,Tolna megye,Pári,village,312,350,662
+17,33570,Tolna megye,Pörböly,village,276,276,552
+17,19938,Tolna megye,Pusztahencse,village,519,524,1043
+17,15459,Tolna megye,Regöly,village,526,589,1115
+17,04747,Tolna megye,Sárpilis,village,336,306,642
+17,20817,Tolna megye,Sárszentlőrinc,village,505,538,1043
+17,25645,Tolna megye,Sióagárd,village,608,677,1285
+17,15316,Tolna megye,Szakadát,village,108,134,242
+17,04464,Tolna megye,Szakály,village,645,639,1284
+17,10083,Tolna megye,Szakcs,village,415,436,851
+17,14711,Tolna megye,Szálka,village,324,328,652
+17,18263,Tolna megye,Szárazd,village,141,135,276
+17,16814,Tolna megye,Szedres,village,1069,1084,2153
+17,06901,Tolna megye,Tengelic,village,1087,1082,2169
+17,31459,Tolna megye,Tevel,village,657,699,1356
+17,11031,Tolna megye,Tolnanémedi,village,454,544,998
+17,21360,Tolna megye,Udvari,village,173,147,320
+17,20561,Tolna megye,Újireg,village,137,156,293
+17,32850,Tolna megye,Váralja,village,387,419,806
+17,09414,Tolna megye,Várdomb,village,580,594,1174
+17,29124,Tolna megye,Várong,village,76,67,143
+17,06637,Tolna megye,Varsád,village,176,196,372
+17,14304,Tolna megye,Závod,village,146,145,291
+17,21625,Tolna megye,Zomba,village,987,1054,2041
+18,03009,Vas megye,Szombathely,large_city,35863,40222,76085
+18,02431,Vas megye,Bük,city,1727,1810,3537
+18,27094,Vas megye,Celldömölk,city,4895,5534,10429
+18,12140,Vas megye,Csepreg,city,1536,1710,3246
+18,11679,Vas megye,Jánosháza,city,1193,1299,2492
+18,13532,Vas megye,Körmend,city,5235,5716,10951
+18,16832,Vas megye,Kőszeg,city,5546,5954,11500
+18,10630,Vas megye,Őriszentpéter,city,568,589,1157
+18,30881,Vas megye,Répcelak,city,1266,1341,2607
+18,21306,Vas megye,Sárvár,city,6978,7530,14508
+18,31583,Vas megye,Szentgotthárd,city,4139,4335,8474
+18,04695,Vas megye,Vasvár,city,2007,2095,4102
+18,26426,Vas megye,Vép,city,1679,1658,3337
+18,07214,Vas megye,Acsád,village,286,366,652
+18,22549,Vas megye,Alsószölnök,village,165,186,351
+18,22725,Vas megye,Alsóújlak,village,283,296,579
+18,12317,Vas megye,Andrásfa,village,128,105,233
+18,08873,Vas megye,Apátistvánfalva,village,180,220,400
+18,17020,Vas megye,Bajánsenye,village,232,257,489
+18,05102,Vas megye,Balogunyom,village,580,583,1163
+18,10384,Vas megye,Bejcgyertyános,village,203,217,420
+18,32124,Vas megye,Bérbaltavár,village,265,254,519
+18,29203,Vas megye,Boba,village,413,412,825
+18,03090,Vas megye,Borgáta,village,101,103,204
+18,05023,Vas megye,Bozsok,village,182,185,367
+18,06390,Vas megye,Bozzai,village,154,140,294
+18,05476,Vas megye,Bő,village,373,358,731
+18,11651,Vas megye,Bögöt,village,202,198,400
+18,07296,Vas megye,Bögöte,village,156,166,322
+18,32984,Vas megye,Bucsu,village,289,295,584
+18,08271,Vas megye,Cák,village,131,147,278
+18,09876,Vas megye,Chernelházadamonya,village,118,112,230
+18,03911,Vas megye,Csákánydoroszló,village,849,870,1719
+18,26772,Vas megye,Csánig,village,170,169,339
+18,19488,Vas megye,Csehi,village,126,118,244
+18,12724,Vas megye,Csehimindszent,village,183,183,366
+18,23816,Vas megye,Csempeszkopács,village,163,155,318
+18,09070,Vas megye,Csénye,village,354,355,709
+18,26064,Vas megye,Csipkerek,village,162,179,341
+18,22390,Vas megye,Csönge,village,202,203,405
+18,04224,Vas megye,Csörötnek,village,459,414,873
+18,15990,Vas megye,Daraboshegy,village,50,49,99
+18,16151,Vas megye,Dozmat,village,136,136,272
+18,20695,Vas megye,Döbörhegy,village,72,73,145
+18,03036,Vas megye,Döröske,village,51,55,106
+18,02927,Vas megye,Duka,village,134,121,255
+18,28796,Vas megye,Egervölgy,village,185,163,348
+18,10232,Vas megye,Egyházashetye,village,156,164,320
+18,30429,Vas megye,Egyházashollós,village,274,273,547
+18,25946,Vas megye,Egyházasrádóc,village,662,632,1294
+18,13587,Vas megye,Felsőcsatár,village,237,242,479
+18,08013,Vas megye,Felsőjánosfa,village,91,108,199
+18,29841,Vas megye,Felsőmarác,village,128,124,252
+18,23287,Vas megye,Felsőszölnök,village,289,289,578
+18,30906,Vas megye,Gasztony,village,227,214,441
+18,24183,Vas megye,Gencsapáti,village,1318,1362,2680
+18,26152,Vas megye,Gérce,village,570,594,1164
+18,30942,Vas megye,Gersekarát,village,349,328,677
+18,11156,Vas megye,Gór,village,165,149,314
+18,27030,Vas megye,Gyanógeregye,village,75,81,156
+18,11943,Vas megye,Gyöngyösfalu,village,550,551,1101
+18,09724,Vas megye,Győrvár,village,310,323,633
+18,29452,Vas megye,Halastó,village,44,43,87
+18,10676,Vas megye,Halogy,village,134,135,269
+18,05713,Vas megye,Harasztifalu,village,81,85,166
+18,32188,Vas megye,Hegyfalu,village,376,383,759
+18,14997,Vas megye,Hegyháthodász,village,83,73,156
+18,30216,Vas megye,Hegyhátsál,village,63,83,146
+18,18032,Vas megye,Hegyhátszentjakab,village,142,124,266
+18,21838,Vas megye,Hegyhátszentmárton,village,37,33,70
+18,08226,Vas megye,Hegyhátszentpéter,village,78,75,153
+18,12733,Vas megye,Horvátlövő,village,98,103,201
+18,16887,Vas megye,Horvátzsidány,village,396,424,820
+18,20880,Vas megye,Hosszúpereszteg,village,309,335,644
+18,11387,Vas megye,Ikervár,village,848,888,1736
+18,29504,Vas megye,Iklanberény,village,26,28,54
+18,07977,Vas megye,Ispánk,village,51,59,110
+18,31680,Vas megye,Ivánc,village,335,321,656
+18,13958,Vas megye,Ják,village,1277,1294,2571
+18,06406,Vas megye,Jákfa,village,253,244,497
+18,29957,Vas megye,Káld,village,491,539,1030
+18,04640,Vas megye,Kám,village,224,248,472
+18,10913,Vas megye,Karakó,village,105,110,215
+18,26620,Vas megye,Katafa,village,174,170,344
+18,32036,Vas megye,Keléd,village,49,34,83
+18,16911,Vas megye,Kemeneskápolna,village,52,48,100
+18,12247,Vas megye,Kemenesmagasi,village,431,464,895
+18,13426,Vas megye,Kemenesmihályfa,village,267,245,512
+18,20996,Vas megye,Kemenespálfa,village,209,193,402
+18,24484,Vas megye,Kemenessömjén,village,276,287,563
+18,20084,Vas megye,Kemenesszentmárton,village,103,110,213
+18,22716,Vas megye,Kemestaródfa,village,113,122,235
+18,02574,Vas megye,Kenéz,village,135,143,278
+18,09937,Vas megye,Kenyeri,village,408,427,835
+18,26596,Vas megye,Kercaszomor,village,115,114,229
+18,19761,Vas megye,Kerkáskápolna,village,36,34,70
+18,19345,Vas megye,Kétvölgy,village,54,55,109
+18,11147,Vas megye,Kisrákos,village,97,83,180
+18,05953,Vas megye,Kissomlyó,village,117,122,239
+18,02501,Vas megye,Kisunyom,village,220,232,452
+18,15486,Vas megye,Kiszsidány,village,43,54,97
+18,13028,Vas megye,Kondorfa,village,258,249,507
+18,04190,Vas megye,Köcsk,village,132,123,255
+18,05740,Vas megye,Kőszegdoroszló,village,131,118,249
+18,26046,Vas megye,Kőszegpaty,village,116,79,195
+18,20109,Vas megye,Kőszegszerdahely,village,265,256,521
+18,29081,Vas megye,Lócs,village,66,66,132
+18,14021,Vas megye,Lukácsháza,village,555,540,1095
+18,03221,Vas megye,Magyarlak,village,388,414,802
+18,27289,Vas megye,Magyarnádalja,village,134,121,255
+18,17288,Vas megye,Magyarszecsőd,village,222,212,434
+18,25423,Vas megye,Magyarszombatfa,village,122,147,269
+18,25760,Vas megye,Meggyeskovácsi,village,348,337,685
+18,30872,Vas megye,Megyehíd,village,146,167,313
+18,14809,Vas megye,Mersevát,village,298,292,590
+18,31875,Vas megye,Mesterháza,village,80,80,160
+18,15723,Vas megye,Mesteri,village,133,139,272
+18,32832,Vas megye,Meszlen,village,104,110,214
+18,30599,Vas megye,Mikosszéplak,village,158,162,320
+18,03294,Vas megye,Molnaszecsőd,village,218,193,411
+18,06716,Vas megye,Nádasd,village,646,689,1335
+18,09283,Vas megye,Nagygeresd,village,137,136,273
+18,32920,Vas megye,Nagykölked,village,80,78,158
+18,15060,Vas megye,Nagymizdó,village,62,54,116
+18,29869,Vas megye,Nagyrákos,village,139,130,269
+18,26143,Vas megye,Nagysimonyi,village,478,494,972
+18,24837,Vas megye,Nagytilaj,village,75,76,151
+18,17367,Vas megye,Nárai,village,741,773,1514
+18,02042,Vas megye,Narda,village,236,260,496
+18,24509,Vas megye,Nemesbőd,village,352,298,650
+18,23320,Vas megye,Nemescsó,village,152,148,300
+18,03674,Vas megye,Nemeskeresztúr,village,141,156,297
+18,02839,Vas megye,Nemeskocs,village,163,156,319
+18,24059,Vas megye,Nemeskolta,village,186,193,379
+18,26240,Vas megye,Nemesládony,village,64,75,139
+18,31556,Vas megye,Nemesmedves,village,15,12,27
+18,09672,Vas megye,Nemesrempehollós,village,136,129,265
+18,10843,Vas megye,Nick,village,270,266,536
+18,22318,Vas megye,Nyőgér,village,172,171,343
+18,19743,Vas megye,Olaszfa,village,178,201,379
+18,22044,Vas megye,Ólmod,village,62,56,118
+18,17093,Vas megye,Orfalu,village,41,39,80
+18,32629,Vas megye,Ostffyasszonyfa,village,385,399,784
+18,07667,Vas megye,Oszkó,village,317,311,628
+18,12043,Vas megye,Ölbő,village,355,383,738
+18,13453,Vas megye,Őrimagyarósd,village,117,113,230
+18,07162,Vas megye,Pácsony,village,147,145,292
+18,23108,Vas megye,Pankasz,village,219,226,445
+18,14067,Vas megye,Pápoc,village,143,156,299
+18,14988,Vas megye,Pecöl,village,390,387,777
+18,13684,Vas megye,Perenye,village,329,347,676
+18,08882,Vas megye,Peresznye,village,308,327,635
+18,11572,Vas megye,Petőmihályfa,village,104,108,212
+18,06248,Vas megye,Pinkamindszent,village,91,88,179
+18,20367,Vas megye,Pornóapáti,village,160,194,354
+18,29896,Vas megye,Porpác,village,66,76,142
+18,15671,Vas megye,Pósfa,village,140,125,265
+18,10311,Vas megye,Pusztacsó,village,75,87,162
+18,07278,Vas megye,Püspökmolnári,village,419,464,883
+18,26736,Vas megye,Rábagyarmat,village,387,353,740
+18,03197,Vas megye,Rábahídvég,village,458,500,958
+18,26073,Vas megye,Rábapaty,village,834,846,1680
+18,17996,Vas megye,Rábatöttös,village,127,104,231
+18,07551,Vas megye,Rádóckölked,village,148,140,288
+18,23861,Vas megye,Rátót,village,118,117,235
+18,28626,Vas megye,Répceszentgyörgy,village,58,60,118
+18,26806,Vas megye,Rönök,village,206,203,409
+18,10597,Vas megye,Rum,village,565,572,1137
+18,10579,Vas megye,Sajtoskál,village,189,190,379
+18,18883,Vas megye,Salköveskút,village,250,235,485
+18,09788,Vas megye,Sárfimizdó,village,48,54,102
+18,10278,Vas megye,Sé,village,685,729,1414
+18,26763,Vas megye,Simaság,village,275,264,539
+18,30748,Vas megye,Sitke,village,368,373,741
+18,07171,Vas megye,Sorkifalud,village,323,342,665
+18,27960,Vas megye,Sorkikápolna,village,122,122,244
+18,29692,Vas megye,Sorokpolány,village,383,427,810
+18,22983,Vas megye,Sótony,village,332,306,638
+18,24800,Vas megye,Söpte,village,404,413,817
+18,16504,Vas megye,Szaknyér,village,28,25,53
+18,20932,Vas megye,Szakonyfalu,village,193,185,378
+18,10223,Vas megye,Szalafő,village,98,104,202
+18,17729,Vas megye,Szarvaskend,village,117,106,223
+18,02440,Vas megye,Szatta,village,37,32,69
+18,33172,Vas megye,Szeleste,village,330,333,663
+18,27997,Vas megye,Szemenye,village,160,182,342
+18,21254,Vas megye,Szentpéterfa,village,497,526,1023
+18,27793,Vas megye,Szergény,village,144,147,291
+18,19521,Vas megye,Szőce,village,172,164,336
+18,16212,Vas megye,Tanakajd,village,373,361,734
+18,32045,Vas megye,Táplánszentkereszt,village,1282,1315,2597
+18,29568,Vas megye,Telekes,village,245,269,514
+18,09229,Vas megye,Tokorcs,village,181,178,359
+18,12335,Vas megye,Tompaládony,village,169,152,321
+18,34087,Vas megye,Tormásliget,village,145,147,292
+18,29878,Vas megye,Torony,village,998,1028,2026
+18,05166,Vas megye,Tömörd,village,145,137,282
+18,21537,Vas megye,Uraiújfalu,village,400,425,825
+18,31051,Vas megye,Vámoscsalád,village,152,151,303
+18,02884,Vas megye,Vasalja,village,161,178,339
+18,09195,Vas megye,Vásárosmiske,village,175,177,352
+18,20394,Vas megye,Vasasszonyfa,village,203,175,378
+18,15334,Vas megye,Vasegerszeg,village,164,190,354
+18,20349,Vas megye,Vashosszúfalu,village,178,180,358
+18,30702,Vas megye,Vaskeresztes,village,175,165,340
+18,25982,Vas megye,Vassurány,village,394,395,789
+18,29373,Vas megye,Vasszécseny,village,669,680,1349
+18,11633,Vas megye,Vasszentmihály,village,167,172,339
+18,12104,Vas megye,Vasszilvágy,village,212,204,416
+18,02246,Vas megye,Vát,village,338,332,670
+18,26000,Vas megye,Velem,village,187,207,394
+18,18430,Vas megye,Velemér,village,40,35,75
+18,07940,Vas megye,Viszák,village,140,124,264
+18,03142,Vas megye,Vönöck,village,365,362,727
+18,21643,Vas megye,Zsédeny,village,106,109,215
+18,12292,Vas megye,Zsennye,village,54,48,102
+19,11767,Veszprém megye,Veszprém,large_city,26041,29206,55247
+19,06673,Veszprém megye,Ajka,city,13487,14636,28123
+19,22327,Veszprém megye,Badacsonytomaj,city,1039,1123,2162
+19,05838,Veszprém megye,Balatonalmádi,city,4853,5058,9911
+19,21175,Veszprém megye,Balatonfüred,city,6352,7210,13562
+19,02219,Veszprém megye,Balatonfűzfő,city,2155,2312,4467
+19,05148,Veszprém megye,Balatonkenese,city,1350,1374,2724
+19,33127,Veszprém megye,Berhida,city,2918,2981,5899
+19,32276,Veszprém megye,Devecser,city,2210,2215,4425
+19,23658,Veszprém megye,Herend,city,1742,1752,3494
+19,31945,Veszprém megye,Pápa,city,14168,15629,29797
+19,25593,Veszprém megye,Sümeg,city,2917,3156,6073
+19,29434,Veszprém megye,Tapolca,city,7351,8149,15500
+19,11439,Veszprém megye,Várpalota,city,9773,10394,20167
+19,26499,Veszprém megye,Zirc,city,3287,3438,6725
+19,34254,Veszprém megye,Pétfürdő,large_village,2232,2484,4716
+19,05625,Veszprém megye,Révfülöp,large_village,574,614,1188
+19,04561,Veszprém megye,Ábrahámhegy,village,292,278,570
+19,07302,Veszprém megye,Adásztevel,village,420,420,840
+19,31307,Veszprém megye,Adorjánháza,village,203,206,409
+19,30526,Veszprém megye,Alsóörs,village,956,1002,1958
+19,28370,Veszprém megye,Apácatorna,village,86,86,172
+19,07339,Veszprém megye,Aszófő,village,250,217,467
+19,03267,Veszprém megye,Badacsonytördemic,village,456,469,925
+19,23746,Veszprém megye,Bakonybél,village,560,601,1161
+19,29513,Veszprém megye,Bakonyjákó,village,367,356,723
+19,07287,Veszprém megye,Bakonykoppány,village,112,107,219
+19,25991,Veszprém megye,Bakonynána,village,500,525,1025
+19,30410,Veszprém megye,Bakonyoszlop,village,239,233,472
+19,06327,Veszprém megye,Bakonypölöske,village,217,201,418
+19,29902,Veszprém megye,Bakonyság,village,32,42,74
+19,23922,Veszprém megye,Bakonyszentiván,village,112,111,223
+19,22813,Veszprém megye,Bakonyszentkirály,village,423,415,838
+19,26417,Veszprém megye,Bakonyszücs,village,149,138,287
+19,24129,Veszprém megye,Bakonytamási,village,308,309,617
+19,25308,Veszprém megye,Balatonakali,village,361,345,706
+19,34421,Veszprém megye,Balatonakarattya,village,493,472,965
+19,03072,Veszprém megye,Balatoncsicsó,village,121,136,257
+19,12238,Veszprém megye,Balatonederics,village,504,526,1030
+19,29461,Veszprém megye,Balatonfőkajár,village,690,672,1362
+19,03638,Veszprém megye,Balatonhenye,village,72,63,135
+19,33844,Veszprém megye,Balatonrendes,village,82,83,165
+19,17154,Veszprém megye,Balatonszepezd,village,211,220,431
+19,28501,Veszprém megye,Balatonszőlős,village,330,330,660
+19,15565,Veszprém megye,Balatonudvari,village,189,200,389
+19,14173,Veszprém megye,Bánd,village,340,349,689
+19,15778,Veszprém megye,Barnag,village,77,71,148
+19,07427,Veszprém megye,Bazsi,village,234,225,459
+19,22901,Veszprém megye,Béb,village,138,134,272
+19,27058,Veszprém megye,Békás,village,118,97,215
+19,04321,Veszprém megye,Bodorfa,village,55,45,100
+19,04765,Veszprém megye,Borszörcsök,village,190,195,385
+19,30252,Veszprém megye,Borzavár,village,400,361,761
+19,30924,Veszprém megye,Csabrendek,village,1534,1549,3083
+19,16072,Veszprém megye,Csajág,village,434,419,853
+19,20251,Veszprém megye,Csehbánya,village,154,155,309
+19,24642,Veszprém megye,Csesznek,village,263,263,526
+19,31699,Veszprém megye,Csetény,village,919,925,1844
+19,02185,Veszprém megye,Csopak,village,1073,1122,2195
+19,32878,Veszprém megye,Csót,village,483,506,989
+19,32814,Veszprém megye,Csögle,village,317,307,624
+19,17172,Veszprém megye,Dabronc,village,227,243,470
+19,28237,Veszprém megye,Dabrony,village,238,222,460
+19,20154,Veszprém megye,Dáka,village,309,331,640
+19,10870,Veszprém megye,Doba,village,231,222,453
+19,29470,Veszprém megye,Döbrönte,village,150,143,293
+19,06363,Veszprém megye,Dörgicse,village,150,157,307
+19,02936,Veszprém megye,Dudar,village,878,868,1746
+19,33871,Veszprém megye,Egeralja,village,110,105,215
+19,10445,Veszprém megye,Egyházaskesző,village,267,260,527
+19,33941,Veszprém megye,Eplény,village,256,256,512
+19,10250,Veszprém megye,Farkasgyepű,village,177,184,361
+19,24369,Veszprém megye,Felsőörs,village,947,933,1880
+19,12742,Veszprém megye,Ganna,village,141,133,274
+19,09292,Veszprém megye,Gecse,village,191,211,402
+19,16717,Veszprém megye,Gic,village,185,177,362
+19,18193,Veszprém megye,Gógánfa,village,414,383,797
+19,28671,Veszprém megye,Gyepükaján,village,179,182,361
+19,09520,Veszprém megye,Gyulakeszi,village,356,355,711
+19,15361,Veszprém megye,Hajmáskér,village,1494,1611,3105
+19,07898,Veszprém megye,Halimba,village,612,616,1228
+19,25566,Veszprém megye,Hárskút,village,339,340,679
+19,02422,Veszprém megye,Hegyesd,village,92,83,175
+19,25803,Veszprém megye,Hegymagas,village,141,137,278
+19,15088,Veszprém megye,Hetyefő,village,44,44,88
+19,20756,Veszprém megye,Hidegkút,village,242,239,481
+19,27818,Veszprém megye,Homokbödöge,village,334,343,677
+19,07250,Veszprém megye,Hosztót,village,28,39,67
+19,28015,Veszprém megye,Iszkáz,village,184,156,340
+19,17437,Veszprém megye,Jásd,village,344,355,699
+19,19141,Veszprém megye,Kamond,village,223,199,422
+19,14553,Veszprém megye,Kapolcs,village,179,208,387
+19,14270,Veszprém megye,Káptalanfa,village,420,397,817
+19,05634,Veszprém megye,Káptalantóti,village,259,238,497
+19,08749,Veszprém megye,Karakószörcsök,village,149,137,286
+19,26037,Veszprém megye,Kékkút,village,41,26,67
+19,19734,Veszprém megye,Kemeneshőgyész,village,247,251,498
+19,12478,Veszprém megye,Kemenesszentpéter,village,302,309,611
+19,25654,Veszprém megye,Kerta,village,293,272,565
+19,05421,Veszprém megye,Királyszentistván,village,260,253,513
+19,07931,Veszprém megye,Kisapáti,village,190,168,358
+19,29072,Veszprém megye,Kisberzseny,village,52,56,108
+19,23700,Veszprém megye,Kiscsősz,village,56,59,115
+19,30173,Veszprém megye,Kislőd,village,643,610,1253
+19,04288,Veszprém megye,Kispirit,village,38,33,71
+19,23001,Veszprém megye,Kisszőlős,village,73,79,152
+19,30182,Veszprém megye,Kolontár,village,364,383,747
+19,23454,Veszprém megye,Kővágóörs,village,403,352,755
+19,25858,Veszprém megye,Köveskál,village,190,172,362
+19,26541,Veszprém megye,Kup,village,231,225,456
+19,16142,Veszprém megye,Külsővat,village,353,388,741
+19,04066,Veszprém megye,Küngös,village,275,271,546
+19,17570,Veszprém megye,Lesencefalu,village,160,163,323
+19,21962,Veszprém megye,Lesenceistvánd,village,517,474,991
+19,17871,Veszprém megye,Lesencetomaj,village,584,535,1119
+19,04552,Veszprém megye,Litér,village,1154,1121,2275
+19,18856,Veszprém megye,Lókút,village,238,243,481
+19,05564,Veszprém megye,Lovas,village,268,233,501
+19,05087,Veszprém megye,Lovászpatona,village,594,589,1183
+19,26374,Veszprém megye,Magyargencs,village,238,257,495
+19,20437,Veszprém megye,Magyarpolány,village,667,673,1340
+19,03610,Veszprém megye,Malomsok,village,263,260,523
+19,29294,Veszprém megye,Marcalgergelyi,village,187,180,367
+19,22220,Veszprém megye,Marcaltő,village,375,379,754
+19,32212,Veszprém megye,Márkó,village,796,798,1594
+19,04987,Veszprém megye,Megyer,village,21,14,35
+19,27137,Veszprém megye,Mencshely,village,131,143,274
+19,23560,Veszprém megye,Mezőlak,village,492,490,982
+19,04668,Veszprém megye,Mihályháza,village,382,349,731
+19,04534,Veszprém megye,Mindszentkálla,village,123,126,249
+19,24040,Veszprém megye,Monostorapáti,village,578,587,1165
+19,22512,Veszprém megye,Monoszló,village,60,62,122
+19,23551,Veszprém megye,Nagyacsád,village,334,320,654
+19,27979,Veszprém megye,Nagyalásony,village,258,252,510
+19,10001,Veszprém megye,Nagydém,village,175,176,351
+19,23180,Veszprém megye,Nagyesztergár,village,602,571,1173
+19,08262,Veszprém megye,Nagygyimót,village,280,280,560
+19,21403,Veszprém megye,Nagypirit,village,129,130,259
+19,25201,Veszprém megye,Nagytevel,village,291,263,554
+19,19196,Veszprém megye,Nagyvázsony,village,925,913,1838
+19,05652,Veszprém megye,Nemesgörzsöny,village,327,323,650
+19,02787,Veszprém megye,Nemesgulács,village,496,503,999
+19,05555,Veszprém megye,Nemeshany,village,195,173,368
+19,21759,Veszprém megye,Nemesszalók,village,429,417,846
+19,02194,Veszprém megye,Nemesvámos,village,1545,1487,3032
+19,28422,Veszprém megye,Nemesvita,village,177,170,347
+19,10409,Veszprém megye,Németbánya,village,63,60,123
+19,26523,Veszprém megye,Nóráp,village,104,111,215
+19,14757,Veszprém megye,Noszlop,village,532,472,1004
+19,29009,Veszprém megye,Nyárád,village,464,466,930
+19,24004,Veszprém megye,Nyirád,village,948,999,1947
+19,23913,Veszprém megye,Óbudavár,village,35,31,66
+19,26514,Veszprém megye,Olaszfalu,village,528,530,1058
+19,16595,Veszprém megye,Oroszi,village,74,73,147
+19,28112,Veszprém megye,Öcs,village,101,108,209
+19,10092,Veszprém megye,Örvényes,village,83,70,153
+19,24068,Veszprém megye,Ősi,village,1048,1027,2075
+19,25450,Veszprém megye,Öskü,village,1136,1139,2275
+19,17011,Veszprém megye,Paloznak,village,290,264,554
+19,19868,Veszprém megye,Pápadereske,village,144,142,286
+19,11855,Veszprém megye,Pápakovácsi,village,287,282,569
+19,21607,Veszprém megye,Pápasalamon,village,177,189,366
+19,31255,Veszprém megye,Pápateszér,village,629,602,1231
+19,07348,Veszprém megye,Papkeszi,village,823,788,1611
+19,22451,Veszprém megye,Pécsely,village,292,300,592
+19,15547,Veszprém megye,Pénzesgyőr,village,173,152,325
+19,23515,Veszprém megye,Porva,village,255,247,502
+19,11420,Veszprém megye,Pula,village,92,101,193
+19,28972,Veszprém megye,Pusztamiske,village,233,229,462
+19,03948,Veszprém megye,Raposka,village,136,133,269
+19,25849,Veszprém megye,Rigács,village,102,98,200
+19,30793,Veszprém megye,Salföld,village,33,37,70
+19,13772,Veszprém megye,Sáska,village,145,145,290
+19,03601,Veszprém megye,Sóly,village,269,272,541
+19,05157,Veszprém megye,Somlójenő,village,147,147,294
+19,25779,Veszprém megye,Somlószőlős,village,318,328,646
+19,26569,Veszprém megye,Somlóvásárhely,village,609,566,1175
+19,14243,Veszprém megye,Somlóvecse,village,40,45,85
+19,05388,Veszprém megye,Sümegprága,village,287,321,608
+19,16489,Veszprém megye,Szápár,village,235,265,500
+19,03568,Veszprém megye,Szentantalfa,village,260,257,517
+19,07092,Veszprém megye,Szentbékkálla,village,106,106,212
+19,07922,Veszprém megye,Szentgál,village,1420,1393,2813
+19,10065,Veszprém megye,Szentimrefalva,village,96,109,205
+19,11545,Veszprém megye,Szentjakabfa,village,58,59,117
+19,16267,Veszprém megye,Szentkirályszabadja,village,1061,1041,2102
+19,24891,Veszprém megye,Szigliget,village,465,466,931
+19,16692,Veszprém megye,Szőc,village,215,231,446
+19,17039,Veszprém megye,Tagyon,village,51,53,104
+19,13125,Veszprém megye,Takácsi,village,449,416,865
+19,17321,Veszprém megye,Taliándörögd,village,347,331,678
+19,20570,Veszprém megye,Tés,village,440,423,863
+19,30465,Veszprém megye,Tihany,village,651,700,1351
+19,02714,Veszprém megye,Tótvázsony,village,690,728,1418
+19,04631,Veszprém megye,Tüskevár,village,287,288,575
+19,24767,Veszprém megye,Ugod,village,649,664,1313
+19,23010,Veszprém megye,Ukk,village,170,167,337
+19,20853,Veszprém megye,Úrkút,village,992,1076,2068
+19,34218,Veszprém megye,Uzsa,village,160,163,323
+19,21777,Veszprém megye,Vanyola,village,292,288,580
+19,26204,Veszprém megye,Várkesző,village,81,97,178
+19,07065,Veszprém megye,Városlőd,village,666,686,1352
+19,26648,Veszprém megye,Vaszar,village,781,753,1534
+19,16656,Veszprém megye,Vászoly,village,138,134,272
+19,21430,Veszprém megye,Veszprémfajsz,village,125,129,254
+19,19336,Veszprém megye,Veszprémgalsa,village,141,135,276
+19,09502,Veszprém megye,Vid,village,69,73,142
+19,09733,Veszprém megye,Vigántpetend,village,108,95,203
+19,15705,Veszprém megye,Vilonya,village,352,329,681
+19,24651,Veszprém megye,Vinár,village,111,119,230
+19,11703,Veszprém megye,Vöröstó,village,48,44,92
+19,29993,Veszprém megye,Zalaerdőd,village,123,137,260
+19,27207,Veszprém megye,Zalagyömörő,village,201,205,406
+19,12654,Veszprém megye,Zalahaláp,village,645,638,1283
+19,33039,Veszprém megye,Zalameggyes,village,32,27,59
+19,23597,Veszprém megye,Zalaszegvár,village,82,80,162
+19,20826,Veszprém megye,Zánka,village,509,501,1010
+20,32054,Zala megye,Zalaegerszeg,large_city,26871,30088,56959
+20,30933,Zala megye,Nagykanizsa,large_city,21768,24511,46279
+20,03814,Zala megye,Hévíz,city,2131,2568,4699
+20,18421,Zala megye,Keszthely,city,8826,10290,19116
+20,12575,Zala megye,Lenti,city,3755,4088,7843
+20,12122,Zala megye,Letenye,city,1900,2110,4010
+20,31741,Zala megye,Pacsa,city,829,837,1666
+20,11785,Zala megye,Zalakaros,city,1295,1360,2655
+20,30313,Zala megye,Zalalövő,city,1413,1448,2861
+20,32522,Zala megye,Zalaszentgrót,city,3119,3272,6391
+20,23302,Zala megye,Gyenesdiás,large_village,1971,2102,4073
+20,12919,Zala megye,Vonyarcvashegy,large_village,1278,1328,2606
+20,02644,Zala megye,Alibánfa,village,223,211,434
+20,23384,Zala megye,Almásháza,village,48,43,91
+20,19512,Zala megye,Alsónemesapáti,village,338,344,682
+20,32081,Zala megye,Alsópáhok,village,703,791,1494
+20,18829,Zala megye,Alsórajk,village,149,175,324
+20,08767,Zala megye,Alsószenterzsébet,village,29,25,54
+20,21263,Zala megye,Babosdöbréte,village,257,260,517
+20,11059,Zala megye,Baglad,village,17,25,42
+20,30368,Zala megye,Bagod,village,632,616,1248
+20,04738,Zala megye,Bak,village,776,827,1603
+20,15097,Zala megye,Baktüttös,village,182,179,361
+20,17002,Zala megye,Balatongyörök,village,690,696,1386
+20,26462,Zala megye,Balatonmagyaród,village,221,263,484
+20,08439,Zala megye,Bánokszentgyörgy,village,304,302,606
+20,27447,Zala megye,Barlahida,village,73,59,132
+20,24864,Zala megye,Batyk,village,195,208,403
+20,18698,Zala megye,Bázakerettye,village,385,374,759
+20,23144,Zala megye,Becsehely,village,980,1044,2024
+20,18360,Zala megye,Becsvölgye,village,369,405,774
+20,09168,Zala megye,Belezna,village,343,354,697
+20,20950,Zala megye,Belsősárd,village,48,46,94
+20,12830,Zala megye,Bezeréd,village,80,74,154
+20,17543,Zala megye,Bocfölde,village,586,595,1181
+20,31291,Zala megye,Bocska,village,151,152,303
+20,19929,Zala megye,Bókaháza,village,155,145,300
+20,10782,Zala megye,Boncodfölde,village,174,173,347
+20,10056,Zala megye,Borsfa,village,345,362,707
+20,22877,Zala megye,Böde,village,124,159,283
+20,04163,Zala megye,Bödeháza,village,24,26,50
+20,21139,Zala megye,Börzönce,village,20,27,47
+20,20613,Zala megye,Búcsúszentlászló,village,369,391,760
+20,07986,Zala megye,Bucsuta,village,106,109,215
+20,06132,Zala megye,Csapi,village,86,78,164
+20,23436,Zala megye,Csatár,village,252,279,531
+20,07135,Zala megye,Cserszegtomaj,village,1709,1710,3419
+20,10649,Zala megye,Csertalakos,village,25,21,46
+20,02583,Zala megye,Csesztreg,village,415,429,844
+20,31149,Zala megye,Csonkahegyhát,village,151,185,336
+20,27492,Zala megye,Csöde,village,45,44,89
+20,29364,Zala megye,Csömödér,village,295,316,611
+20,33978,Zala megye,Csörnyeföld,village,185,236,421
+20,28778,Zala megye,Dióskál,village,249,239,488
+20,25885,Zala megye,Dobri,village,75,91,166
+20,32708,Zala megye,Dobronhegy,village,75,65,140
+20,07782,Zala megye,Döbröce,village,49,36,85
+20,16009,Zala megye,Dötk,village,23,24,47
+20,24262,Zala megye,Egeraracsa,village,155,155,310
+20,33428,Zala megye,Egervár,village,492,529,1021
+20,06178,Zala megye,Eszteregnye,village,321,352,673
+20,15769,Zala megye,Esztergályhorváti,village,233,202,435
+20,11642,Zala megye,Felsőpáhok,village,336,391,727
+20,21476,Zala megye,Felsőrajk,village,377,360,737
+20,30890,Zala megye,Felsőszenterzsébet,village,10,7,17
+20,19187,Zala megye,Fityeház,village,299,328,627
+20,16531,Zala megye,Fűzvölgy,village,73,68,141
+20,17516,Zala megye,Gáborjánháza,village,34,39,73
+20,12991,Zala megye,Galambok,village,676,672,1348
+20,12946,Zala megye,Garabonc,village,358,343,701
+20,08068,Zala megye,Gellénháza,village,758,779,1537
+20,12089,Zala megye,Gelse,village,527,525,1052
+20,09089,Zala megye,Gelsesziget,village,143,119,262
+20,20039,Zala megye,Gétye,village,62,50,112
+20,17613,Zala megye,Gombosszeg,village,30,22,52
+20,13569,Zala megye,Gosztola,village,34,36,70
+20,29771,Zala megye,Gősfa,village,149,157,306
+20,02097,Zala megye,Gutorfölde,village,504,461,965
+20,12539,Zala megye,Gyűrűs,village,51,47,98
+20,10931,Zala megye,Hagyárosbörönd,village,149,150,299
+20,10269,Zala megye,Hahót,village,509,516,1025
+20,19895,Zala megye,Hernyék,village,44,38,82
+20,24873,Zala megye,Homokkomárom,village,112,107,219
+20,11208,Zala megye,Hosszúvölgy,village,91,94,185
+20,28325,Zala megye,Hottó,village,172,176,348
+20,03188,Zala megye,Iborfia,village,6,5,11
+20,13921,Zala megye,Iklódbördőce,village,157,154,311
+20,22965,Zala megye,Kacorlak,village,97,105,202
+20,05537,Zala megye,Kallósd,village,48,51,99
+20,21500,Zala megye,Kálócfa,village,79,76,155
+20,04473,Zala megye,Kányavár,village,75,59,134
+20,18041,Zala megye,Karmacs,village,365,395,760
+20,32063,Zala megye,Kávás,village,114,129,243
+20,32902,Zala megye,Kehidakustány,village,543,550,1093
+20,25353,Zala megye,Kemendollár,village,246,249,495
+20,06071,Zala megye,Keménfa,village,41,45,86
+20,31529,Zala megye,Kerecseny,village,134,131,265
+20,29489,Zala megye,Kerkabarabás,village,157,146,303
+20,15112,Zala megye,Kerkafalva,village,60,56,116
+20,22080,Zala megye,Kerkakutas,village,58,60,118
+20,09575,Zala megye,Kerkaszentkirály,village,114,120,234
+20,32647,Zala megye,Kerkateskánd,village,91,81,172
+20,32267,Zala megye,Kilimán,village,108,114,222
+20,21379,Zala megye,Kisbucsa,village,223,208,431
+20,16249,Zala megye,Kiscsehi,village,89,94,183
+20,09812,Zala megye,Kisgörbő,village,97,99,196
+20,20312,Zala megye,Kiskutas,village,102,99,201
+20,16081,Zala megye,Kispáli,village,131,145,276
+20,32726,Zala megye,Kisrécse,village,96,93,189
+20,13055,Zala megye,Kissziget,village,97,90,187
+20,20941,Zala megye,Kistolmács,village,81,91,172
+20,16364,Zala megye,Kisvásárhely,village,20,29,49
+20,13082,Zala megye,Kozmadombja,village,22,17,39
+20,19479,Zala megye,Kustánszeg,village,243,224,467
+20,32221,Zala megye,Külsősárd,village,34,36,70
+20,33792,Zala megye,Lakhegy,village,220,238,458
+20,03434,Zala megye,Lasztonya,village,37,29,66
+20,27483,Zala megye,Lendvadedes,village,17,17,34
+20,11475,Zala megye,Lendvajakabfa,village,26,23,49
+20,03054,Zala megye,Lickóvadamos,village,92,92,184
+20,28200,Zala megye,Ligetfalva,village,27,30,57
+20,10889,Zala megye,Lispeszentadorján,village,144,156,300
+20,25025,Zala megye,Liszó,village,179,200,379
+20,28167,Zala megye,Lovászi,village,568,590,1158
+20,08916,Zala megye,Magyarföld,village,27,27,54
+20,02909,Zala megye,Magyarszentmiklós,village,131,132,263
+20,13064,Zala megye,Magyarszerdahely,village,245,263,508
+20,02103,Zala megye,Maróc,village,35,41,76
+20,31981,Zala megye,Márokföld,village,31,32,63
+20,27526,Zala megye,Miháld,village,379,397,776
+20,02130,Zala megye,Mihályfa,village,201,150,351
+20,22141,Zala megye,Mikekarácsonyfa,village,161,179,340
+20,02662,Zala megye,Milejszeg,village,159,160,319
+20,04756,Zala megye,Misefa,village,140,141,281
+20,21014,Zala megye,Molnári,village,345,344,689
+20,25210,Zala megye,Murakeresztúr,village,835,877,1712
+20,07968,Zala megye,Murarátka,village,128,112,240
+20,33987,Zala megye,Muraszemenye,village,248,258,506
+20,12760,Zala megye,Nagybakónak,village,207,201,408
+20,05218,Zala megye,Nagygörbő,village,79,80,159
+20,20589,Zala megye,Nagykapornak,village,441,467,908
+20,22178,Zala megye,Nagykutas,village,220,240,460
+20,04455,Zala megye,Nagylengyel,village,244,247,491
+20,28468,Zala megye,Nagypáli,village,287,258,545
+20,16513,Zala megye,Nagyrada,village,261,240,501
+20,14979,Zala megye,Nagyrécse,village,529,572,1101
+20,06169,Zala megye,Nemesapáti,village,263,254,517
+20,32948,Zala megye,Nemesbük,village,381,419,800
+20,07658,Zala megye,Nemeshetés,village,140,138,278
+20,32665,Zala megye,Nemesnép,village,69,65,134
+20,19859,Zala megye,Nemespátró,village,131,145,276
+20,18023,Zala megye,Nemesrádó,village,164,170,334
+20,25609,Zala megye,Nemessándorháza,village,163,164,327
+20,08059,Zala megye,Nemesszentandrás,village,138,128,266
+20,25414,Zala megye,Németfalu,village,91,108,199
+20,03355,Zala megye,Nova,village,373,401,774
+20,27775,Zala megye,Óhíd,village,270,263,533
+20,25478,Zala megye,Oltárc,village,138,124,262
+20,20835,Zala megye,Orbányosfa,village,54,62,116
+20,22497,Zala megye,Ormándlak,village,52,49,101
+20,25052,Zala megye,Orosztony,village,220,216,436
+20,04950,Zala megye,Ortaháza,village,48,61,109
+20,18953,Zala megye,Ozmánbük,village,87,100,187
+20,24776,Zala megye,Padár,village,64,53,117
+20,29160,Zala megye,Páka,village,555,565,1120
+20,24271,Zala megye,Pakod,village,408,443,851
+20,14720,Zala megye,Pálfiszeg,village,85,84,169
+20,29656,Zala megye,Pat,village,100,101,201
+20,05704,Zala megye,Pethőhenye,village,223,208,431
+20,19178,Zala megye,Petrikeresztúr,village,176,190,366
+20,30757,Zala megye,Petrivente,village,166,185,351
+20,21050,Zala megye,Pókaszepetk,village,474,466,940
+20,16850,Zala megye,Pórszombat,village,136,140,276
+20,09867,Zala megye,Pölöske,village,438,408,846
+20,31112,Zala megye,Pölöskefő,village,205,188,393
+20,32513,Zala megye,Pördefölde,village,31,28,59
+20,24660,Zala megye,Pötréte,village,150,142,292
+20,16920,Zala megye,Pusztaapáti,village,15,12,27
+20,27465,Zala megye,Pusztaederics,village,91,79,170
+20,06530,Zala megye,Pusztamagyaród,village,275,271,546
+20,26639,Zala megye,Pusztaszentlászló,village,261,291,552
+20,14298,Zala megye,Ramocsa,village,29,12,41
+20,31592,Zala megye,Rédics,village,455,460,915
+20,17118,Zala megye,Resznek,village,141,130,271
+20,23898,Zala megye,Rezi,village,701,720,1421
+20,24138,Zala megye,Rigyác,village,197,208,405
+20,27720,Zala megye,Salomvár,village,303,294,597
+20,15556,Zala megye,Sand,village,186,194,380
+20,08101,Zala megye,Sárhida,village,389,393,782
+20,14906,Zala megye,Sármellék,village,892,973,1865
+20,30997,Zala megye,Semjénháza,village,287,279,566
+20,14085,Zala megye,Sénye,village,34,31,65
+20,06567,Zala megye,Sormás,village,436,439,875
+20,19080,Zala megye,Söjtör,village,753,772,1525
+20,02404,Zala megye,Surd,village,281,310,591
+20,21397,Zala megye,Sümegcsehi,village,294,328,622
+20,20543,Zala megye,Szalapa,village,84,104,188
+20,11554,Zala megye,Szécsisziget,village,105,106,211
+20,23126,Zala megye,Szentgyörgyvár,village,178,161,339
+20,18652,Zala megye,Szentgyörgyvölgy,village,204,187,391
+20,03124,Zala megye,Szentkozmadombja,village,27,34,61
+20,08615,Zala megye,Szentliszló,village,137,153,290
+20,14225,Zala megye,Szentmargitfalva,village,47,30,77
+20,30067,Zala megye,Szentpéterfölde,village,64,75,139
+20,11165,Zala megye,Szentpéterúr,village,525,512,1037
+20,07700,Zala megye,Szepetnek,village,729,811,1540
+20,26161,Zala megye,Szijártóháza,village,17,12,29
+20,17853,Zala megye,Szilvágy,village,93,99,192
+20,24703,Zala megye,Tekenye,village,226,241,467
+20,08828,Zala megye,Teskánd,village,579,587,1166
+20,27951,Zala megye,Tilaj,village,98,81,179
+20,05342,Zala megye,Tófej,village,332,350,682
+20,04969,Zala megye,Tormafölde,village,175,174,349
+20,32638,Zala megye,Tornyiszentmiklós,village,260,262,522
+20,16382,Zala megye,Tótszentmárton,village,412,401,813
+20,25113,Zala megye,Tótszerdahely,village,514,567,1081
+20,12609,Zala megye,Türje,village,784,830,1614
+20,32197,Zala megye,Újudvar,village,491,471,962
+20,26268,Zala megye,Valkonya,village,38,31,69
+20,10685,Zala megye,Vállus,village,66,59,125
+20,02529,Zala megye,Várfölde,village,118,100,218
+20,14182,Zala megye,Várvölgy,village,536,512,1048
+20,10302,Zala megye,Vasboldogasszony,village,269,275,544
+20,14322,Zala megye,Vaspör,village,175,161,336
+20,32142,Zala megye,Vindornyafok,village,71,66,137
+20,06549,Zala megye,Vindornyalak,village,41,42,83
+20,11800,Zala megye,Vindornyaszőlős,village,171,168,339
+20,08369,Zala megye,Vöckönd,village,44,44,88
+20,24590,Zala megye,Zajk,village,113,134,247
+20,17400,Zala megye,Zalaapáti,village,837,852,1689
+20,07579,Zala megye,Zalabaksa,village,302,326,628
+20,24280,Zala megye,Zalabér,village,349,404,753
+20,28495,Zala megye,Zalaboldogfa,village,188,173,361
+20,04002,Zala megye,Zalacsány,village,529,507,1036
+20,02486,Zala megye,Zalacséb,village,245,250,495
+20,23834,Zala megye,Zalaháshágy,village,184,187,371
+20,16896,Zala megye,Zalaigrice,village,64,53,117
+20,12496,Zala megye,Zalaistvánd,village,185,178,363
+20,10348,Zala megye,Zalakomár,village,1412,1509,2921
+20,18768,Zala megye,Zalaköveskút,village,16,14,30
+20,31617,Zala megye,Zalamerenye,village,91,96,187
+20,02972,Zala megye,Zalasárszeg,village,69,66,135
+20,22947,Zala megye,Zalaszabar,village,292,291,583
+20,33288,Zala megye,Zalaszántó,village,471,488,959
+20,18564,Zala megye,Zalaszentbalázs,village,396,419,815
+20,33136,Zala megye,Zalaszentgyörgy,village,201,215,416
+20,02608,Zala megye,Zalaszentiván,village,506,522,1028
+20,18096,Zala megye,Zalaszentjakab,village,161,163,324
+20,07232,Zala megye,Zalaszentlászló,village,375,414,789
+20,13301,Zala megye,Zalaszentlőrinc,village,142,136,278
+20,13091,Zala megye,Zalaszentmárton,village,37,36,73
+20,18449,Zala megye,Zalaszentmihály,village,494,504,998
+20,27562,Zala megye,Zalaszombatfa,village,23,26,49
+20,29683,Zala megye,Zalatárnok,village,312,303,615
+20,09380,Zala megye,Zalaújlak,village,58,49,107
+20,13736,Zala megye,Zalavár,village,453,485,938
+20,17057,Zala megye,Zalavég,village,188,152,340
+20,03726,Zala megye,Zebecke,village,36,33,69

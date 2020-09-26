@@ -57,7 +57,8 @@
             if ($record->parent != $this->prevParent) {
                 if ($record->parent == '') {
                     // root item, not parent
-                    $this->parent_id = 0;   
+                    $this->parent_id = 0;  
+                    $cmm->setToSession('parent_id',0);
                 } else {
                     // insert parent if not exists
                     $parentRecord = new AreaRecord();
@@ -71,9 +72,11 @@
                     $parentRecord->population = 0;
                     $parentRecord->place = 0;
                     $this->parent_id = $this->model->getOrAddArea($parentRecord);
+                    $cmm->setToSession('parent_id',$this->parent_id);
                 }
             }
             $this->prevParent = $record->parent;
+            $cmm->setToSession('prevParent',$this->prevParent);
             // current area insert or update
             $record->id = 0;
             $record->parent = $this->parent_id;
@@ -85,29 +88,28 @@
             $this->model->copy($record, $areaRecord);
             $this->model->getOrAddArea($areaRecord);
             $this->counter = $this->counter + 1;
+            $cmm->setToSession('counter', $this->counter);
         }
 
         protected function afterProcess(int $num) {
             $this->msg = __('csv_loaded',CMM).' ('.
-                __('readed',CMM).':'.$num.' '.__('writed',CMM).':'.$_SESSION['counter'].')';
+                __('readed',CMM).':'.$num.')';
             $this->msgClass = 'info notice';
             $this->display('area.adminform');
-            unset($_SESSION['counter']);
-            unset($_SESSION['country_id']);
-            unset($_SESSION['prevParent']);
-            unset($_SESSION['parent_id']);
-            
-            echo '<p>'.date('Y-m-s H:i:d:s').'</p>';
+            $cmm->deleteFromSession('counter');
+            $cmm->deleteFromSession('country_id');
+            $cmm->deleteFromSession('prevParent');
+            $cmm->deleteFromSession('parent_id');
         }
         
         protected function errorMessage(string $msg) {
             $this->msg = __($msg,CMM);
             $this->msgClass = 'error notice';
             $this->display('area.adminform');
-            unset($_SESSION['counter']);
-            unset($_SESSION['country_id']);
-            unset($_SESSION['prevParent']);
-            unset($_SESSION['parent_id']);
+            $cmm->deleteFromSession('counter');
+            $cmm->deleteFromSession('country_id');
+            $cmm->deleteFromSession('prevParent');
+            $cmm->deleteFromSession('parent_id');
         }
     } // class
     
@@ -126,6 +128,27 @@
 		        $this->progressindicator = $this->getController('progressindicator');
 		        $this->progressindicator->setup(false, 0, 0);
 		        $this->display('area.adminform');
+		        
+                
+		        echo '<div style="display:block"><textarea id="text1" cols="10" rows="20"></textarea></div>';
+		        $content = '';
+		        wp_editor($content, 'text1');
+		        ?>
+		        <button type="button" id="insert-media-button" class="button insert-media add_media" 
+                        data-editor="text1">
+                        <span class="wp-media-buttons-icon"></span> 
+                        Média tár (image, video, audio)
+                </button>
+                <button type="button" class="button">map</button> 
+                <button type="button" class="button">map marker</button> 
+                <button type="button" class="button" 
+                        onclick="console.log( tinymce.get('text1').getContent());">show</button> 
+                <script>
+                    jQuery(function() {
+                        jQuery("#wp-text1-wrap").hide();
+                    });
+                </script>
+                <?php
 		    }
 		}
 		

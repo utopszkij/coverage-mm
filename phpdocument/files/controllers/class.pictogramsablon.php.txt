@@ -1,0 +1,300 @@
+<?php
+/**
+* covreage_mm picture sablon objektum
+*/
+
+/**
+ * AVO objectum adatok
+ * @author utopszkij
+ */
+class PictogramSablonData extends EvoData {
+    // azonositó blokk
+    public $id = 0;                // int(11) auto increment egyedi azonosító
+    public $name = '';             // string(128) név 
+    public $title = '';            // string(256) leírás
+    // további adatok
+    public $published = true;      // bool közzétéve igen vagy nem
+    public $media = '';            // html kód  image|video|audio|map
+    public $txt = '';              // html kód
+    public $backgroundColor = '';  // background color
+    public $created = '';          // datetime Y-m-d H:i:s
+    public $modified = '';         // datetime Y-m-d H:i:s vagy üres
+    public $author = 0;            // felvivő user id
+    // az adatbázisban ezen kivül itt van tárolva a "categories" adat ist JSON string formában
+}
+
+// categories: map_marker | player | battle | rank | medal | certificate | award | other
+
+
+/**
+ * pictogram sablon objektum
+ * 
+ * A txt ben értelmezett formális paraméterek:
+ * {userRealName}  - a sortkodban lehet user=logged paraméter is ez esetbe onnan veszi
+ * {userNickName}  - a sortkodban lehet user=logged paraméter is ez esetbe onnan veszi
+ * {userProfileLink} - a sortkodban lehet user=logged paraméter is ez esetbe onnan veszi
+ * {areaName} - a shortcode -ban lehet area=szám paraméter, ez esetben onnan veszi  
+ * {areaLink} - a shortcode -ban lehet area=szám paraméter, ez esetben onnan veszi
+ * {url1}
+ * {url2}
+ * {url3}
+ * {date}
+ * és a hozzákapcsolt ACF fieldek kapcsos zárójelbe tett nevei.
+ * 
+ * shortcode -ban megadható paraméterek
+ *    id  -- kötelező
+ *    user=szám vagy logged  defaultlogged
+ *    area=szám              default 0 
+ *    userRealName           default user' real name
+ *    userNickName           default user' nick name
+ *    userProfileLink        default user' profile link
+ *    areaNeme               default area' name
+ *    areaLink               default area' link
+ *    url1                   default '#'
+ *    url2                   default '#'
+ *    url3                   default '#'
+ *    date                   default mai nap
+ * @author utopszkij
+ */
+class PictogramsablonController extends EvoController {
+	    public $controllerName = 'pictogramsablon';
+	    public $data = '';
+	    
+	    function __construct() {
+	        parent::__construct();
+	        $this->data = new PictogramSablonData();
+	    }
+	    
+	    /**
+	     * univerzális adatform
+	     * @param string $title
+	     * @param string $action
+	     * @param string $msg
+	     * @param string $msgClass
+	     * 
+	     * POST -ban érkezik id és érkezhetnek további adatok is 
+	     */
+	    protected function form(string $title, string $action, string $msg = '', string $msgClass = '') {
+	        global $cmm;
+	        $cmm->checkAdmin();
+	        $cmm->checkCsrToken();
+	        $this->action = $action;
+	        $this->title = $title;
+	        $this->msg = $msg;
+	        $this->msgClass = $msgClass;
+	        $this->csrToken = $cmm->createCsrToken();
+	        // field adatok alvasása a GET/POST -ból
+	        foreach ($this->data as $fn => $fv) {
+	            $this->data->$fn = $cmm->getParam($fn, $this->data->$fn);
+	        }
+	        $this->display('pictogramsablon.adminform');
+	    }
+	    
+	    /**
+	     * felviteli adatform, POST -ban érkezhetnek form adatok is
+	     */
+	    public function addform() {
+	        global $cmm;
+	        $cmm->checkAdmin();
+	        $this->data = $this->model->init();
+	        $this->form('add_picturesablon','add');
+	    }
+	    
+	    /**
+	     * modosítási adatform, POST -ban érkezhetnek form adatok is
+	     */
+	    public function editform() {
+	        global $cmm;
+	        $cmm->checkAdmin();
+	        $this->data->id = $cmm->getParam('id');
+	        if ($this->readFromDatabase((int)$this->data->id)) {
+	           $this->form('edit_picturesablon','edit');
+	        } else {
+	            $this->browserForm('not found','error notice');
+	        }
+	    }
+	    
+	    /**
+	     * adat tárolás felvitel vagy modosítás után
+	     * POST ban érkeznek a form adatok, beleértve az id -t is
+	     */
+	    public function saveTask() {
+	        global $cmm;
+	        $cmm->checkAdmin();
+	        $cmm->checkCsrToken();
+	        // field adatok alvasása a POST -ból
+	        // field adatok alvasása a POST -ból
+	        foreach ($this->data as $fn => $fv) {
+	            $this->data->$fn = $cmm->getParam($fn);
+	        }
+	        $errorMsg = $this->checkData();
+	        if ($errorMsg != '') {
+	            if ($this->data->id == 0) {
+	                $this->form('add_picturesablon','add',$errorMsg,'error notice');
+	            } else {
+	                $this->form('edit_picturesablon','edit',$errorMsg,'error notice');
+	            }
+	        } else {
+    	        if ($this->saveTodatabase()) {
+    	            // sikeres tárolás
+    	            $this->browserForm('success_save','info notice');
+    	        } else {
+    	            if ($this->data->id == 0) {
+    	                $this->form('add_picturesablon','add',$this->model->getErrorMsg(),'error notice');
+    	            } else {
+    	                $this->form('edit_picturesablon','edit',$this->model->getErrorMsg(),'error notice');
+    	            }
+    	        }
+	        }
+	    } // save function
+	    
+	    /**
+	     * törlés elött biztonsági kérdés
+	     * POST -ban érkezik az id
+	     */
+	    public function suredelete() {
+	        global $cmm;
+	        $cmm->checkAdmin();
+	        $cmm->checkCsrToken();
+	        $this->data->id = $cmm->getParam('id');
+	        if ($this->readFromDatabase((int)$this->data->id)) {
+	           $this->display('pictogramsablon.admindelete');
+	        } else {
+	            $this->browserForm('not found','error notice');
+	        }
+	    }
+	    
+	    /**
+	     * törlés végrehajtása
+	     * POST -ban érkezik az id
+	     */
+	    public function dodelete() {
+	        global $cmm;
+	        $cmm->checkAdmin();
+	        $cmm->checkCsrToken();
+	        $this->data->id = $cmm->getParam('id');
+	        if ($this->readFromDatabase((int)$this->data->id)) {
+	            if ($this->model->delete((int)$this->data->id)) {
+	                $this->browserForm('success_delete','info notice');
+	            } else {
+	                $this->browserForm('error in delete','error notice');
+	            }
+	        } else {
+	            $this->browserForm('not found','error notice');
+	        }
+	    }
+	    
+	    /**
+	     * böngésző képernyő
+	     * GET -ben érkezhet: offset, limit, filterstr, order, total
+	     * ugyanezek sessionból is érkezhetnek
+	     */
+	    public function browserform(string $msg='', string $msgClass='') {
+	        global $cmm;
+	        $cmm->checkAdmin();
+	        $this->msg = $msg;
+	        $this->msgClass = $msgClass;
+	        $this->offset = $cmm->getParam('offset');
+	        $this->limit = $cmm->getParam('limit');
+	        $this->filterstr = $cmm->getParam('filterstr');
+	        $this->order = $cmm->getParam('order');
+	        $this->total = $cmm->getParam('total');
+	        if (!$this->offset) $this->offset = $cmm->getFromSession('picoffset',0);
+	        if (!$this->limit) $this->limit = $cmm->getFromSession('piclimit',20);
+	        if (!$this->filterstr) $this->filterstr = $cmm->getFromSession('picfilterstr','');
+	        if (!$this->order) $this->order = $cmm->getFromSession('picorder','1');
+	        if (!$this->total) $this->total = $cmm->getFromSession('pictotal',0);
+	        $cmm->setToSession('picoffset',$this->offset);
+	        $cmm->setToSession('piclimit',$this->limit);
+	        $cmm->setToSession('picfilterstr',$this->filterstr);
+	        $cmm->setToSession('picorder',$this->order);
+	        $cmm->setToSession('pictotal',$this->total);
+	        $res = $this->model->getRecords($this->offset, $this->limit, $this->filterstr, $this->order);
+	        $this->items = $res->items;
+	        $this->total = $res->total;
+	        $this->display('pictogramsablon.adminbrowser');
+	    }
+	    
+	    /**
+	     * import csv első képernyő
+	     */
+	    public function importcsv() {
+	        global $cmm;
+	        $cmm->checkAdmin();
+	        $cmm->checkCsrToken();
+	        
+	        echo 'csv import';
+	        
+	    }
+	    
+	    /**
+	     * export csv
+	     */
+	    public function exportcsv() {
+	        global $cmm;
+	        $cmm->checkAdmin();
+	        $cmm->checkCsrToken();
+	        
+	        echo 'csv export';
+	        
+	    }
+	    
+	    /**
+	     * sortcode értelmező, végrehajtó
+	     */
+	    public function sortcode(array $attrs):string {
+	        return 'picturesablon sortcode';
+	    }
+	    
+	    protected function checkdata(): string {
+	        return '';
+	    }
+	    
+	    // ============== read from database, save to database =============
+	    
+	    protected function readFromDatabase(int $id):bool {
+	        $result = true;
+	        $this->data = $this->model->read($id);
+	        if ($this->data) {
+	           $this->categories = JSON_decode($this->data->categories);
+	           unset($this->data->categories);
+	        } else {
+	            $result = false;
+	        }
+	        return $result;
+	    }
+	    
+	    protected function saveToDatabase():bool {
+	        $result = true;
+	        $this->data->categories = JSON_encode($this->categories);
+	        if ($this->data->id == 0) {
+	           $this->model->insert($this->data);   
+	        } else {
+	           $this->model->update($this->data);
+	        }
+	        unset($this->data->categories);
+	        return $result;
+	    }
+	    
+	    protected function saveData():bool {
+	        $this->saveToDatabase();
+	    }
+	    
+	    protected function saveCategories():bool {
+	        // saveData oldja meg
+	        return true;
+	    }
+	    
+	    protected function deleteData(): bool {
+	        $result = $this->model->delete($this->data->id);
+	        return $result;
+	    }
+	    
+	    protected function deleteCategories(): bool {
+            // deleteData oldja meg
+            return true;
+	    }
+	    
+} // Picturesablon class
+		
+?>
